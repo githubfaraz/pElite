@@ -2,7 +2,6 @@
 import ProductCard from  '../ProductCard/ProductCard';
 
 import styles from './ProductList.module.css';
-import { Product, Products } from '@/types/Product';
 
 
 

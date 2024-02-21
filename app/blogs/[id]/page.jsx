@@ -1,8 +1,5 @@
 import Footer from '@/components/Footer'
-import MainNavbar from '@/components/MainNavbar'
 import Navb from '@/components/Navb'
-import Navbar from '@/components/Navbar'
-import { Product } from '@/types/Product'
 import Image from 'next/image'
 import React from 'react'
 
