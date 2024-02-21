@@ -11,23 +11,94 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+}
+  
+.circle-shadow-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.circle-shadow {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ffffff; /* Circle color */
+  width: 50px; /* Circle diameter */
+  height: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow color and strength */
+}
+
+/* Add more circles or customize as needed */
+.circle-shadow:nth-child(2) {
+  top: 20%;
+  left: 30%;
+}
+
+.circle-shadow:nth-child(3) {
+  top: 70%;
+  left: 70%;
+}
+/* .swiper-button-next,.swiper-button-prev{ */
+  /* color: burlywood; */
+  /* background-color: burlywood; */
+  /* padding: 20px; */
+  /* border-radius: 50%; */
+/* } */
+
+/* Add more styles or customize as needed */
+
+.swiper-button-next::after,.swiper-button-prev::after{
+  color: burlywood ;
+  /* background-color: yellow; */
+  font-size: 5px;
+  font-weight: bold;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: yellow;
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-scrollbar{
+  display: none;
+}
+
+.swiper-pagination{
+  display: none;
+}
+
+.swiper-container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.show-sidebar{
+  background-color: white;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;  
+  height: 15px; 
+  background-color: white; /* Change the background color */
+  border-radius: 50%; /* Rounded corners */
+  border: 2px solid black; /* Border around the checkbox */
+  cursor: pointer; /* Show pointer cursor on hover */
+  outline: none; /* Remove focus outline */
+}
+
+/* Style the checked state of the checkbox */
+input[type="checkbox"]:checked {
+  background-color: orange; /* Change the background color when checked */
 }
