@@ -12,6 +12,7 @@ import Link from "next/link";
 
 import 'swiper/swiper-bundle.css';
 
+
 export default function Home() {
   return (
     <div>
