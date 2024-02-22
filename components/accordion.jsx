@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
+  
 
   return (
     <div className="py-2">
