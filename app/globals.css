@@ -91,14 +91,13 @@ input[type="checkbox"] {
   -moz-appearance: none;
   width: 15px;  
   height: 15px; 
-  background-color: white; /* Change the background color */
-  border-radius: 50%; /* Rounded corners */
-  border: 2px solid black; /* Border around the checkbox */
-  cursor: pointer; /* Show pointer cursor on hover */
-  outline: none; /* Remove focus outline */
+  background-color: white; 
+  /* border-radius: 50%;  */
+  border: 2px solid black; 
+  cursor: pointer;
+  outline: none; 
 }
 
-/* Style the checked state of the checkbox */
 input[type="checkbox"]:checked {
-  background-color: orange; /* Change the background color when checked */
-}
+  background-color: orange; 
+} 
