@@ -3,18 +3,6 @@ import React, { useEffect, useState } from 'react'
 import ProductOverViewSection from '../ProductOverViewSection'
 import useProducts from '@/hooks/useProducts';
 
-// async function getData() {
-//     const res = await fetch('http://127.0.0.1:5000/api/bully-sticks')
-//     // The return value is *not* serialized
-//     // You can return Date, Map, Set, etc.
-   
-//     if (!res.ok) {
-//       // This will activate the closest `error.js` Error Boundary
-//       throw new Error('Failed to fetch data')
-//     }
-   
-//     return res.json()
-//   }
 
 const ProductFilters = () => {
     const [data, setData] = useState(null);
@@ -50,7 +38,7 @@ const ProductFilters = () => {
     
         fetchData();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-      }, []);
+      }, [products]);
 
       if (isLoading) {
         return <div className="text-center">
@@ -64,6 +52,8 @@ const ProductFilters = () => {
                   <div>Loading products ...</div>
               </div>
       }
+
+      console.log(items);
     
     //   if (!data) {
     //     return <div>Error: Data could not be fetched</div>;
