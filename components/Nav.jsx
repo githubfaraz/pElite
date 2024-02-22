@@ -17,9 +17,10 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
     <nav className="h-20 flex items-center justify-center mx-auto">
       <div className=" w-full sm:mx-auto flex sm:items-center flex-row  sm:space-x-96 p-5">
         <div className="flex items-center space-x-44">
-          {/* <Link href="/">
-            <Image src='/facebook.png' alt="comfy sloth" className="w-16 h-16" width={10} height={10} />
-          </Link> */}
+          <Link href="/">
+            <Image src='/Plogo.png' alt="comfy sloth" className="w-24 h-24 sm:w-28 sm:h-32 pt-3"                 height={200}
+                width={70} />
+          </Link>
           <button
             type="button"
             className="ml-4 p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block"

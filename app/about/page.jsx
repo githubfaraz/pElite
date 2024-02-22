@@ -72,7 +72,7 @@ const page = () => {
                 alt='chemical-free-bully-stick'
                 className='bg-orange-600 rounded-2xl py-3 px-3 sm:h-28 sm:w-28 w-12 mx-auto'
               />
-              <div className='mt-2 font-extralight text-center sm:text-left ' style={{fontFamily: 'inter'}} >Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team</div>
+              <div className='mt-2 font-extralight text-center sm:text-left ' style={{fontFamily: 'inter'}} >Our bully sticks epitomize the natural essence upheld by our dedicated team. </div>
             </div>
             <div className='flex sm:flex-row flex-col space-y-2 sm:space-x-4 sm:w-3/6 w-40  align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg'>
               <Image
@@ -106,8 +106,8 @@ const page = () => {
       </div>
       
       <div className='mx-10'>
-        <h3 className='text-center sm:text-4xl text-3xl font-bold text-orange-500' style={{fontFamily: 'playfair_display'}}>Our Companies</h3>
-        <div className='flex flex-col align-middle border py-5 rounded-xl shadow-lg w-56 sm:w-72 mx-auto mt-4'>
+        {/* <h3 className='text-center sm:text-4xl text-3xl font-bold text-orange-500' style={{fontFamily: 'playfair_display'}}>Our Companies</h3> */}
+        {/* <div className='flex flex-col align-middle border py-5 rounded-xl shadow-lg w-56 sm:w-72 mx-auto mt-4'>
             <Image
               src='/logo.png'
               alt='bully-sticks'
@@ -116,9 +116,8 @@ const page = () => {
               className='rounded-full mx-auto'
             />
             <h3 className='text-center my-4 text-orange-500 font-semibold sm:text-2xl text-xl' style={{fontFamily: 'roboto'}}>Zemy Group LLC</h3>
-            {/* <h1 className='w-3/5 text-center mx-auto text-lg' style={{fontFamily: 'lora'}}>For the UK,US,EU,Canada & Australia (minimum spend).</h1> */}
 
-          </div>
+          </div> */}
             
           
           

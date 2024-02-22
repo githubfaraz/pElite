@@ -20,13 +20,13 @@ async function ProductDetails ({ params })  {
       <div className='flex sm:flex-row flex-col sm:space-x-12 space-y-4 sm:mx-10 mx-4 sm:my-8 my-2'>
         <div className='sm:w-1/2 w-full flex-col space-y-2 '>
             <Image 
-                src='/bully_stick.png'
+                src={product.image.filePath}
                 alt='bully-stick'
                 height={100}
                 width={1600}
                 className='border shadow-xl mb-8 rounded-lg'
             />
-            <div className='flex flex-row sm:space-x-4 sm:h-32 space-x-2 h-16'>
+            {/* <div className='flex flex-row sm:space-x-4 sm:h-32 space-x-2 h-16'>
                 <Image 
                     src='/bully_stick.png'
                     alt='bully-stick'
@@ -48,7 +48,7 @@ async function ProductDetails ({ params })  {
                     width={200}
                     className='border shadow-xl rounded-lg'
                 />
-            </div>
+            </div> */}
 
         </div>
 
@@ -65,7 +65,7 @@ async function ProductDetails ({ params })  {
             <div>
                 <h2 className='sm:text-4xl text-3xl font-semibold text-orange-500 mb-4 font-playfair_display' >Product Overview</h2>
                 <div className='flex flex-col space-y-3 bg-gray-100 p-3'>
-                    <div className='flex flex-row space-x-2 bg-gray-100'>
+                    <div className='flex flex-col space-x-0 sm:flex-row sm:space-x-2 bg-gray-100'>
                         <div className='py-2 sm:px-8 px-2 bg-gray-100 sm:w-80 w-full flex flex-row space-x-4 align-middle rounded-md'>
                             <Image
                                 src='/dog-size.png'

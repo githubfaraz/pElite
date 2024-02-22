@@ -24,10 +24,11 @@ const Sidebar = ({isSidebarOpen, setIsSidebarOpen,linkActive}) => {
       </div>
       <Link href='/products' className="ml-2 mx-auto flex flex-row space-x-2 pl-32">
               <Image
-                src='/facebook.png'
+                src='/logoP.png'
                 alt='elite-bully-sticks-facebook'
                 height={200}
                 width={70}
+                className='h-20 w-20'
               />
       </Link>
       <ul className="links mb-8">

@@ -1,4 +1,6 @@
 import ContactUsButton from "@/components/ContactUsButton";
+import FeaturedBlogs from "@/components/FeaturedBlogs/FeaturedBlogs";
+import FeaturedProducts from "@/components/FeaturedProducts/FeaturedProducts";
 import Footer from "@/components/Footer";
 import LearnMoreButton from "@/components/LearnMoreButton";
 import MainNavbar from "@/components/MainNavbar";
@@ -49,17 +51,20 @@ export default function Home() {
           alt="Bully Stick"
           width={300}
           height={320}
-          // style={{
-          //   marginLeft: '50rem'
-          // }}
-          className="w-52 h-60 absolute bottom-52 rounded-xl left-5"
+          style={{
+            borderWidth: '2px'
+          }}
+          className="w-52 h-60 absolute bottom-52 rounded-xl left-5 border-orange-400"
         />
         <Image
           src='/hero-2.png'
           alt="Bully Stick"
           width={100}
           height={96}
-          className="bottom-0 absolute left-60 top-52  w-48 h-60 rounded"
+          style={{
+            borderWidth: '2px'
+          }}
+          className="bottom-0 absolute left-60 top-52  w-48 h-60 rounded border-orange-400"
         />
       </div>
 
@@ -77,7 +82,8 @@ export default function Home() {
           <p className="w-5/6 mt-2  sm:leading-8xl sm:text-8xl leading-snug text-xl mb-6 font-light text-slate-900" style={{
                 fontFamily: 'open_sans'
           }}>
-            Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups
+            With a long-standing reputation for excellence, we've established ourselves as the premier choice for discerning pet owners who demand nothing but the best for their furry companions
+            {/* Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups */}
           </p>
           <button className="bg-white py-2 px-6 border-orange-700 border-2 rounded-full hover:border-slate-200 hover:text-white hover:bg-orange-700 stroke-2 text-lg sm:block hidden sm:w-52 transition-all">Learn More</button>
         </div>
@@ -118,7 +124,7 @@ export default function Home() {
                   lineHeight: '1.5rem',
                   fontFamily: 'lora'
             }}>
-              Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team, ensuring that each chew is of the highest quality for the happiness and well-being of your pets.
+              We go above and beyond industry standards to ensure the health and safety of both pets and their owners, offering peace of mind with every purchase.
             </p>
             </div>
             <div className="flex flex-col space-x-2 align-middle sm:hidden">
@@ -168,151 +174,30 @@ export default function Home() {
         <LearnMoreButton />
       </div>
       {/* Difference Section */}
+
+      <FeaturedProducts/>
       
-      {/* Featured Products */}
-      <div className="bg-orange-200 h-max pb-2 pt-2">
-        <h1 className="mb-6 text-amber-900 text-3xl font-bold text-center pt-4" style={{
-          fontFamily: 'robot_slab'
-        }}>
-            Our Featured Products
-        </h1>
 
-        <div className="flex sm:flex-row flex-col space-y-3 align-middle justify-between pt-4 px-9">
-          <div className="flex flex-col align-middle space-y-3  bg-white w-88 p-6 rounded-md shadow-xl hover:shadow-none hover:cursor-pointer">
-            <Image
-              src='/bully-stick1.png'
-              alt="bully stick"
-              height={200}
-              width={300}
-              className="rounded-2xl"
-            />
-            <br />
-            <hr />
-            <br />
-            <h1 className="text-2xl font-semibold w-full text-center text-gray-900" style={{fontFamily: 'lora'}}>6-inch bully sticks thick</h1>
-          </div>
-
-          <div className="flex flex-col align-middle space-y-3  bg-white w-88 p-6 rounded-md shadow-xl hover:shadow-none hover:cursor-pointer">
-            <Image
-              src='/bully-stick1.png'
-              alt="bully stick"
-              height={200}
-              width={300}
-              className="rounded-2xl"
-            />
-            <br />
-            <hr />
-            <br />
-            <h1 className="text-2xl font-semibold w-full text-center text-gray-900" style={{fontFamily: 'lora'}}>6-inch bully sticks thick</h1>
-          </div>
-
-          <div className="flex flex-col align-middle space-y-3  bg-white w-88 p-6 rounded-md shadow-xl hover:shadow-none hover:cursor-pointer">
-            <Image
-              src='/bully-stick1.png'
-              alt="bully stick"
-              height={200}
-              width={300}
-              className="rounded-2xl"
-            />
-            <br />
-            <hr />
-            <br />
-            <h1 className="text-2xl font-semibold w-full text-center text-gray-900" style={{fontFamily: 'lora'}}>6-inch bully sticks thick</h1>
-          </div>
-
-          {/* <h1 className="rounded-full py-2 px-6 bg-amber-800 text-white w-36">Bully Sticks</h1> */}
-        </div>
-
-        <div className="mt-8 mb-10 sm:ml-7xl " >
-          <ProductsButton buttonName={'See more'}/>
-        </div>
-      </div>      
-      {/* Featured Products */}
 
 
 
       {/* Tips Section */}
       <div className="h-max sm:py-10 sm:px-9 py-5 px-2">
-        <h3  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Bully Sticks Production</h3>
+        <h3  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Treats Bully Sticks Production</h3>
         <h3  className="text-center text-xl font-light sm:w-2/4 w-full text-amber-700 mx-auto" style={{fontFamily: 'robot'}}>Pet treats packed with nutritious ingredients,vitamins and supplements to help dogs</h3>
-        <div className="hidden sm:flex flex-row space-x-6 py-8">
-          <div style={{ position: 'relative', display: 'inline-block' }}>
-            <Image
-              src='/unit.jpg'
-              alt="dog-eating-bully-stick"
-              height={600}
-              width={400}
-              style={{ zIndex: 1,borderRadius: '10rem 10rem 10px 10px' }}
-              className="rounded-ss-2xl"
+        {/* <div className="hidden sm:flex flex-row space-x-6 py-8">
           
-            />
-            <Link href='/' className="flex flex-row space-x-3 align-middle justify-center absolute top-0 left-0 ml-40 mt-60 text-center bg-orange-700 hover:bg-orange-500 transition-all p-2 rounded-lg">
-              <Image
-                src='/eye.png'
-                alt="dog-eating-bully-stick"
-                height={20}
-                width={20}
-              />
-              <h2 className="block text-black font-medium" style={{fontFamily: 'poppins'}}>See more</h2>
-            </Link>
-            <h4 className="mt-6 text-center text-2xl text-amber-700 font-bold w-96"  style={{fontFamily: 'robot'}}>Understanding Bully Sticks Production</h4>
-            <h3 className="mt-3 w-96 text-center font-light text-lg"  style={{fontFamily: 'lora'}}>Learn the steps our Bully sticks Production go through before reaching the belly of your Pet</h3>
-          </div>
+        </div> */}
 
-          <div style={{ position: 'relative', display: 'inline-block' }}>
-            <Image
-              src='/unit.jpg'
-              alt="dog-eating-bully-stick"
-              height={600}
-              width={400}
-              style={{ zIndex: 1,borderRadius: '10rem 10rem 10px 10px' }}
-              className="rounded-ss-2xl"
-          
-            />
-            <Link href='/' className="flex flex-row space-x-3 align-middle justify-center hover:bg-orange-500 transition-all absolute top-0 left-0 ml-40 mt-60 text-center bg-orange-700 p-2 rounded-lg">
-              <Image
-                src='/eye.png'
-                alt="dog-eating-bully-stick"
-                height={20}
-                width={20}
-              />
-              <h2 className="block text-black font-medium" style={{fontFamily: 'poppins'}}>See more</h2>
-            </Link>
-            <h4 className="mt-6 text-center text-2xl text-amber-700 font-bold w-96"  style={{fontFamily: 'robot'}}>Understanding Bully Sticks Production</h4>
-            <h3 className="mt-3 w-96 text-center font-light text-lg"  style={{fontFamily: 'lora'}}>Learn the steps our Bully sticks Production go through before reaching the belly of your Pet</h3>
-          </div>
+      <FeaturedBlogs/>
 
-          <div style={{ position: 'relative', display: 'inline-block' }}>
-            <Image
-              src='/unit.jpg'
-              alt="dog-eating-bully-stick"
-              height={600}
-              width={400}
-              style={{ zIndex: 1,borderRadius: '10rem 10rem 10px 10px' }}
-              className="rounded-ss-2xl"
-          
-            />
-            <Link href='/' className="flex flex-row space-x-3 hover:bg-orange-500 transition-all align-middle justify-center absolute top-0 left-0 ml-40 mt-60 text-center bg-orange-700 p-2 rounded-lg">
-              <Image
-                src='/eye.png'
-                alt="dog-eating-bully-stick"
-                height={20}
-                width={20}
-              />
-              <h2 className="block text-black font-medium" style={{fontFamily: 'poppins'}}>See more</h2>
-            </Link>
-            <h4 className="mt-6 text-center text-2xl text-amber-700 font-bold w-96"  style={{fontFamily: 'robot'}}>Understanding Bully Sticks Production</h4>
-            <h3 className="mt-3 w-96 text-center font-light text-lg"  style={{fontFamily: 'lora'}}>Learn the steps our Bully sticks Production go through before reaching the belly of your Pet</h3>
-          </div>
-        </div>
 
-        <div className="sm:hidden block">
-          <SwiperComponent />
-        </div>
+       
 
 
       </div>
       {/* Tips Section */}
+
 
       {/* Contact Us section */}
       <div className="bg-orange-300 h-max sm:py-8 flex flex-col sm:flex-row sm:space-x-48 sm:pl-28 pl-2 py-4">

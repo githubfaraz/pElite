@@ -51,7 +51,7 @@ const ProductFilters = () => {
         // );
     
         const {products} = useProducts()
-    
+        
         // useEffect(() => {
         //     const fetchData = async () => {
           
@@ -170,24 +170,25 @@ const ProductFilters = () => {
     
     console.log(products)
     
-  return (
-    <div className='flex sm:flex-row sm:space-x-4 flex-col space-y-3'>
-
-      <div className='sm:w-1/4 w-full sm:mx-10 sm:my-14 mx-5 my-7'>
+    return (
+        <div>
+          {products ? (
+            <div className='flex sm:flex-row sm:space-x-4 flex-col space-y-2'>
+              <div className='sm:w-1/4 w-full sm:mx-10 sm:my-14 mx-1 my-7'>
                 <form>   
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                     <div className="relative">
                         <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                             <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                             </svg>
                         </div>
-                        <input type="search" id="default-search" className="block w-full p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />
+                        <input type="search" id="default-search" className="block sm:w-full w-scren p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />
                         <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Search</button>
                     </div>
                 </form>
                 {/* <SearchInput/> */}
-
+      
                 <div className='mt-6'>
                     <h2 className='border-b-8 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Length</h2>
                     {/* <RadioExample /> */}
@@ -209,7 +210,7 @@ const ProductFilters = () => {
                     </div>
                    
                 </div>
-
+      
                 {/* <div className='mt-6'>
                     <h2 className='border-b-8 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Style</h2>
                     
@@ -230,7 +231,7 @@ const ProductFilters = () => {
                     })}
                     </div>
                 </div>
-
+      
                 <div className='mt-6'>
                     <h2 className='border-b-8 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Thickness</h2>
                     <div className='mt-4 space-y-4 text-xl'>
@@ -242,11 +243,14 @@ const ProductFilters = () => {
                 </div> */}
             </div>
             <div className='flex flex-col space-y-6 my-14'>
-            <ProductOverViewSection initialProducts={filteredProducts} />
+              <ProductOverViewSection initialProducts={filteredProducts} />
+            </div>
+          </div>
+          ) : (
+            "Loading"
+          )}
         </div>
-        </div>
-
-  )
+      );
 }
 
 export default ProductFilters

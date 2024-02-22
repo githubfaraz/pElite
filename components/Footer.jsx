@@ -7,11 +7,11 @@ const Footer = () => {
     <div className="flex flex-col space-y-0 " >
         <div className="flex flex-row sm:space-x-48 sm:ml-96 sm:py-10 justify-evenly sm:justify-center py-4 space-x-1 sm:mx-11" >
         <Image
-              src='/call.png'
+              src='/logoP.png'
               alt="phoneCall"
-              width={50}
-              height={40}
-              className=" bg-orange-400 rounded-xl p-2 sm:w-14 sm:h-14 w-8 h-8"
+              width={90}
+              height={50}
+              className="p-2 sm:w-24 sm:h-24 w-16 h-16"
             />
           
           <div className="flex flex-row space-x-2 justify-center align-middle sm:w-full">
@@ -50,12 +50,12 @@ const Footer = () => {
           </div>
           <div className="flex flex-col space-y-2">
             <h5 className="text-orange-500 font-bold text-sm sm:text-lg">Community</h5>
-            <Link href='/products' className="ml-2 text-sm sm:text-base">About Us</Link>
-            <Link href='/products' className="ml-2 text-sm sm:text-base">Our Blogs</Link>
+            <Link href='/about' className="ml-2 text-sm sm:text-base">About Us</Link>
+            {/* <Link href='/products' className="ml-2 text-sm sm:text-base">Our Blogs</Link> */}
           </div>
           <div className="flex flex-col space-y-2">
             <h5 className="text-orange-500 font-bold text-sm sm:text-lg">Get in Touch</h5>
-            <Link href='/products' className="ml-2 text-sm sm:text-base">Contact Us</Link>
+            <Link href='/contact' className="ml-2 text-sm sm:text-base">Contact Us</Link>
           </div>
           <div className="sm:flex flex-col space-y-2 hidden">
             <h5 className="text-orange-500 font-bold text-lg">Social Media</h5>
