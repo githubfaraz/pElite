@@ -82,7 +82,7 @@ export default function Home() {
           <p className="w-5/6 mt-2  sm:leading-8xl sm:text-8xl leading-snug text-xl mb-6 font-light text-slate-900" style={{
                 fontFamily: 'open_sans'
           }}>
-            With a long-standing reputation for excellence, we've established ourselves as the premier choice for discerning pet owners who demand nothing but the best for their furry companions
+            With a long-standing reputation for excellence, we&apos;ve established ourselves as the premier choice for discerning pet owners who demand nothing but the best for their furry companions
             {/* Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups */}
           </p>
           <button className="bg-white py-2 px-6 border-orange-700 border-2 rounded-full hover:border-slate-200 hover:text-white hover:bg-orange-700 stroke-2 text-lg sm:block hidden sm:w-52 transition-all">Learn More</button>
