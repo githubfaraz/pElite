@@ -24,7 +24,7 @@ const Footer = () => {
             />
             <div className="flex flex-col sm:space-y-2 space-y-1 ">
               <h3 className="sm:text-xl text-sm text-orange-500 font-bold">Contact Us</h3>
-              <h3 className='sm:text-base text-sm'>+1(703) 555-0123</h3>
+              <h3 className='sm:text-base text-sm'>+1(917) 6094-597</h3>
             </div>
           </div>
           <div className="flex flex-row space-x-2 justify-center align-middle sm:w-full">
