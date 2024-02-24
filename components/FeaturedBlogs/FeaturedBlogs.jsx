@@ -25,8 +25,6 @@ const FeaturedBlogs = async() => {
 
     const blogs_featured = data.slice(-3);
 
-
-
   return (
 <div>
     

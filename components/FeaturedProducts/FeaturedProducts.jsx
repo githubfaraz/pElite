@@ -3,6 +3,7 @@ import Image from "next/image";
 import ProductList from '../ProductList';
 import ProductsButton from '../ProductsButton';
 import Link from 'next/link';
+import ProductCard from '../ProductCard/ProductCard';
 
 async function getData() {
     const res = await fetch('https://pets-elite-b.fly.dev/api/bully-sticks')
@@ -32,23 +33,24 @@ const FeaturedProducts = async() => {
             Our Featured Products
         </h1>
 
-        <div className="flex sm:flex-row flex-col space-y-3 align-middle justify-between pt-4 px-9">
+        <div className="flex sm:flex-row flex-col space-y-3 align-middle justify-between pt-4 sm:px-9 px-20">
             {products_featured.map((product)=> (
-              <Link key={product._id} href={`/products/${product._id}`}>
-                <div  className="flex flex-col align-middle space-y-3  bg-white w-88 p-6 rounded-md shadow-xl hover:shadow-none hover:cursor-pointer">
-                  <Image
-                    src={product.image.filePath}
-                    alt="bully stick"
-                    height={200}
-                    width={300}
-                    className="rounded-2xl"
-                  />
-                  <br />
-                  <hr />
-                  <br />
-                  <h1 className="text-2xl font-semibold w-full text-center text-gray-900" style={{fontFamily: 'lora'}}>{product.name}</h1>
-                </div>
-              </Link>
+              <ProductCard key={product._id} product={product}/>
+              // <Link key={product._id} href={`/products/${product._id}`}>
+              //   <div  className="flex flex-col align-middle space-y-3  bg-white w-88 p-6 rounded-md shadow-xl hover:shadow-none hover:cursor-pointer">
+              //     <Image
+              //       src={product.image.filePath}
+              //       alt="bully stick"
+              //       height={200}
+              //       width={300}
+              //       className="rounded-2xl"
+              //     />
+              //     <br />
+              //     <hr />
+              //     <br />
+              //     <h1 className="text-2xl font-semibold w-full text-center text-gray-900" style={{fontFamily: 'lora'}}>{product.name}</h1>
+              //   </div>
+              // </Link>
             ))}
           {/* <h1 className="rounded-full py-2 px-6 bg-amber-800 text-white w-36">Bully Sticks</h1> */}
         </div>

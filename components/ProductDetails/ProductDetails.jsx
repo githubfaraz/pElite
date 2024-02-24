@@ -13,6 +13,8 @@ async function ProductDetails ({ params })  {
     const res = await fetch(`https://pets-elite-b.fly.dev/api/bully-sticks/${params.id}`);
     const product = await res.json();
 
+    console.log(product)
+
   return (
     <div>
       {/* <MainNavbar /> */}

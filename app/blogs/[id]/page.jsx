@@ -11,10 +11,6 @@ const page = ({params}) => {
   return (
     <div>
       <BlogDetails params={params}/>
-    
-      <br />
-      <hr />
-      <Footer />
     </div>
   )
 }

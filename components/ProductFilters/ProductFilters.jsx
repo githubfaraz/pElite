@@ -64,11 +64,7 @@ const ProductFilters = () => {
       }
     
 
-    // useEffect(() => {
-        // Simulate fetching data from an API.
-        // setItems(products);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    //   }, []);
+
 
     const handleFilterChange = (filterType, value) => {
     // Check if the value is already in the filters array.
@@ -138,8 +134,8 @@ const ProductFilters = () => {
 
       {/* start */}
                 <div className='mt-6'>
-                    <h2 className='border-b-8 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Length</h2>
                     
+                    <h2 className='border-t-2 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Length</h2>
                     <div className='mt-4 space-y-4 text-xl flex flex-col'>
                         {/* <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '')} />
@@ -164,7 +160,7 @@ const ProductFilters = () => {
                     </div>
                     
                 <div className='mt-6'>
-                    <h2 className='border-b-8 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Thickness</h2>
+                    <h2 className='border-t-2 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Thickness</h2>
                     <div className='mt-4 space-y-4 text-xl flex flex-col'>
                         {/* <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', '')} />
@@ -190,7 +186,7 @@ const ProductFilters = () => {
                 </div>
 
                 <div className='mt-6'>
-                    <h2 className='border-b-8 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Style</h2>
+                    <h2 className='border-t-2 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'inter'}}>By Style</h2>
                     <div className='mt-4 space-y-4 text-xl flex flex-col'>
                         {/* <label>
                         <input type="checkbox" onChange={() => handleFilterChange('style', '')} />
@@ -207,7 +203,6 @@ const ProductFilters = () => {
                     </div>
                 </div>
                 </div>
-           
       {/* start */}
 
           </div>
