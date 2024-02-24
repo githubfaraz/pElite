@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-// import logo from '../assets/logo.svg'
 import { FaTimes } from 'react-icons/fa'
 import Link from 'next/link'
 import { links } from '../utils/constants'
@@ -38,14 +37,6 @@ const Sidebar = ({isSidebarOpen, setIsSidebarOpen,linkActive}) => {
           </li>
         ))}
       </ul>
-      {/* <Link href='/products' className="ml-2 flex flex-row space-x-2">
-              <Image
-                src='/facebook.png'
-                alt='elite-bully-sticks-facebook'
-                height={50}
-                width={20}
-              />
-            </Link> */}
     </div>
   )
 }

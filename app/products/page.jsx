@@ -41,9 +41,9 @@ export default async function Page  ()  {
         </div>
     </div>
     
-        <div className='flex sm:flex-row sm:space-x-4 flex-col space-y-3'>
+        {/* <div className='flex sm:flex-row sm:space-x-4 flex-col space-y-3'> */}
             <ProductFilters/>
-        </div>
+        {/* </div> */}
         <br />
         <hr />
         <Footer />

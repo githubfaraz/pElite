@@ -28,38 +28,9 @@ async function ProductDetails ({ params })  {
                 width={1600}
                 className='border shadow-xl mb-8 rounded-lg'
             />
-            {/* <div className='flex flex-row sm:space-x-4 sm:h-32 space-x-2 h-16'>
-                <Image 
-                    src='/bully_stick.png'
-                    alt='bully-stick'
-                    height={250}
-                    width={200}
-                    className='border shadow-xl rounded-lg'
-                />
-                <Image 
-                    src='/bully_stick.png'
-                    alt='bully-stick'
-                    height={250}
-                    width={200}
-                    className='border shadow-xl rounded-lg'
-                />
-                <Image 
-                    src='/bully_stick.png'
-                    alt='bully-stick'
-                    height={250}
-                    width={200}
-                    className='border shadow-xl rounded-lg'
-                />
-            </div> */}
-
         </div>
 
         <div className='flex flex-col sm:space-y-6 space-y-3 sm:w-1/2 w-full'>
-            {/* <div className='flex flex-row sm:space-x-28 space-x-6'>
-                <h2 className='sm:py-2 py-1 sm:px-8 px-4 bg-orange-400 text-white rounded-2xl font-bold' style={{fontFamily: 'meri'}}>6-inch</h2>
-                <h2 className='sm:py-2 py-1 sm:px-8 px-4 bg-orange-400 text-white rounded-2xl font-bold' style={{fontFamily: 'meri'}}>Straight</h2>
-                <h2 className='sm:py-2 py-1 sm:px-8 px-4 bg-orange-400 text-white rounded-2xl font-bold' style={{fontFamily: 'meri'}}>Thin</h2>
-            </div> */}
             <div className='flex flex-col space-y-3'>
                 <h2 className='sm:text-5xl text-4xl font-bold text-orange-500 font-playfair_display' style={{fontFamily: 'playfair_display'}}>{product.name}</h2>
                 <p className='text-lg font-light' style={{fontFamily: 'inter'}}>{product.details}</p>
