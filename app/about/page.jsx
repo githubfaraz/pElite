@@ -6,8 +6,10 @@ import Sidebar from '@/components/Sidebar'
 import SwiperComp from '@/components/CompanySlider'
 import SwiperComponent from '@/components/SwiperComponent'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import CompanySlider from '@/components/CompanySlider'
+import CompanyCard from '@/components/CompanyCard'
 
 const page = () => {
   const companies = [
@@ -18,10 +20,10 @@ const page = () => {
       description: 'A leading supplier of high quality home and office furniture in USA we are a pioneer in the industry offering the market greater choice ,innovative and ergonomic designs as well as environmentally friendly furniture.'
     },
     {
-      id: 2,
-      name: 'Just ASK LLC',
+      id: 4,
+      name: 'Medlink World LLC',
       logo: 'https://via.placeholder.com/150',
-      description: 'A consulting services in health foods and Aviation. We provide Aircraft sales, services and spares across manufacturers.'
+      description: 'A healthcare and CRO consulting firm which champions itself in clinical data generation for medical devices that needs FDA registration.'
     },
     {
       id: 3,
@@ -31,9 +33,9 @@ const page = () => {
     },
     {
       id: 4,
-      name: 'Medlink World LLC',
+      name: 'Just ASK LLC',
       logo: 'https://via.placeholder.com/150',
-      description: 'A healthcare and CRO consulting firm which champions itself in clinical data generation for medical devices that needs FDA registration.'
+      description: 'A consulting services in health foods and Aviation. We provide Aircraft sales, services and spares across manufacturers.'
     },
     {
       id: 5,
@@ -171,18 +173,33 @@ const page = () => {
           
         {/* <div className='flex flex-row sm:space-x-4 space-x-2 my-12'> */}
 
+        <div style={{ borderWidth: '1px' }} className="text-center sm:w-2/5 border-gray-300  rounded-md py-2 px-2 mx-auto my-5">
+                  <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h4>
+                  <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-full "  style={{fontFamily: 'inter'}}>ZEMY Group LLC is a holding company with its headquarters in NY. It has many subsidiaries which encompasses many market segments including healthcare, daily commodities, pet food, generic drugs, medical diagnostics, real estate, hospital management consultancy</h4>
+                  <a href='https://www.zemy-group.com' target="_blank" rel="noopener noreferrer">
+                    <button  className='rounded-full py-1 px-8 my-4 sm:mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 ' style={{fontFamily: "inter"}}>
+                      See More
+                    </button>
+                  </a>
+              </div>
+
 
           {/* <CompanySlider /> */}
           <div className="sm:hidden block">
             <CompanySlider data={companies} />
             {/* <SwiperComponent data={companies}/> */}
           </div>
+
+          <div className='hidden sm:block'>
+            <CompanyCard data={companies}/>
+          </div>
         {/* </div> */}
       </div>
 
       {/* <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Location</h3> */}
 
-      
+      <br />
+      <br />
       <hr />
       <Footer />
     </div>

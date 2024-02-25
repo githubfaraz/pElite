@@ -53,7 +53,7 @@ const CompanySlider = ({data}) => {
                     {/* <h2 className="block text-black font-medium" style={{fontFamily: 'poppins'}}>See more</h2> */}
                   {/* </Link> */}
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-40"  style={{fontFamily: 'robot'}}>{blog.name}</h4>
-                  <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-40"  style={{fontFamily: 'inter'}}>{blog.description}</h4>
+                  <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-40 min-h-96"  style={{fontFamily: 'inter'}}>{blog.description}</h4>
                   <Link href='/company'>
                     <button  className='rounded-full py-1 px-8 my-4 mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 ' style={{fontFamily: "inter"}}>
                       See More
