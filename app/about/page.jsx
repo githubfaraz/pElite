@@ -3,12 +3,58 @@ import MainNavbar from '@/components/MainNavbar'
 import Navb from '@/components/Navb'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
-import SwiperComp from '@/components/Swiper'
+import SwiperComp from '@/components/CompanySlider'
 import SwiperComponent from '@/components/SwiperComponent'
 import Image from 'next/image'
 import React from 'react'
+import CompanySlider from '@/components/CompanySlider'
 
 const page = () => {
+  const companies = [
+    {
+      id: 1,
+      name: 'KSK international',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A leading supplier of high quality home and office furniture in USA we are a pioneer in the industry offering the market greater choice ,innovative and ergonomic designs as well as environmentally friendly furniture.'
+    },
+    {
+      id: 2,
+      name: 'Just ASK LLC',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A consulting services in health foods and Aviation. We provide Aircraft sales, services and spares across manufacturers.'
+    },
+    {
+      id: 3,
+      name: 'Medlink LLC USA',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A multinational healthcare consultancy firm dedicated to the management of profitable health services through the use of innovative human and technological resources'
+    },
+    {
+      id: 4,
+      name: 'Medlink World LLC',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A healthcare and CRO consulting firm which champions itself in clinical data generation for medical devices that needs FDA registration.'
+    },
+    {
+      id: 5,
+      name: 'Mysha Khan LLC',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A company dedicated to residential purchase and management of rental properties.'
+    },
+    {
+      id: 6,
+      name: 'Zeake Khan LLC',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A company completely dedicated to purchase and management of commercial Real Estate in NY tri state area.'
+    },
+    {
+      id: 7,
+      name: 'Sierra Global Health LLC',
+      logo: 'https://via.placeholder.com/150',
+      description: 'A company dedicated to production of CDMO, in generic pharma space.'
+    }
+    
+  ];
   return (
     <div>
       <div style={{ position: 'relative', display: 'inline-block' }} >
@@ -104,6 +150,8 @@ const page = () => {
             className='absolute sm:top-16 top-10 left-32 sm:left-96 ml-0 mt-0 mx-auto rounded-2xl border-4 sm:border-8 stroke-white border-white sm:w-3/5 sm:h-4/6 w-2/5 h-3/6'
           />
       </div>
+
+      <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Companies</h3>
       
       <div className='mx-10'>
         {/* <h3 className='text-center sm:text-4xl text-3xl font-bold text-orange-500' style={{fontFamily: 'playfair_display'}}>Our Companies</h3> */}
@@ -121,14 +169,19 @@ const page = () => {
             
           
           
-        <div className='flex flex-row sm:space-x-4 space-x-2 my-12'>
+        {/* <div className='flex flex-row sm:space-x-4 space-x-2 my-12'> */}
 
 
-          
-
-        </div>
-
+          {/* <CompanySlider /> */}
+          <div className="sm:hidden block">
+            <CompanySlider data={companies} />
+            {/* <SwiperComponent data={companies}/> */}
+          </div>
+        {/* </div> */}
       </div>
+
+      {/* <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Location</h3> */}
+
       
       <hr />
       <Footer />

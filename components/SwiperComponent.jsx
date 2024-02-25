@@ -1,6 +1,6 @@
 'use client';
 import {Swiper, SwiperSlide} from "swiper/react";
-import {  Navigation,Pagination, Scrollbar, A11y, EffectCube } from 'swiper/modules';
+import {  Navigation,Pagination, Scrollbar, A11y, EffectCube,Autoplay } from 'swiper/modules';
 import Image from "next/image";
 import Link from "next/link";
 // import 'swiper/swiper.css';
@@ -8,7 +8,7 @@ import Link from "next/link";
 const SwiperComponent = ({data}) => {
   return (
     <Swiper
-    modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
+    modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube,Autoplay]}
     spaceBetween={50}
     slidesPerView={3}
     navigation
