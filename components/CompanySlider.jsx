@@ -34,24 +34,6 @@ const CompanySlider = ({data}) => {
     {data.map((blog)=> 
               <SwiperSlide key={blog.name} className="shadow-2xl">
               <div style={{ position: 'relative', display: 'inline-block',borderWidth: '1px' }} className="pl-8 text-center w-full border-gray-300  rounded-md py-4">
-                  {/* <Image
-                    src={blog.logo}
-                    alt="dog-eating-bully-stick"
-                    height={100}
-                    width={100}
-                    style={{ zIndex: 1,borderRadius: '10rem 10rem 10px 10px' }}
-                    className="rounded-ss-2xl h-20 w-60 ml-5"
-                
-                  /> */}
-                  {/* <Link href={`/blogs/${blog._id}`} className="flex flex-row space-x-3 align-middle justify-center absolute top-0 left-0 ml-14 mt-32 text-center bg-orange-700 p-2 rounded-lg"> */}
-                    {/* <Image
-                      src='/eye.png'
-                      alt="dog-eating-bully-stick"
-                      height={20}
-                      width={20}
-                    /> */}
-                    {/* <h2 className="block text-black font-medium" style={{fontFamily: 'poppins'}}>See more</h2> */}
-                  {/* </Link> */}
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-40"  style={{fontFamily: 'robot'}}>{blog.name}</h4>
                   <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-40 min-h-96"  style={{fontFamily: 'inter'}}>{blog.description}</h4>
                   <Link href='/company'>
