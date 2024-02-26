@@ -36,8 +36,15 @@ const Footer = () => {
               className=" bg-orange-400 rounded-xl p-2 sm:w-14 sm:h-14 w-9 h-9"
             />
             <div className="flex flex-col sm:space-y-2 space-y-1">
-              <h3 className="text-sm sm:text-base text-orange-500 font-bold">Email Us</h3>
-              <h3 className='text-sm sm:text-base'>info@zemy-group.com</h3>
+              <h3 className="text-sm sm:text-base text-orange-500 font-bold">
+              <a href="mailto:info@zemy-group.com?subject=Mail from Elite Bully Sticks">
+                  Email Us
+              </a>
+              </h3>
+              <a href="mailto:info@zemy-group.com?subject=Mail from Elite Bully Sticks">
+                <h3 className='text-sm sm:text-base'>info@zemy-group.com</h3>
+              </a>
+
             </div>
             <path stroke="black" d="M5 40 l215 0" />
           </div>
