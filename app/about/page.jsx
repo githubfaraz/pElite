@@ -10,6 +10,7 @@ import Link from 'next/link'
 import React from 'react'
 import CompanySlider from '@/components/CompanySlider'
 import CompanyCard from '@/components/CompanyCard'
+import MapWithNoSSR from '@/components/MapWithNoSSR'
 
 const page = () => {
   const companies = [
@@ -198,6 +199,9 @@ const page = () => {
 
       {/* <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Location</h3> */}
 
+      <div className='mx-auto py-4'>
+        <MapWithNoSSR />
+      </div>
       <br />
       <br />
       <hr />
