@@ -8,6 +8,7 @@ import Navb from "@/components/Navb";
 import Navbar from "@/components/Navbar";
 import ProductsButton from "@/components/ProductsButton";
 import SwiperComponent from "@/components/SwiperComponent";
+import useScript from "@/hooks/useScript";
 import Image from "next/image";
 import Link from "next/link";
 // import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,6 +17,7 @@ import 'swiper/swiper-bundle.css';
 
 
 export default function Home() {
+
   return (
     <div>
       {/* Hero section */}

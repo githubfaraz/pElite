@@ -198,6 +198,7 @@ const page = () => {
       </div>
 
       {/* <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Location</h3> */}
+      
 
       <div className='mx-auto py-4'>
         <MapWithNoSSR />
