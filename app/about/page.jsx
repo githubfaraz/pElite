@@ -62,7 +62,7 @@ const page = () => {
     <div>
       <div style={{ position: 'relative', display: 'inline-block' }} >
         <Image
-          src='/Team.jpg'
+          src='/Tea.jpg'
           alt='dog-chewing-bully-stick'
           height={50}
           width={1500}
