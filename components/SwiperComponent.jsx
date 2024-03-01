@@ -3,6 +3,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {  Navigation,Pagination, Scrollbar, A11y, EffectCube,Autoplay } from 'swiper/modules';
 import Image from "next/image";
 import Link from "next/link";
+import { IoEye } from "react-icons/io5";
 // import 'swiper/swiper.css';
 
 const SwiperComponent = ({data}) => {
@@ -34,14 +35,10 @@ const SwiperComponent = ({data}) => {
                     className="rounded-ss-2xl h-40 w-40 ml-5"
                 
                   />
-                  <Link href={`/blogs/${blog._id}`} className="flex flex-row space-x-3 align-middle justify-center absolute top-0 left-0 ml-14 mt-32 text-center bg-orange-700 p-2 rounded-lg">
-                    <Image
-                      src='/eye.png'
-                      alt="dog-eating-bully-stick"
-                      height={20}
-                      width={20}
-                    />
-                    <h2 className="block text-black font-medium" style={{fontFamily: 'poppins'}}>See more</h2>
+                  <Link href={`/blogs/${blog._id}`} className="flex flex-row space-x-3 align-middle justify-center absolute top-0 left-0 ml-14 mt-32 text-center bg-orange-700 p-2 rounded-lg text-white">
+                    <IoEye size={20}/>
+
+                    <h2 className="block  font-medium" style={{fontFamily: 'poppins'}}>See more</h2>
                   </Link>
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-48"  style={{fontFamily: 'robot'}}>{blog.title}</h4>
               </div>
