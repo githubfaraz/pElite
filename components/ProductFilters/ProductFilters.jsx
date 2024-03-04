@@ -111,8 +111,8 @@ const ProductFilters = () => {
     return (
         <div>
           
-            <div className='flex sm:flex-row sm:space-x-4 flex-col space-y-2'>
-              <div className='sm:w-1/4 w-full sm:mx-10 sm:my-14 mx-1 my-7'>
+            <div className='flex lg:flex-row sm:space-x-4 flex-col space-y-2'>
+              <div className='lg:w-1/4 w-full lg:mx-10 lg:my-14 mx-1 my-7'>
                 <form 
                 value={searchTerm}
                 onChange={handleSearchChange}
@@ -125,7 +125,7 @@ const ProductFilters = () => {
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                             </svg>
                         </div>
-                        <input type="search" id="default-search" className="block sm:w-full w-scren p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />
+                        <input type="search" id="default-search" className="block sm:w-full w-screen p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />
                         <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Search</button>
                     </div>
                 </form>

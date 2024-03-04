@@ -5,29 +5,29 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="flex flex-col space-y-0 " >
-        <div className="flex flex-row sm:space-x-48 sm:ml-96 sm:py-10 justify-evenly sm:justify-center py-4 space-x-1 sm:mx-11" >
+        <div className="flex flex-row lg:space-x-48 lg:ml-96 lg:py-10 justify-evenly lg:justify-center py-4 space-x-1 lg:mx-11" >
         <Image
               src='/logoP.png'
               alt="phoneCall"
               width={90}
               height={50}
-              className="p-2 sm:w-24 sm:h-24 w-16 h-16"
+              className="p-2 lg:w-24 lg:h-24 w-16 h-16"
             />
           
-          <div className="flex flex-row space-x-2 justify-center align-middle sm:w-full">
+          <div className="flex flex-row space-x-2 justify-center align-middle lg:w-full">
             <Image
               src='/call.png'
               alt="phoneCall"
               width={50}
               height={40}
-              className=" bg-orange-400 rounded-xl p-2 sm:w-14 sm:h-14 w-8 h-8"
+              className=" bg-orange-400 rounded-xl p-2 lg:w-14 lg:h-14 w-8 h-8"
             />
-            <div className="flex flex-col sm:space-y-2 space-y-1 ">
-              <h3 className="sm:text-xl text-sm text-orange-500 font-bold">Contact Us</h3>
-              <h3 className='sm:text-base text-sm'>+1(917) 6094-597</h3>
+            <div className="flex flex-col lg:space-y-2 space-y-1 ">
+              <h3 className="lg:text-xl text-sm text-orange-500 font-bold">Contact Us</h3>
+              <h3 className='lg:text-base text-sm'>+1(917) 6094-597</h3>
             </div>
           </div>
-          <div className="flex flex-row space-x-2 justify-center align-middle sm:w-full">
+          <div className="flex flex-row space-x-2 justify-center align-middle lg:w-full">
             <Image
               src='/email.png'
               alt="phoneCall"
@@ -35,8 +35,8 @@ const Footer = () => {
               height={40}
               className=" bg-orange-400 rounded-xl p-2 sm:w-14 sm:h-14 w-9 h-9"
             />
-            <div className="flex flex-col sm:space-y-2 space-y-1">
-              <h3 className="text-sm sm:text-base text-orange-500 font-bold">
+            <div className="flex flex-col lg:space-y-2 space-y-1">
+              <h3 className="text-sm lg:text-base text-orange-500 font-bold">
               <a href="mailto:info@zemy-group.com?subject=Mail from Elite Bully Sticks">
                   Email Us
               </a>
@@ -50,21 +50,21 @@ const Footer = () => {
           </div>
         </div>
         <hr style={{height: '4px'}}/>
-        <div className="flex flex-row sm:space-x-40 space-x-4 sm:ml-96 ml-4 py-6 sm:py-12">
+        <div className="flex flex-row sm:space-x-40 space-x-4 lg:ml-96 ml-4 py-6 lg:py-12">
           <div className="flex flex-col sm:space-y-2 space-y-1">
-            <h5 className="text-orange-500 font-bold text-sm sm:text-base">Our Products</h5>
-            <Link href='/products' className="ml-2 text-sm sm:text-base">Bully Sticks</Link>
+            <h5 className="text-orange-500 font-bold text-sm lg:text-base">Our Products</h5>
+            <Link href='/products' className="ml-2 text-sm lg:text-base">Bully Sticks</Link>
           </div>
           <div className="flex flex-col space-y-2">
-            <h5 className="text-orange-500 font-bold text-sm sm:text-lg">Community</h5>
-            <Link href='/about' className="ml-2 text-sm sm:text-base">About Us</Link>
+            <h5 className="text-orange-500 font-bold text-sm lg:text-lg">Community</h5>
+            <Link href='/about' className="ml-2 text-sm lg:text-base">About Us</Link>
             {/* <Link href='/products' className="ml-2 text-sm sm:text-base">Our Blogs</Link> */}
           </div>
           <div className="flex flex-col space-y-2">
-            <h5 className="text-orange-500 font-bold text-sm sm:text-lg">Get in Touch</h5>
-            <Link href='/contact' className="ml-2 text-sm sm:text-base">Contact Us</Link>
+            <h5 className="text-orange-500 font-bold text-sm lg:text-lg">Get in Touch</h5>
+            <Link href='/contact' className="ml-2 text-sm lg:text-base">Contact Us</Link>
           </div>
-          <div className="sm:flex flex-col space-y-2 hidden">
+          <div className="lg:flex flex-col space-y-2 hidden">
             <h5 className="text-orange-500 font-bold text-lg">Social Media</h5>
             <Link href='/products' className="ml-2 flex flex-row space-x-2">
               <Image

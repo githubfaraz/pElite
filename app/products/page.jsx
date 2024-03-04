@@ -23,7 +23,7 @@ export default async function Page  ()  {
 
     return (
     <div>
-        <div className='w-full' style={{ position: 'relative', display: 'inline-block' }} >
+        <div className='w-full md:w-screen lg:w-full' style={{ position: 'relative', display: 'inline-block' }} >
         <Image
           src='/hero-2.png'
           alt='dog-chewing-bully-stick'
@@ -36,7 +36,7 @@ export default async function Page  ()  {
           {/* <MainNavbar /> */}
           <Navb linkActive='3' />
         </div>
-        <div className='absolute sm:top-1/4 top-40 sm:left-96 left-14 sm:ml-24 text-center sm:mt-12  sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
+        <div className='absolute lg:top-1/4 top-40 lg:left-96 md:left-48 left-14 lg:ml-24 text-center lg:mt-12  md:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
           Our Products
         </div>
     </div>

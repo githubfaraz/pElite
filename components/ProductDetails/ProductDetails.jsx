@@ -38,7 +38,7 @@ async function ProductDetails ({ params })  {
             <div>
                 <h2 className='sm:text-4xl text-3xl font-semibold text-orange-500 mb-4 font-playfair_display' >Product Overview</h2>
                 <div className='flex flex-col space-y-3 bg-gray-100 p-3'>
-                    <div className='flex flex-col space-x-0 sm:flex-row sm:space-x-2 bg-gray-100'>
+                    <div className='flex flex-col space-x-0 lg:flex-row sm:space-x-2 bg-gray-100'>
                         <div className='py-2 sm:px-8 px-2 bg-gray-100 sm:w-80 w-full flex flex-row space-x-4 align-middle rounded-md'>
                             <Image
                                 src='/dog-size.png'

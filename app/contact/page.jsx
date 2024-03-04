@@ -19,7 +19,7 @@ const Page = () => {
         <Navb linkActive='4' />
         
         {/* MainSection */}
-        <div className='flex sm:flex-row flex-col sm:space-x-8 space-y-10 sm:my-24 mb-6 sm:mx-10 mx-5 h-full'>
+        <div className='flex lg:flex-row flex-col lg:space-x-8 space-y-10 lg:my-24 mb-6 lg:mx-10 mx-5 h-full'>
             <div className='relative inline-block'>
                 <Image
                     src='/production.jpg'
@@ -29,9 +29,9 @@ const Page = () => {
                     className='rounded-2xl brightness-50  h-full w-full'
                     style={{ zIndex: 1}}
                 />
-                <div className='absolute sm:top-1/4 top-4 text-center sm:mt-64 mt-16 sm:text-6xl text-4xl font-semibold text-white' style={{fontFamily: "playfair_display"}}>
+                <div className='absolute md:top-1/4 top-4 text-center md:mt-64 mt-16 md:text-6xl text-4xl font-semibold text-white' style={{fontFamily: "playfair_display"}}>
                     Contact Us
-                    <h1 className='sm:text-xl text-sm font-light text-center sm:w-5/6 w-full mx-auto' style={{fontFamily: 'roboto'}}>Ask about our products,our processes,implementation or anything else.We would be interested to hear from you.</h1>
+                    <h1 className='md:text-xl text-sm font-light text-center md:w-5/6 w-full mx-auto' style={{fontFamily: 'roboto'}}>Ask about our products,our processes,implementation or anything else.We would be interested to hear from you.</h1>
                 </div>
             </div>
             <div className=' w-full'>
@@ -39,10 +39,10 @@ const Page = () => {
             method="POST"
             action="https://formspree.io/f/mayrjoke"
             >
-                    <div className='flex sm:flex-row sm:space-x-2 flex-col space-y-4 sm:space-y-0'>
+                    <div className='flex lg:flex-row lg:space-x-2 flex-col space-y-4 lg:space-y-0'>
                         <div className='flex flex-col'>
                             <label htmlFor="first_name" className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>First Name</label>
-                            <input className='p-2 w-72 rounded-lg border-2 border-gray-400' type="text"
+                            <input className='p-2 w-72 md:w-full lg:w-72  rounded-lg border-2 border-gray-400' type="text"
                                     name="first_name"
                                     id="first_name"
                                     placeholder="First Name"
@@ -53,7 +53,7 @@ const Page = () => {
                         </div>
                         <div className='flex flex-col'>
                             <label htmlFor="second_name"  className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>Second Name</label>
-                            <input className='p-2 w-72 rounded-lg border-2 border-gray-400'
+                            <input className='p-2 w-72 md:w-full lg:w-72 rounded-lg border-2 border-gray-400'
                                 name="second_name"
                                 id="second_name"
                                 placeholder="Second Name"

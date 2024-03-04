@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       {/* Hero section */}
       {/* <Navbar/> */}
-      <div className="h-max w-full sm:w-full bg-orange-300 pb-4 ">
+      <div className="h-max w-full lg:w-full bg-orange-300 pb-4 ">
         {/* Add more circles or customize as needed */}
         {/* <BullyStick /> */}
         {/* <MainNavbar /> */}
@@ -40,7 +40,7 @@ export default function Home() {
         
       </div>
       {/* images */}
-      <div className="absolute bg-orange-400 sm:block hidden" style={{
+      <div className="absolute bg-orange-400 lg:block hidden" style={{
           borderRadius: '50%',
           width: '30rem',
           height: '30rem',
@@ -91,16 +91,17 @@ export default function Home() {
         </div>
         <div className="flex flex-col space-y-3">
           <div className="sm:flex sm:flex-row sm:space-y-2 mb-2 flex flex-col space-y-2 ">
-            <div className="flex flex-col space-x-2 align-middle">
+            <div className="flex flex-col  align-middle">
               <Image 
                 src='/awardRibbon.png'
                 alt="Quality product"
                 height={200}
                 width={100}
-                style={{
-                  marginLeft: '6.5rem',
-                  marginRight: '2rem',
-                }}
+                // style={{
+                //   marginLeft: '6.5rem',
+                //   marginRight: '2rem',
+                // }}
+                className="mx-auto"
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
                   lineHeight: '1.5rem',
@@ -110,17 +111,18 @@ export default function Home() {
               Before our bully sticks make it to your pet, they undergo meticulous testing protocols to ensure they meet our high standards for safety, taste, and overall quality. 
             </p>
             </div>
-            <div className="flex flex-col space-x-2 align-middle">
+            <div className="flex flex-col  align-middle">
               <Image 
                 src='/qualityRibbon.png'
                 alt="Quality product"
                 height={200}
                 width={100}
-                style={{
-                  marginLeft: '6.5rem',
-                  marginRight: '2rem',
-                  fontFamily: 'lora'
-                }}
+                // style={{
+                //   marginLeft: '6.5rem',
+                //   marginRight: '2rem',
+                //   fontFamily: 'lora'
+                // }}
+                className="mx-auto"
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
                   lineHeight: '1.5rem',
@@ -129,17 +131,19 @@ export default function Home() {
               We go above and beyond industry standards to ensure the health and safety of both pets and their owners, offering peace of mind with every purchase.
             </p>
             </div>
-            <div className="flex flex-col space-x-2 align-middle sm:hidden">
+            <div className="flex flex-col justify-center align-middle sm:hidden">
               <Image 
                 src='/testRibbon.png'
                 alt="Quality product"
                 height={200}
                 width={100}
-                style={{
-                  marginLeft: '6.5rem',
-                  marginRight: '2rem',
-                  fontFamily: 'lora'
-                }}
+                // style={{
+                //   marginLeft: '6.5rem',
+                //   marginRight: '2rem',
+                //   fontFamily: 'lora'
+                // }}
+                className="mx-auto"
+
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
                   lineHeight: '1.5rem',
@@ -151,21 +155,23 @@ export default function Home() {
           </div>
           
           <div >
-            <div className="hidden sm:flex flex-col sm:space-x-2 align-middle w-5/6 sm:ml-18 ml-0">
+            <div className="hidden sm:flex flex-col sm:space-x-2 align-middle w-5/6 sm:ml-18 ml-0 justify-center">
                 <Image 
                   src='/testRibbon.png'
                   alt="Quality product"
                   height={200}
                   width={100}
-                  style={{
-                    marginLeft: '15.5rem',
-                    marginRight: '2rem',
-                  }}
+                  // style={{
+                  //   marginLeft: '15.5rem',
+                  //   marginRight: '2rem',
+                  // }}
+                className="mx-auto"
+
                 />
-                <p className="w-3/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center" style={{
+                <p className="w-3/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center mx-auto" style={{
                     // fontSize: '1rem',
                     lineHeight: '1.5rem',
-                    marginLeft: '10.5rem',
+                    marginLeft: '6rem',
                     fontFamily: 'lora'
               }}>
                 Free from artificial additives and preservatives, our bully sticks stand out for their pure, natural goodness.
@@ -194,7 +200,6 @@ export default function Home() {
       <FeaturedBlogs/>
 
 
-       
 
 
       </div>
@@ -202,15 +207,15 @@ export default function Home() {
 
 
       {/* Contact Us section */}
-      <div className="bg-orange-300 h-max sm:py-8 flex flex-col sm:flex-row sm:space-x-48 sm:pl-28 pl-2 py-4">
+      <div className="bg-orange-300 h-max lg:py-8 flex flex-col lg:flex-row lg:space-x-48 lg:pl-28 pl-2 py-4">
         <div className="sm:flex-col sm:space-y-4 space-y-2 mx-auto ">
           <div className="flex flex-row space-x-10">
           <Image
               src='/banktBs.png'
               alt="dog eating bully-stick"
-              height={100}
-              width={200}
-              className="h-28 w-28 sm:h-44 sm:w-56 border-white border-2"
+              height={300}
+              width={400}
+              className="h-28 w-28 sm:h-36 sm:w-36 border-white border-2 "
               style={{  borderRadius: '48%'}}
             />
             <div className="sm:p-14 p-6 bg-amber-500 text-3xl text-white">Elite</div>
@@ -222,7 +227,7 @@ export default function Home() {
               alt="dog eating bully-stick"
               height={100}
               width={200}
-              className="h-28 w-28 sm:h-44 sm:w-52 border-white border-2"
+              className="h-28 w-28 sm:h-36 sm:w-36 border-white border-2"
               style={{  borderRadius: '48%'}}
             />
           </div>

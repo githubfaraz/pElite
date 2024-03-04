@@ -69,18 +69,11 @@ const page = () => {
           className='object-cover filter brightness-50'
           style={{ zIndex: 1}}
         />
-        {/* <Image
-          src='/unit-3.jpg'
-          alt='dog-chewing-bully-stick'
-          height={50}
-          width={1500}
-          className='object-cover h-96 bg-gray-800'
-        /> */}
         <div className='absolute top-0 left-0 ml-0 mt-0'>
           {/* <MainNavbar /> */}
           <Navb linkActive='2'/>
         </div>
-        <div className='absolute top-1/4 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
+        <div className='absolute top-1/4 lg:left-96 md:left-40 left-0 lg:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
           About Us
         </div>
       </div>
@@ -100,7 +93,7 @@ const page = () => {
         </h1>
       </div>
 
-      <div className='sm:mx-10 mx-5 my-5 sm:my-10 flex sm:flex-row sm:space-x-12 flex-col space-x-2'>
+      <div className='sm:mx-10 mx-5 my-5 sm:my-10 flex md:flex-wrap lg:flex-nowrap md:align-middle md:justify-center md:space-y-5 lg:space-y-0 sm:flex-row sm:space-x-12 flex-col space-x-2'>
           <div className='flex sm:flex-row flex-col sm:space-x-4 space-y-2 sm:w-3/6 w-40 align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg mx-auto sm:mx-0'>
             <Image
               src='/chemical-free.png'
@@ -136,13 +129,13 @@ const page = () => {
           </div>
       </div>
 
-      <div className='sm:my-16 relative inline-block sm:ml-96 ml-9 my-8'>
+      <div className='sm:my-16 relative inline-block lg:ml-96 ml-9 my-8'>
         <Image 
           src='/AboutUs2.png'
           alt='bully-sticks'
           width={500}
           height={400}
-          className='rounded-xl sm:w-4/5 sm:h-5/6 w-3/5 h-4/6'
+          className='rounded-xl sm:w-4/5 sm:h-5/6  w-3/5 h-4/6 md:h-3/6 md:w-3/5 lg:w-3/5 lg:h-4/6'
           style={{zIndex: 1}}
           />
           <Image 
@@ -150,7 +143,7 @@ const page = () => {
             alt='bully-sticks'
             width={400}
             height={400}
-            className='absolute sm:top-16 top-10 left-32 sm:left-96 ml-0 mt-0 mx-auto rounded-2xl border-4 sm:border-8 stroke-white border-white sm:w-3/5 sm:h-4/6 w-2/5 h-3/6'
+            className='absolute sm:top-16 top-10 left-32 lg:left-96 md:left-48 ml-0 mt-0 mx-auto rounded-2xl border-4 sm:border-8 stroke-white border-white sm:w-3/5 sm:h-4/6 w-2/5 h-3/6'
           />
       </div>
 
@@ -158,21 +151,6 @@ const page = () => {
       
       <div className='mx-10'>
         {/* <h3 className='text-center sm:text-4xl text-3xl font-bold text-orange-500' style={{fontFamily: 'playfair_display'}}>Our Companies</h3> */}
-        {/* <div className='flex flex-col align-middle border py-5 rounded-xl shadow-lg w-56 sm:w-72 mx-auto mt-4'>
-            <Image
-              src='/logo.png'
-              alt='bully-sticks'
-              width={200}
-              height={400}
-              className='rounded-full mx-auto'
-            />
-            <h3 className='text-center my-4 text-orange-500 font-semibold sm:text-2xl text-xl' style={{fontFamily: 'roboto'}}>Zemy Group LLC</h3>
-
-          </div> */}
-            
-          
-          
-        {/* <div className='flex flex-row sm:space-x-4 space-x-2 my-12'> */}
 
         <div style={{ borderWidth: '1px' }} className="text-center sm:w-2/5 border-gray-300  rounded-md py-2 px-2 mx-auto my-5">
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h4>

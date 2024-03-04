@@ -21,13 +21,13 @@ const Sidebar = ({isSidebarOpen, setIsSidebarOpen,linkActive}) => {
           <FaTimes style={{ color: 'brown' }} />
         </button>
       </div>
-      <Link href='/products' className="ml-2 mx-auto flex flex-row space-x-2 pl-32">
+      <Link href='/products' className=" mx-auto flex flex-row space-x-2 ">
               <Image
                 src='/logoP.png'
                 alt='elite-bully-sticks-facebook'
                 height={200}
                 width={70}
-                className='h-20 w-20'
+                className='h-20 w-20 mx-auto'
               />
       </Link>
       <ul className="links mb-8">
