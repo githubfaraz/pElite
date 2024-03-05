@@ -10,11 +10,11 @@ export const metadata = {
   metadataBase: "https://www.elitetreatforpets.com",
   author: "Elite Treat For Pets",
   keyword: "Elite Treat For Pets",
-  title: "Elite Treats For Pets",
-  description: "Elite Treats For Pets",
-  appleMobileWebAppTitle: 'Elite Treats For Pets',
+  title: "Elite Treat For Pets",
+  description: "Elite Treat For Pets",
+  appleMobileWebAppTitle: 'Elite Treat For Pets',
   openGraph: {
-    title: "Elite Treats For Pets",
+    title: "Elite Treat For Pets",
     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-         <link rel="canonical" href="https://www.elitebullysticks.com/" />
+         <link rel="canonical" href="https://www.elitetreatforpets.com" />
         <link rel="icon" href="/icons/favicon.ico" />
           <link rel="manifest" href="/manifest.json" />
           <link rel="preconnect" href="https://i.ibb.co/"   />
