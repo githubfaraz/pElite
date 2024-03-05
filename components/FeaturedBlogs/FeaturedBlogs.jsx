@@ -100,7 +100,7 @@ const FeaturedBlogs = () => {
       {
         _id: "65e189b1d79c2a1c4d4332dd",
         title: "Why Quality Matters: The Importance of Premium Ingredients in Bully Sticks",
-        image: "/Blog2.jpg",
+        image: "/Blog1.jpg",
         introduction: "Bully sticks have emerged as a popular choice among dog owners seeking a natural, long-lasting chew for their pets. However, the quality of ingredients used in these treats significantly impacts their safety and efficacy. This article explores the importance of opting for bully sticks made from premium ingredients.",
         subtitles: [
           "Safety",
