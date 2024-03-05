@@ -175,6 +175,7 @@ export default function RootLayout({ children }) {
             content="Elite Treats For Pets"
           />
           <meta name="next-head-count" content="21" />
+          <meta name="ahrefs-site-verification" content="ac93f42ab779a78e58adc89faca4fbd57398b2a72b284eca10d5795532ef1e80"></meta>
       </Head>
         
       <body className={inter.className} suppressHydrationWarning={true}>{children}
@@ -184,7 +185,6 @@ export default function RootLayout({ children }) {
           charset="UTF-8"
           crossorigin="*"
         />
-
       </body>
     </html>
   );
