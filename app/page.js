@@ -20,6 +20,7 @@ export default function Home() {
 
   return (
     <div>
+
       {/* Hero section */}
       {/* <Navbar/> */}
       <div className="h-max w-full lg:w-full bg-orange-300 pb-4 ">
