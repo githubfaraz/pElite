@@ -43,9 +43,9 @@ const Page = () => {
 }
 
 export const metadata = {
-    title: "Contact Us|Elite Treat",
-    description: "Elite Bully Sticks information"
-  }
-  
+    title: "Get in Touch with Elite Bully Sticks - Contact Us Today",
+    description: "Have questions about our bully sticks or need assistance with your order? Contact Elite Bully Sticks for dedicated support and quick responses to all your inquiries."
+}
+
 
 export default Page

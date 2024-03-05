@@ -189,9 +189,10 @@ const page = () => {
   )
 }
 
+
 export const metadata = {
-  title: "About Us",
-  description: "Elite Bully Sticks information"
+  title: "About Elite Treat For Pets - Natural Dog Chews | Elite Bully Sticks",
+  description: "Discover the story behind Elite Bully Sticks and why we're dedicated to providing premium, all-natural bully sticks for dogs that promote dental health and satisfaction. Learn more about our commitment to quality and pet wellness.",
 }
 
 
