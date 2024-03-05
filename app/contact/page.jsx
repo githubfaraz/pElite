@@ -43,7 +43,7 @@ const Page = () => {
 }
 
 export const metadata = {
-    title: "Get in Touch with Elite Bully Sticks - Contact Us Today",
+    title: "Get in Touch with Elite Treat For Pets - Contact Us Today",
     description: "Have questions about our bully sticks or need assistance with your order? Contact Elite Bully Sticks for dedicated support and quick responses to all your inquiries."
 }
 

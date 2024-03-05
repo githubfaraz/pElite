@@ -248,7 +248,7 @@ const page = () => {
 }
 
 export const metadata = {
-    title: "Dog Care and Nutrition Blog - Elite Bully Sticks Insights",
+    title: "Dog Care and Nutrition Blog - Elite Treat For Pets Insights",
     description: "Explore our Elite Bully Sticks blog for expert insights into dog care, nutrition tips, and the benefits of all-natural bully sticks for your canine's health and happiness."
 }  
 
