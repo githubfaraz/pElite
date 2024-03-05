@@ -189,4 +189,10 @@ const page = () => {
   )
 }
 
+export const metadata = {
+  title: "About Us",
+  description: "Elite Bully Sticks information"
+}
+
+
 export default page

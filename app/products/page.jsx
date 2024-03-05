@@ -51,4 +51,10 @@ export default async function Page  ()  {
   )
 }
 
+export const metadata = {
+  title: "About Us",
+  description: "Elite Bully Sticks information"
+}
+
+
 
