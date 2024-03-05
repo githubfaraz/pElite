@@ -36,6 +36,7 @@ const SwiperComponent = ({data}) => {
     }}
   >
     
+    
     {data.map((blog)=> 
               <SwiperSlide key={blog._id} >
               <div style={{ position: 'relative', display: 'inline-block' }} className="ml-16 sm:ml-64 ">
