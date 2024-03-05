@@ -254,6 +254,6 @@ export default function Home() {
 }
 
 export const metadata = {
-  title: "Home Page",
-  description: "Elite Bully Sticks information"
+  title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
+  description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews."
 }
