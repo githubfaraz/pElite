@@ -74,7 +74,7 @@ const FeaturedBlogs = () => {
 
     const blogs_featured = [
       {
-        _id: "65e189b1d79c2a1c4d4332dc",
+        _id: "65e8692cad17cd139a91fac2",
         title: "The Benefits of Bully Sticks: A Comprehensive Guide",
         image: "/Blog1.jpg",
         introduction: "Bully sticks, also known as pizzle sticks, have gained popularity as a natural chew treat for dogs...",
@@ -98,7 +98,7 @@ const FeaturedBlogs = () => {
         ]
       },
       {
-        _id: "65e189b1d79c2a1c4d4332dd",
+        _id: "65e8692cad17cd139a91fac3",
         title: "Why Quality Matters: The Importance of Premium Ingredients in Bully Sticks",
         image: "/Blog1.jpg",
         introduction: "Bully sticks have emerged as a popular choice among dog owners seeking a natural, long-lasting chew for their pets. However, the quality of ingredients used in these treats significantly impacts their safety and efficacy. This article explores the importance of opting for bully sticks made from premium ingredients.",
@@ -118,7 +118,7 @@ const FeaturedBlogs = () => {
         ]
       },
       {
-        _id: "65e189b1d79c2a1c4d4332de",
+        _id: "65e8692cad17cd139a91fac4",
         title: "Bully Stick Buyer's Guide: What to Look for When Purchasing Bully Sticks",
         image: "/Blog3.jpg",
         introduction: "Choosing the right bully sticks for your dog can be overwhelming given the variety of options available on the market. However, understanding what to look for when purchasing bully sticks can help ensure that you select a safe, high-quality product that meets your pet's needs. In this buyer's guide, we'll outline essential factors to consider to make an informed decision when buying bully sticks for your furry friend.",

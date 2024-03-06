@@ -39,7 +39,7 @@ function BlogDetails ({ params })  {
       </div>
   );
 
-  console.log(data)
+  console.log(params.id)
 
   if (!data) return <div>Error: Data could not be fetched</div>;
 
@@ -95,6 +95,32 @@ function BlogDetails ({ params })  {
      {/* )}  */}
   </div>
   )
+}
+
+
+
+export async function metadata({params}){
+  const res = await fetch(`https://pets-elite-b.fly.dev/api/blogs/${params._id}`);
+  const post = await res.json();
+
+  return {
+    title: post.title,
+    description: post.title,
+    openGraph: {
+      images:[
+        {
+          url: post.image
+        }
+      ]
+    }
+  }
+}
+
+export async function generateStaticParams(){
+  const response = await fetch('https://pets-elite-b.fly.dev/api/blogs');
+  const {posts} = await response.json();
+
+  return posts.map(({id}) => id).slice(0,5);
 }
 
 export default BlogDetails
