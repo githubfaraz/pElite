@@ -14,7 +14,7 @@ export default async function sitemap(){
 
     return [
         {
-            url: `www.elitetreatforpets.com`,
+            url: `www.elitetreatforpets.com/`,
             lastModified: new Date()
         },
         ...blogEntries
