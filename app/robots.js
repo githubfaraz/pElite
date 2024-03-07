@@ -6,7 +6,7 @@ export default function robots(){
                 allow: '/',
                 disallow: ['/admin','/privacy']
             }
-        ]
-        // sitemap: 'https://elitetreatforpets.com/sitemap.xml'
+        ],
+        sitemap: 'https://www.elitetreatforpets.com/sitemap.xml'
     }
 }
