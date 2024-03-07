@@ -17,6 +17,18 @@ export default async function sitemap(){
             url: `https://www.elitetreatforpets.com/`,
             lastModified: new Date()
         },
-        ...blogEntries
+        {
+            url: `https://www.elitetreatforpets.com/about`,
+            lastModified: new Date()
+        },
+        
+        {
+            url: `https://www.elitetreatforpets.com/products`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/contact`,
+            lastModified: new Date()
+        },
     ]
 }
