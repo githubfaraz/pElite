@@ -110,6 +110,16 @@ export default function RootLayout({ children }) {
             name="apple-mobile-web-app-title"
             content="Elite Treats For Pets"
           />
+          {/* GAnalytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-PEH9CPCLLD"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PEH9CPCLLD');
+          </script>
+          {/* GAnalytics */}
           <meta name="next-head-count" content="21" />
           <meta name="ahrefs-site-verification" content="ac93f42ab779a78e58adc89faca4fbd57398b2a72b284eca10d5795532ef1e80"></meta>
       </Head>
@@ -121,14 +131,7 @@ export default function RootLayout({ children }) {
           charset="UTF-8"
           crossorigin="*"
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PEH9CPCLLD"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-PEH9CPCLLD');
-        </script>
+        
       </body>
     </html>
   );
