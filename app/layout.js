@@ -110,7 +110,7 @@ export default function RootLayout({ children }) {
             name="apple-mobile-web-app-title"
             content="Elite Treats For Pets"
           />
-          <link rel="icon" type="image/x-icon" href="https://www.elitetreatforpets.com/logoP.png"></link>
+          <link rel="icon" type="image/x-icon" href="https://www.elitetreatforpets.com/logoP.webp"></link>
           <meta name="next-head-count" content="21" />
           <meta name="ahrefs-site-verification" content="ac93f42ab779a78e58adc89faca4fbd57398b2a72b284eca10d5795532ef1e80"></meta>
       </Head>
