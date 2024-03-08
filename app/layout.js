@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: "https://www.elitetreatforpets.com",
   author: "Elite Treat For Pets",
-  keyword: "Elite Treat For Pets",
+  keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
   title:{
     default: "Elite Treat For Pets",
     template: '%s - Elite Treat For Pets'
@@ -22,7 +22,7 @@ export const metadata = {
     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
-    images: "/logoP.png",
+    images: "https://www.elitetreatforpets.com/logoP.webp",
     locale: "en_US",
     type: "website",
   },
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
       <meta name="author" content="Elite Treat For Pets" />
           <meta
             name="keywords"
-            content="Elite Treat For Pets"
+            content="Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks"
           />
           <meta property="og:locale" content="en-US" />
           <meta property="og:type" content="website" />
