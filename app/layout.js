@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleAnalyticsScript/>
-      <Head>
+      {/* <Head>
       <meta name="author" content="Elite Treat For Pets" />
           <meta
             name="keywords"
@@ -115,9 +115,9 @@ export default function RootLayout({ children }) {
           <link rel="icon" type="image/x-icon" href="https://www.elitetreatforpets.com/logoP.webp"></link>
           <meta name="next-head-count" content="21" />
           <meta name="ahrefs-site-verification" content="ac93f42ab779a78e58adc89faca4fbd57398b2a72b284eca10d5795532ef1e80"></meta>
-      </Head>
+      </Head> */}
         
-      <body className={inter.className} suppressHydrationWarning={true}>{children}
+      <body className={inter.className}>{children}
       <Script 
           strategy="lazyOnload"
           src="https://embed.tawk.to/65dc7ab79131ed19d971b513/1hnijunq3"
