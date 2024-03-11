@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import Head from 'next/head';
+import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <GoogleAnalyticsScript/>
       <Head>
       <meta name="author" content="Elite Treat For Pets" />
           <meta
