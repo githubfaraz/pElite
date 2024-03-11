@@ -45,7 +45,7 @@ const CompanySlider = ({data}) => {
                   <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-40 min-h-96"  style={{fontFamily: 'inter'}}>{blog.description}</h4>
                   <Link href='/company'>
                     <button  className='rounded-full py-1 px-8 my-4 mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 md:w-24' style={{fontFamily: "inter"}}>
-                      See More
+                      Visit our Website
                     </button>
                   </Link>
               </div>
