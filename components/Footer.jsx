@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
           <div className="lg:flex flex-col space-y-2 hidden">
             <h5 className="text-orange-500 font-bold text-lg">Social Media</h5>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.facebook.com/profile.php?id=61556973973125' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/facebook.png'
                 alt='elite-bully-sticks-facebook'
@@ -75,7 +75,7 @@ const Footer = () => {
               />
               <h3>Facebook</h3>
             </Link>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://twitter.com/PetsEliteTreat' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/twitter.png'
                 alt='elite-bully-sticks-facebook'
@@ -84,7 +84,7 @@ const Footer = () => {
               />
               <h3>Twitter</h3>
             </Link>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.instagram.com/elitetreatsca/?hl=en' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/instagram.png'
                 alt='elite-bully-sticks-facebook'
@@ -93,7 +93,7 @@ const Footer = () => {
               />
               <h3>Instagram</h3>
             </Link>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.tiktok.com/@petselitetreat' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/tiktok.png'
                 alt='elite-bully-sticks-facebook'
@@ -106,7 +106,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className='sm:hidden flex flex-row ml-48 py-2'>
-        <Link href='/products' className="ml-2 flex flex-row space-x-2">
+        <Link href='https://www.facebook.com/profile.php?id=61556973973125' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/facebook.png'
                 alt='elite-bully-sticks-facebook'
@@ -114,7 +114,7 @@ const Footer = () => {
                 width={20}
               />
             </Link>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://twitter.com/PetsEliteTreat' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/twitter.png'
                 alt='elite-bully-sticks-facebook'
@@ -122,7 +122,7 @@ const Footer = () => {
                 width={20}
               />
             </Link>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.instagram.com/elitetreatsca/?hl=en' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/instagram.png'
                 alt='elite-bully-sticks-facebook'
@@ -130,7 +130,7 @@ const Footer = () => {
                 width={20}
               />
             </Link>
-            <Link href='/products' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.tiktok.com/@petselitetreat' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/tiktok.png'
                 alt='elite-bully-sticks-facebook'
