@@ -1,17 +1,4 @@
-import {MetadataRoute} from "next";
-
-export default async function sitemap(){
-    const response = await fetch("https://pets-elite-b.fly.dev/api/blogs")
-    const blogs = await response.json();
-    
-    const blogEntries = blogs.map(({_id})=>({
-        url: `https://pets-elite-b.fly.dev/api/blogs/${_id}`,
-        // lastModified: new Date(post.updatedAt)
-        // changeFrequency:,
-        // priority:
-    }))
-
-
+export default function sitemap(){
     return [
         {
             url: `https://www.elitetreatforpets.com/`,
@@ -28,6 +15,70 @@ export default async function sitemap(){
         },
         {
             url: `https://www.elitetreatforpets.com/contact`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/blogs/65e8692cad17cd139a91fac3`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/blogs/65e8692cad17cd139a91fac3`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/blogs/65e8692cad17cd139a91fac4`,
+            lastModified: new Date()
+        },
+        {
+            url: `http://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab5`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fabf`,
+            lastModified: new Date()
+        }, 
+        {
+            url: `http://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab9`,
+            lastModified: new Date()
+        }, 
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91faba`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fabc`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab6`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab8`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab4`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab7`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fabb`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fabd`,
+            lastModified: new Date()
+        }, 
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fabe`,
+            lastModified: new Date()
+        },
+        {
+            url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fac0`,
             lastModified: new Date()
         },
     ]

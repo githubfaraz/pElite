@@ -193,6 +193,38 @@ const page = () => {
 export const metadata = {
   title: "About Elite Treat For Pets - Natural Dog Chews | Elite Bully Sticks",
   description: "Discover the story behind Elite Bully Sticks and why we're dedicated to providing premium, all-natural bully sticks for dogs that promote dental health and satisfaction. Learn more about our commitment to quality and pet wellness.",
+  keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
+  title:{
+    default: "Elite Treat For Pets",
+    template: '%s - Elite Treat For Pets'
+  },
+  appleMobileWebAppTitle: 'Elite Treat For Pets',
+  openGraph: {
+    title: "Elite Treat For Pets",
+    description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
+    url: "https://www.elitetreatforpets.com",
+    siteName: "Elite Treats For Pets",
+    images: "https://www.elitetreatforpets.com/logoP.webp",
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "@PetsEliteTreat",
+    images: "/logoP.png"
+  },
 }
 
 
