@@ -72,6 +72,12 @@ export const metadata = {
         "max-snippet": -1,
       },
     },
+    alternates: {
+        canonical: `https://www.elitetreatforpets.com`,
+        languages: {
+          "en-US": "/",
+        },
+      },
     twitter: {
       card: "summary_large_image",
       title: "@PetsEliteTreat",

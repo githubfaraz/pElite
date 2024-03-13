@@ -65,6 +65,12 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+  alternates: {
+    canonical: `https://www.elitetreatforpets.com`,
+    languages: {
+      "en-US": "/",
+    },
+  },
   robots: {
     index: true,
     follow: true,
