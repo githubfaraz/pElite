@@ -16,7 +16,7 @@ import Link from "next/link";
 import 'swiper/swiper-bundle.css';
 
 
-export default function Home() {
+function Home() {
 
   return (
     <div>
@@ -286,3 +286,5 @@ export const metadata = {
     images: "/logoP.png"
   },
 }
+
+export default Home;
