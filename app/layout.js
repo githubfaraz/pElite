@@ -105,7 +105,7 @@ export async function generateMetadata() {
       description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
       url: "https://www.elitetreatforpets.com",
       siteName: "Elite Treats For Pets",
-      images: "https://www.elitetreatforpets.com/faavicon.ico",
+      images: "https://www.elitetreatforpets.com/favicon.ico",
       locale: "en_US",
       type: "website",
     },
