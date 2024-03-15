@@ -67,8 +67,8 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
   };
 
   return (
-    <nav className="h-20 flex items-center justify-center mx-auto">
-      <div className=" w-full sm:mx-auto flex sm:items-center flex-row md:space-x-36 lg:space-x-96 p-5">
+    <nav className="h-20 flex items-center justify-between mx-auto w-full">
+      <div className=" w-full sm:mx-auto flex sm:items-center flex-row md:space-x-44 lg:space-x-96 p-5">
         <div className="flex items-center space-x-44">
           <Link href="/">
             <Image src='/Plogo.png' alt="comfy sloth" className="w-20 h-20 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 height={200}
@@ -76,10 +76,10 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
           </Link>
           <button
             type="button"
-            className="ml-4 p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block"
+            className="  p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block"
             onClick={openSidebar}
           >
-            <FaBars className="w-8 h-8 " style={{ color: 'brown' }} />
+            <FaBars className="w-8 h-8 justify-end" style={{ color: 'brown' }} />
           </button>
         </div>
         <ul className="hidden md:flex items-center justify-center space-x-4">

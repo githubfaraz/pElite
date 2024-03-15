@@ -7,7 +7,7 @@ import React from 'react'
 const ProductCard = ({ product }) => {
   return (
     <Link href={`/products/${product._id}`}>
-        <div className="flex flex-col align-middle space-y-2 max-h-72 border-2 bg-white sm:w-72 w-36 sm:p-4 p-2 rounded-md shadow-xl hover:shadow-sm sm:h-96">
+        <div className="flex flex-col align-middle space-y-2 max-h-52 sm:max-h-72 border-2 bg-white sm:w-72 w-36 sm:p-4 p-2 rounded-md shadow-xl hover:shadow-sm sm:h-96">
             <Image
             src={product.image.filePath}
             alt="bully stick"
