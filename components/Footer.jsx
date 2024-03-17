@@ -90,7 +90,7 @@ const Footer = () => {
               />
               <h3>Twitter</h3>
             </Link>
-            <Link href='https://www.instagram.com/elitetreatsca/?hl=en' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.instagram.com/elitetreatbullysticks/' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/instagram.png'
                 alt='elite-bully-sticks-facebook'
@@ -128,7 +128,7 @@ const Footer = () => {
                 width={20}
               />
             </Link>
-            <Link href='https://www.instagram.com/elitetreatsca/?hl=en' className="ml-2 flex flex-row space-x-2">
+            <Link href='https://www.instagram.com/elitetreatbullysticks/' className="ml-2 flex flex-row space-x-2">
               <Image
                 src='/instagram.png'
                 alt='elite-bully-sticks-facebook'
