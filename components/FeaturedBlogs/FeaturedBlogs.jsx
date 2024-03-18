@@ -159,7 +159,8 @@ const FeaturedBlogs = () => {
                 </Link>
                 <h4 className="mt-6 text-center text-2xl text-amber-700 font-semibold w-96"  style={{fontFamily: 'robot'}}>{blog.title}</h4>
                 {/* <h3 className="mt-3 w-96 text-center font-light text-lg"  style={{fontFamily: 'lora'}}>Learn the steps our Bully sticks Production go through before reaching the belly of your Pet</h3> */}
-              </div> )}
+              </div> 
+              )}
             
         </div>
     

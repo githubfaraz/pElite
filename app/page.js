@@ -79,15 +79,37 @@ function Home() {
       </div>
       {/* Hero section */}
 
+      {/* FDA CERTIFIED */}
+        <div className="my-4 text-center mx-2 sm:mx-0">
+          <h3 className="text-2xl sm:text-4xl font-bold text-amber-700 font-serif">FDA-Approved for Your Peace of Mind</h3>
+          <Image
+            alt='FDA certified product'
+            src='/fd.png'
+            height={240}
+            width={280}
+            className="mx-auto"
+          />
+          <h4 className="text-amber-700 text-xl font-normal ">Experience the Gold Standard with Our FDA-Approved Bully Sticks</h4>
+          <p className="sm:w-3/4 w-full mt-4 mx-auto text-lg">Every pet owner wants the best for their furry friend, and that&apos;s why we leave no stone unturned when it comes to quality.
+          Our bully sticks are not just any treats; they are a promise of safety and excellence</p>
+          {/* <button>Learn More</button> */}
+          <Link href='/blogs/65f813000f2c638239fa59ff' >
+            <button  className='rounded-full py-2 mt-4 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 w-full' style={{fontFamily: "poppins"}}>
+              Learn More
+            </button>
+          </Link>
+        </div>
+      {/* FDA CERTIFIED */}
+
 
 
       {/* Difference Section */}
-      <div className="sm:mx-10 mx-2 my-5 sm:py-14 py-7 flex sm:flex-row sm:space-x-0 flex-col space-y-2">
+      <div className="sm:mx-10 mx-2 my-2 sm:py-14 py-7 flex sm:flex-row sm:space-x-0 flex-col space-y-2">
       <div>
-          <h1 className="text-4xl leading-10xl  sm:leading-7xl sm:text-7xl mb-23 w-11/12 sm:mb-10 mb-5 text-amber-700 font-bold" style={{
+          <h1 className="text-3xl leading-10xl text-center sm:text-left  sm:leading-7xl sm:text-7xl mb-23 sm:w-11/12 w-full sm:mb-10 mb-5 text-amber-700 font-bold" style={{
             fontFamily: 'playfair_display'
           }}>What makes us different from others</h1>
-          <p className="w-5/6 mt-2  sm:leading-8xl sm:text-8xl leading-snug text-xl mb-6 font-light text-slate-900" style={{
+          <p className="sm:w-5/6 w-full mt-2 text-center sm:text-left  sm:leading-8xl sm:text-8xl leading-snug text-xl mb-6 font-light text-slate-900" style={{
                 fontFamily: 'open_sans'
           }}>
             With a long-standing reputation for excellence, we&apos;ve established ourselves as the premier choice for discerning pet owners who demand nothing but the best for their furry companions
