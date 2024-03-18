@@ -278,7 +278,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: `https://www.elitetreatforpets.com`,
+    canonical: `https://www.elitetreatforpets.com/`,
     languages: {
       "en-US": "/",
     },

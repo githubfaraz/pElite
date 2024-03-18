@@ -21,6 +21,7 @@ const page = ({params}) => {
 
 export async function generateMetadata() {
   return{
+  metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "Elite Treat For Pets - Blogs",
   description: "Explore our Elite Bully Sticks blog for expert insights into dog care, nutrition tips, and the benefits of all-natural bully sticks for your canine's health and happiness.",
   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
@@ -39,7 +40,7 @@ export async function generateMetadata() {
       type: "website",
     },
     alternates: {
-      canonical: `https://www.elitetreatforpets.com`,
+      canonical: `https://www.elitetreatforpets.com/`,
       languages: {
         "en-US": "/",
       },
@@ -59,7 +60,7 @@ export async function generateMetadata() {
     twitter: {
       card: "summary_large_image",
       title: "@PetsEliteTreat",
-      images: "/logoP.png"
+      images: "https://www.elitetreatforpets.com/logoP.png"
     },
   }
 }  

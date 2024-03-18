@@ -330,13 +330,13 @@ export async function generateMetadata() {
     authors: [
       {
         name: "Elite Treat For Pets",
-        url: "https://www.elitetreatforpets.com",
+        url: "https://www.elitetreatforpets.com/",
       },
     ],
     twitter: {
       card: "summary_large_image",
       title: "@PetsEliteTreat",
-      images: "https://www.elitetreatforpets.com/favicon.ico"
+      images: "https://www.elitetreatforpets.com/logoP.png"
     },
     robots: {
       index: true,
@@ -351,24 +351,24 @@ export async function generateMetadata() {
       },
     },
     alternates: {
-      canonical: `https://www.elitetreatforpets.com`,
+      canonical: `https://www.elitetreatforpets.com/`,
       languages: {
         "en-US": "/",
       },
     },
     openGraph: {
       type: "website",
-      url: `https://www.elitetreatforpets.com`,
+      url: `https://www.elitetreatforpets.com/`,
       title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
   description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
       siteName: "Elite Treat For Pets",
       images: [
         {
-          url: "https://www.elitetreatforpets.com/favicon.ico",
+          url: "https://www.elitetreatforpets.com/logoP.png",
         },
       ],
     },
-    assets: "https://www.elitetreatforpets.com/favicon.ico",
+    assets: "https://www.elitetreatforpets.com/logoP.png",
     keywords: [
       "Elite Treat For Pets","Bully Stick","Treats,Pets","BullyStick","Pet Treat","Bully sticks","Dog chews","Natural dog treats","Elite bully sticks","Premium dog chews","Best bully sticks for puppies","Long-lasting dog chews natural","Organic bully sticks for dogs","High-quality beef pizzle sticks"
     ],

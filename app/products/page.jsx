@@ -67,7 +67,7 @@ export async function generateMetadata() {
     type: "website",
   },
   alternates: {
-    canonical: `https://www.elitetreatforpets.com`,
+    canonical: `https://www.elitetreatforpets.com/`,
     languages: {
       "en-US": "/",
     },
@@ -87,7 +87,7 @@ export async function generateMetadata() {
   twitter: {
     card: "summary_large_image",
     title: "@PetsEliteTreat",
-    images: "/logoP.png"
+    images: "https://www.elitetreatforpets.com/logoP.png"
   }
   }
 
