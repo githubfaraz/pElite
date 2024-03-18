@@ -94,10 +94,7 @@ export async function generateMetadata() {
     metadataBase: new URL("https://www.elitetreatforpets.com"),
     author: "Elite Treat For Pets",
     keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
-    title:{
-      default: "Elite Treat For Pets",
-      template: '%s - Elite Treat For Pets'
-    },
+    title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     appleMobileWebAppTitle: 'Elite Treat For Pets',
     openGraph: {

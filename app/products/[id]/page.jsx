@@ -12,8 +12,9 @@ export default function Page({ params }) {
   )
 }
 
-export const metadata =  {
-  title: "Products - High-Quality Dog Treats | Elite Treat For Pets",
+export async function generateMetadata (){
+  return{
+  title: "Elite Treat For Pets - Our Products",
   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
   description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
   appleMobileWebAppTitle: 'Elite Treat For Pets',
@@ -48,6 +49,7 @@ export const metadata =  {
     card: "summary_large_image",
     title: "@PetsEliteTreat",
     images: "/logoP.png"
-  },
+  }
+  }
 }
 

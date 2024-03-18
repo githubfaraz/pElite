@@ -71,7 +71,8 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
       <div className=" w-full sm:mx-auto flex sm:items-center flex-row md:space-x-44 lg:space-x-96 p-5">
         <div className="flex items-center space-x-44">
           <Link href="/">
-            <Image src='/Plogo.png' alt="comfy sloth" className="w-20 h-20 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 height={200}
+            <Image src='/Plogo.png' alt="comfy sloth" className="w-20 h-20 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 
+                height={200}
                 width={70} />
           </Link>
           <button
@@ -86,7 +87,7 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
         {links.map((link) => (
           <li key={link.id}>
             <Link href={link.url}>
-              <button className={`text-orange-500 hover:text-primary-700 capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
+              <button className={`text-amber-700 hover:text-primary-700 capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
                 {link.text}
               </button>
             </Link>

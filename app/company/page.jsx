@@ -31,7 +31,8 @@ const Page = () => {
   )
 }
 
-export const metadata = {
+export async function generateMetadata() {
+  return{
   title: "Company",
   description: "Elite Bully Sticks Company information",
   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
@@ -72,7 +73,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "@PetsEliteTreat",
     images: "/logoP.png"
-  },
+  }
+}
 }
 
 
