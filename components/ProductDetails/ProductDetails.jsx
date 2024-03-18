@@ -13,7 +13,17 @@ async function ProductDetails ({ params })  {
     const res = await fetch(`https://pets-elite-b.fly.dev/api/bully-sticks/${params.id}`);
     const product = await res.json();
 
-    console.log(product)
+
+    const nutritionFacts = product.nutrition_facts
+                .map((item,index)=>(
+                    <li key={index}>{item}</li>
+                ));
+    const feedingGuidelines = product.feeding_guidelines.split('.')
+                .map((item,index)=>(
+                    <li key={index}>{item}</li>
+                ));
+
+
 
   return (
     <div>
@@ -74,7 +84,7 @@ async function ProductDetails ({ params })  {
             </div>
             <hr />
 
-            <FAQ feedingGuidelines={product.feeding_guidelines} nutritionFacts={product.nutrition_facts.join(",")} />
+            <FAQ feedingGuidelines={feedingGuidelines} nutritionFacts={nutritionFacts} />
 
 
             
