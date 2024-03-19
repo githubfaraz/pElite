@@ -56,7 +56,7 @@ function BlogDetails ({ params })  {
           className='object-cover h-96 filter brightness-50'
           style={{ zIndex: 1}}
         />
-        <div className='absolute top-0 left-0 ml-0 mt-0'>
+        <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
           {/* <MainNavbar /> */}
           <Navb linkActive='9'/>
         </div>
