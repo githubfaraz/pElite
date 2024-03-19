@@ -23,7 +23,7 @@ export default  function Page  ()  {
 
     return (
     <div>
-        <div className='w-full md:w-screen lg:w-full' style={{ position: 'relative', display: 'inline-block' }} >
+        <div className='w-full md:w-full lg:w-full' style={{ position: 'relative', display: 'inline-block' }} >
         <Image
           src='/hero-2.png'
           alt='dog-chewing-bully-stick'
@@ -53,12 +53,12 @@ export default  function Page  ()  {
 
 export async function generateMetadata() {
   return{
-  title: "Elite Treat For Pets - Shop Premium Bully Sticks",
+  title: "Elite Treat For Pets - Our Products",
   description: "Discover our range of premium, all-natural bully sticks and dog treats crafted for your pet's health and enjoyment. Find the perfect chew for your dog at Elite Bully Sticks.",
   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
-  appleMobileWebAppTitle: 'Elite Treat For Pets',
+  appleMobileWebAppTitle: 'Elite Treat For Pets - Our Products',
   openGraph: {
-    title: "Elite Treat For Pets",
+    title: "Elite Treat For Pets - Our Products",
     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",

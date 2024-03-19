@@ -48,13 +48,9 @@ export async function generateMetadata () {
     title: "Elite Treat For Pets - Contact Us",
     description: "Have questions about our bully sticks or need assistance with your order? Contact Elite Bully Sticks for dedicated support and quick responses to all your inquiries.",
     keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
-    title:{
-      default: "Elite Treat For Pets",
-      template: '%s - Elite Treat For Pets'
-    },
-    appleMobileWebAppTitle: 'Elite Treat For Pets',
+    appleMobileWebAppTitle: 'Elite Treat For Pets - Contact Us',
     openGraph: {
-      title: "Elite Treat For Pets",
+      title: "Elite Treat For Pets - Contact Us",
       description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
       url: "https://www.elitetreatforpets.com",
       siteName: "Elite Treats For Pets",
