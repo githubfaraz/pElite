@@ -32,7 +32,7 @@ export default  function Page  ()  {
           className='object-cover h-96 filter brightness-50'
           style={{ zIndex: 1, height: '30rem'}}
         />
-        <div className='absolute top-0 left-0 ml-0 mt-0'>
+        <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
           {/* <MainNavbar /> */}
           <Navb linkActive='3' />
         </div>

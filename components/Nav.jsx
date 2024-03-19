@@ -67,27 +67,27 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
   };
 
   return (
-    <nav className="h-20 flex items-center justify-between mx-auto w-full">
-      <div className=" w-full sm:mx-auto flex sm:items-center flex-row md:space-x-44 lg:space-x-96 p-5">
-        <div className="flex items-center space-x-44">
-          <Link href="/">
+    <nav className="h-20 flex items-center  w-full">
+      <div className=" w-full sm:mx-auto flex  flex-row  p-5">
+        <div className="flex justify-between sm:justify-normal sm:w-4/12 flex-row  w-full">
+          <Link href="/" className='block'>
             <Image src='/Plogo.png' alt="comfy sloth" className="w-20 h-20 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 
                 height={200}
                 width={70} />
           </Link>
           <button
             type="button"
-            className="  p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block"
+            className="  p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block "
             onClick={openSidebar}
           >
-            <FaBars className="w-8 h-8 justify-end" style={{ color: 'brown' }} />
+            <FaBars className="w-8 h-8 " style={{ color: 'brown' }} />
           </button>
         </div>
-        <ul className="hidden md:flex items-center justify-center space-x-4">
+        <ul className="hidden md:flex items-center align-top justify-center space-x-10 text-center">
         {links.map((link) => (
           <li key={link.id}>
             <Link href={link.url}>
-              <button className={`text-amber-700 hover:text-primary-700 capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
+              <button className={`text-amber-700 hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
                 {link.text}
               </button>
             </Link>

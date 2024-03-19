@@ -144,11 +144,6 @@ function Home() {
                 alt="Quality product"
                 height={200}
                 width={100}
-                // style={{
-                //   marginLeft: '6.5rem',
-                //   marginRight: '2rem',
-                //   fontFamily: 'lora'
-                // }}
                 className="mx-auto"
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
@@ -170,7 +165,6 @@ function Home() {
                 //   fontFamily: 'lora'
                 // }}
                 className="mx-auto"
-
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
                   lineHeight: '1.5rem',

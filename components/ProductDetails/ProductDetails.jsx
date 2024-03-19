@@ -28,7 +28,9 @@ async function ProductDetails ({ params })  {
   return (
     <div>
       {/* <MainNavbar /> */}
-      <Navb linkActive='9' />
+      <div className='w-full'>
+            <Navb linkActive='9' />
+      </div>
       <div className='flex sm:flex-row flex-col sm:space-x-12 space-y-4 sm:mx-10 mx-4 sm:my-8 my-2'>
         <div className='sm:w-1/2 w-full flex-col space-y-2 '>
             <Image 

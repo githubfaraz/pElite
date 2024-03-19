@@ -10,8 +10,10 @@ import ContactForm from '@/components/ContactForm'
 const Page = () => {
     
   return (
-    <div>
+    <div >
+      <div className='w-full'>
         <Navb linkActive='4' />
+      </div>
         
         {/* MainSection */}
         <div className='flex lg:flex-row flex-col lg:space-x-8 space-y-10 lg:my-24 mb-6 lg:mx-10 mx-5 h-full'>
