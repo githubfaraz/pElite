@@ -33,10 +33,9 @@ function Home() {
         {/* <BullyStick /> */}
         {/* <MainNavbar /> */}
         <Navb linkActive='1'/>
-
       <div className="bg-orange-300 sm:mx-10 mx-2 sm:py-10 sm:my-8">
-        <h6 className="text-6xl mb-23 sm:w-4/6 w-72 sm:mb-10 mb-5 text-amber-600 font-bold sm:text-7xl font-playfair_display leading-2xl sm:leading-7xl" >Buy for your <span className="text-amber-900">pet</span> whatever is needed</h6>
-        <p className="sm:w-3/5 mt-2 sm:text-3xl text-xl sm:mb-6 mb-5 font-light text-amber-900 sm:leading-8xl leading-snug font-open_sans w-72" style={{
+        <h6 className="text-6xl mb-23 lg:w-4/6 w-full sm:mb-10 mb-5 text-amber-600 font-bold sm:text-7xl font-playfair_display leading-2xl sm:leading-7xl" >Buy for your <span className="text-amber-900">pet</span> whatever is needed</h6>
+        <p className="lg:w-3/5 mt-2 sm:text-3xl text-xl sm:mb-6 mb-5 font-light text-amber-900 sm:leading-8xl leading-snug font-open_sans w-full" style={{
               fontFamily: 'open_sans'
         }}>
           Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups
@@ -281,45 +280,6 @@ function Home() {
     </>
   );
 }
-
-// export const metadata = {
-//   title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
-//   description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
-//   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
-//   appleMobileWebAppTitle: 'Elite Treat For Pets',
-//   openGraph: {
-//     title: "Elite Treat For Pets",
-//     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
-//     url: "https://www.elitetreatforpets.com",
-//     siteName: "Elite Treats For Pets",
-//     images: "https://www.elitetreatforpets.com/logoP.webp",
-//     locale: "en_US",
-//     type: "website",
-//   },
-//   robots: {
-//     index: true,
-//     follow: true,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: true,
-//       "max-video-preview": -1,
-//       "max-image-preview": "large",
-//       "max-snippet": -1,
-//     },
-//   },
-//   alternates: {
-//     canonical: `https://www.elitetreatforpets.com`,
-//     languages: {
-//       "en-US": "/",
-//     },
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "@PetsEliteTreat",
-//     images: "/logoP.png"
-//   },
-// }
 
 export async function generateMetadata() {
   return {
