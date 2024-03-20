@@ -281,7 +281,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "@PetsEliteTreat",
+    title: "Elite Treat For Pets - Blogs",
     images: "/logoP.png"
   },
 }  

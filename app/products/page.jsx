@@ -86,7 +86,7 @@ export async function generateMetadata() {
   },
   twitter: {
     card: "summary_large_image",
-    title: "@PetsEliteTreat",
+    title: "Elite Treat For Pets - Contact Us",
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
   }

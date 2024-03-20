@@ -23,6 +23,7 @@ function Home() {
     <>
     <Head>
       <title>Elite Treat For Pets - Premium Natural Dog Chews and Treats</title>
+      <link rel="icon" type="image/svg+xml" href="/Plogo.png"></link>
     </Head>
     <div>
 
@@ -289,7 +290,7 @@ export async function generateMetadata() {
     ],
     twitter: {
       card: "summary_large_image",
-      title: "@PetsEliteTreat",
+      title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
       images: "https://www.elitetreatforpets.com/logoP.png"
     },
     robots: {
