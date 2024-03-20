@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleAnalyticsScript/>
+      <link rel="icon" type="image/svg+xml" href="/Plogo.png"></link>
       {/* <Head>
       <meta name="author" content="Elite Treat For Pets" />
           <meta
