@@ -314,6 +314,7 @@ export async function generateMetadata() {
       type: "website",
       url: `https://www.elitetreatforpets.com/`,
       title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
+      image: "https://www.elitetreatforpets.com/logoP.png",
   description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
       siteName: "Elite Treat For Pets",
       images: [
