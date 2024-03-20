@@ -85,7 +85,7 @@ const page = () => {
               fontFamily: 'playfair_display'
             }}>We stand by the <span className='text-orange-600'>quality</span> of our bully sticks! Your <span className='text-orange-600 font-extrabold'>happiness</span> is our priority.</h1>
         <h1 className='sm:w-2/5 sm:mt-6 mt-3 sm:text-2xl text-xl font-extralight' style={{fontFamily: 'inter'}}>
-          Welcome to EliteBullySticks, where our passion for pets and commitment to excellence converge. At the core of our mission is the belief that our pets deserve the utmost care,
+          Welcome to Elite Treat For Pets, where our passion for pets and commitment to excellence converge. At the core of our mission is the belief that our pets deserve the utmost care,
           reflected in our premium Pets Bully Sticks.
         </h1>
         <h1 className='sm:w-2/5 sm:text-2xl text-xl sm:mt-6 mt-3 font-extralight' style={{fontFamily: 'inter'}}>

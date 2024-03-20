@@ -1,6 +1,6 @@
 {
     "name": "Elite Treat For Pets",
-    "short_name": "Elite_Treat",
+    "short_name": "Elite Treat For Pets",
     "description": "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     "icons": [
       {
@@ -30,7 +30,7 @@
     "related_applications": [
         {
             "platform": "web",
-            "url": "https://www.zemy-group.com"
+            "url": "https://www.zemy-group.com/"
         }
     ],
     "prefer_related_applications": false
