@@ -52,7 +52,7 @@ export async function generateMetadata () {
     keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
     appleMobileWebAppTitle: 'Elite Treat For Pets - Contact Us',
     openGraph: {
-      title: "Elite Treat For Pets - Contact Us",
+      title: "Contact Us - Elite Treat For Pets",
       description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
       url: "https://www.elitetreatforpets.com",
       siteName: "Elite Treats For Pets",
