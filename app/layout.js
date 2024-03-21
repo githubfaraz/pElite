@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleAnalyticsScript/>
-      <link rel="icon" type="image/svg+xml" href="/Plogo.png"></link>
+      <link rel="icon" type="image/svg+xml" href="/logoP.png"></link>
         
       <body className={inter.className}>{children}
       <Script 
