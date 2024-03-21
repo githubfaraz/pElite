@@ -71,7 +71,7 @@ export async function generateMetadata() {
     },
 }}
 
-
+//<rssapp-wall id="SRjwJEauF0ZESkkJ"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 // export const metadata = {
 //   metadataBase: "https://www.elitetreatforpets.com",
 //   author: "Elite Treat For Pets",
