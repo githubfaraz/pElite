@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
       <link rel="icon" type="image/svg+xml" href="/logoP.png"></link>
     <link rel='dns-prefetch' href='//www.google.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel='dns-prefetch' href='//s.w.org' />
     <link rel="alternate" type="application/rss+xml" title="Elite Treat For Pets &raquo; Feed" href="https://rss.app/feeds/SRjwJEauF0ZESkkJ.xml" />
         
       <body className={inter.className}>{children}
