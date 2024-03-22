@@ -8,6 +8,63 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
 
+  const schemaOrgData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://elitetreatforpets.com/#organization",
+        "name": "Elite Treat For Pets",
+        "sameAs": ["https://www.facebook.com/PetTreat"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://elitetreatforpets.com/#website",
+        "url": "https://elitetreatforpets.com",
+        "name": "Elite Treat For Pets",
+        "publisher": {
+          "@id": "https://elitetreatforpets.com/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://elitetreatforpets.com/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://elitetreatforpets.com",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://elitetreatforpets.com/",
+              "name": "Elite Treat For Pets"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://elitetreatforpets.com/#webpage",
+        "url": "https://elitetreatforpets.com/",
+        "name": "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting. | Elite Treat For Pets",
+        "isPartOf": {
+          "@id": "https://elitetreatforpets.com/#website"
+        },
+        "inLanguage": "en-US",
+        "breadcrumb": {
+          "@id": "https://elitetreatforpets.com/#breadcrumb"
+        }
+      }
+    ]
+  };
+
   return (
     <html lang="en">
       <GoogleAnalyticsScript/>
@@ -15,7 +72,11 @@ export default function RootLayout({ children }) {
     <link rel='dns-prefetch' href='//www.google.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel="alternate" type="application/rss+xml" title="Elite Treat For Pets &raquo; Feed" href="https://rss.app/feeds/SRjwJEauF0ZESkkJ.xml" />
-        
+    <Script
+          id="my-script"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrgData) }}
+        />
       <body className={inter.className}>{children}
       <Script 
           strategy="lazyOnload"
@@ -27,7 +88,8 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
+
 
 export async function generateMetadata() {
   return{
