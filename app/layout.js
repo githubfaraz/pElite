@@ -96,11 +96,11 @@ export async function generateMetadata() {
     metadataBase: new URL("https://www.elitetreatforpets.com"),
     author: "Elite Treat For Pets",
     keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality,beef pizzle sticks,bully stick,what is a bully stick,bully stick holder,what is a bully stick made of,bully stick holder for dogs,bully stick for dogs,dog swallowed bully stick,bully stick made of,what is bully stick made of,what's a bully stick,bully stick ingredients,bully stick calories",
-    title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
+    title: "Elite Treat For Pets",
     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     appleMobileWebAppTitle: 'Elite Treat For Pets',
     openGraph: {
-      title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
+      title: "Elite Treat For Pets",
       description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
       url: "https://www.elitetreatforpets.com",
       siteName: "Elite Treats For Pets",
@@ -128,7 +128,7 @@ export async function generateMetadata() {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Elite Treat For Pets - Premium Natural Dog Chews and Treats",
+      title: "Elite Treat For Pets",
       images: "/logoP.png"
     },
 }}
