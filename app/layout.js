@@ -5,6 +5,47 @@ import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata = {
+  metadataBase: new URL("https://www.elitetreatforpets.com"),
+  author: "Elite Treat For Pets",
+  keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality,beef pizzle sticks,bully stick,what is a bully stick,bully stick holder,what is a bully stick made of,bully stick holder for dogs,bully stick for dogs,dog swallowed bully stick,bully stick made of,what is bully stick made of,what's a bully stick,bully stick ingredients,bully stick calories",
+  title: "Elite Treat For Pets",
+  description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
+  appleMobileWebAppTitle: 'Elite Treat For Pets',
+  openGraph: {
+    title: "Elite Treat For Pets",
+    description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
+    url: "https://www.elitetreatforpets.com",
+    siteName: "Elite Treats For Pets",
+    images: "https://www.elitetreatforpets.com/favicon.ico",
+    locale: "en_US",
+    type: "website",
+  },
+  alternates: {
+    canonical: `https://www.elitetreatforpets.com`,
+    languages: {
+      "en-US": "/",
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Elite Treat For Pets",
+    images: "/logoP.png"
+  },
+}
+
 
 export default function RootLayout({ children }) {
 
@@ -91,47 +132,6 @@ export default function RootLayout({ children }) {
 };
 
 
-export async function generateMetadata() {
-  return{
-    metadataBase: new URL("https://www.elitetreatforpets.com"),
-    author: "Elite Treat For Pets",
-    keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality,beef pizzle sticks,bully stick,what is a bully stick,bully stick holder,what is a bully stick made of,bully stick holder for dogs,bully stick for dogs,dog swallowed bully stick,bully stick made of,what is bully stick made of,what's a bully stick,bully stick ingredients,bully stick calories",
-    title: "Elite Treat For Pets",
-    description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
-    appleMobileWebAppTitle: 'Elite Treat For Pets',
-    openGraph: {
-      title: "Elite Treat For Pets",
-      description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
-      url: "https://www.elitetreatforpets.com",
-      siteName: "Elite Treats For Pets",
-      images: "https://www.elitetreatforpets.com/favicon.ico",
-      locale: "en_US",
-      type: "website",
-    },
-    alternates: {
-      canonical: `https://www.elitetreatforpets.com`,
-      languages: {
-        "en-US": "/",
-      },
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        noimageindex: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Elite Treat For Pets",
-      images: "/logoP.png"
-    },
-}}
 
 //<rssapp-wall id="SRjwJEauF0ZESkkJ"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 // export const metadata = {
