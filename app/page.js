@@ -19,7 +19,7 @@ import 'swiper/swiper-bundle.css';
 export const metadata = {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "Elite Treat For Pets",
-  description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
+  description: "Shop the best selection of all-natural bully sticks at Elite Treat For Pets. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
   appleMobileWebAppTitle: 'Elite Treat For Pets',
   authors: [
     {
@@ -55,7 +55,7 @@ export const metadata = {
     url: `https://www.elitetreatforpets.com/`,
     title: "Elite Treat For Pets",
     image: "https://www.elitetreatforpets.com/logoP.png",
-description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
+    description: "Shop the best selection of all-natural bully sticks at Elite Treat For Pets. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
     siteName: "Elite Treat For Pets",
     images: [
       {

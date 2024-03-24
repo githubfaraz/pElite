@@ -230,7 +230,6 @@ export async function generateMetadata(){
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
 }
-  
 }
 
 
