@@ -16,6 +16,58 @@ import Head from 'next/head';
 
 import 'swiper/swiper-bundle.css';
 
+export const metadata = {
+  metadataBase: new URL("https://www.elitetreatforpets.com"),
+  title: "Elite Treat For Pets",
+  description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
+  appleMobileWebAppTitle: 'Elite Treat For Pets',
+  authors: [
+    {
+      name: "Elite Treat For Pets",
+      url: "https://www.elitetreatforpets.com/",
+    },
+  ],
+  twitter: {
+    card: "summary_large_image",
+    title: "Elite Treat For Pets",
+    images: "https://www.elitetreatforpets.com/logoP.png"
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: `https://www.elitetreatforpets.com/`,
+    languages: {
+      "en-US": "/",
+    },
+  },
+  openGraph: {
+    type: "website",
+    url: `https://www.elitetreatforpets.com/`,
+    title: "Elite Treat For Pets",
+    image: "https://www.elitetreatforpets.com/logoP.png",
+description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
+    siteName: "Elite Treat For Pets",
+    images: [
+      {
+        url: "https://www.elitetreatforpets.com/logoP.png",
+      },
+    ],
+  },
+  assets: "https://www.elitetreatforpets.com/logoP.png",
+  keywords: [
+    "Elite Treat For Pets","Bully Stick","Treats,Pets","BullyStick","Pet Treat","Bully sticks","Dog chews","Natural dog treats","Elite bully sticks","Premium dog chews","Best bully sticks for puppies","Long-lasting dog chews natural","Organic bully sticks for dogs","High-quality beef pizzle sticks"
+  ],
+}
 
 function Home() {
 
@@ -276,59 +328,6 @@ function Home() {
   );
 }
 
-export async function generateMetadata() {
-  return {
-    metadataBase: new URL("https://www.elitetreatforpets.com"),
-    title: "Elite Treat For Pets",
-    description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
-    appleMobileWebAppTitle: 'Elite Treat For Pets',
-    authors: [
-      {
-        name: "Elite Treat For Pets",
-        url: "https://www.elitetreatforpets.com/",
-      },
-    ],
-    twitter: {
-      card: "summary_large_image",
-      title: "Elite Treat For Pets",
-      images: "https://www.elitetreatforpets.com/logoP.png"
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        noimageindex: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
-    alternates: {
-      canonical: `https://www.elitetreatforpets.com/`,
-      languages: {
-        "en-US": "/",
-      },
-    },
-    openGraph: {
-      type: "website",
-      url: `https://www.elitetreatforpets.com/`,
-      title: "Elite Treat For Pets",
-      image: "https://www.elitetreatforpets.com/logoP.png",
-  description: "Shop the best selection of all-natural bully sticks at Elite Bully Sticks. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
-      siteName: "Elite Treat For Pets",
-      images: [
-        {
-          url: "https://www.elitetreatforpets.com/logoP.png",
-        },
-      ],
-    },
-    assets: "https://www.elitetreatforpets.com/logoP.png",
-    keywords: [
-      "Elite Treat For Pets","Bully Stick","Treats,Pets","BullyStick","Pet Treat","Bully sticks","Dog chews","Natural dog treats","Elite bully sticks","Premium dog chews","Best bully sticks for puppies","Long-lasting dog chews natural","Organic bully sticks for dogs","High-quality beef pizzle sticks"
-    ],
-  };
-}
+
 
 export default Home;
