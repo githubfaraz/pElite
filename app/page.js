@@ -74,7 +74,11 @@ function Home() {
   return (
     <>
     <Head>
-      <title>Elite Treat For Pets</title>
+        <title>
+        
+        Elite Treat For Pets
+        
+        </title>
       <link rel="icon" type="image/svg+xml" href="/Plogo.png"></link>
     </Head>
     <div>
