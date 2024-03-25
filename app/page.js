@@ -35,7 +35,8 @@ export const metadata= async() => {
     url: `https://www.elitetreatforpets.com/`,
     title: "Elite Treat For Pets",
     image: "https://www.elitetreatforpets.com/logoP.png",
-    description: "Shop the best selection of all-natural bully sticks at Elite Treat For Pets. Keep your dog healthy and happy with our high-quality, digestible, and long-lasting chews.",
+    keyword: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
+    description: "At Elite Treat for Pets, we manufacture premium-quality Bully Sticks. Sourced from 100% beef, our all-natural, long-lasting chews are designed to promote your dog's dental health.",
     siteName: "Elite Treat For Pets",
     images: [
       {
