@@ -33,7 +33,7 @@ const FeaturedProducts = async() => {
             Our Featured Products
         </h1>
 
-        <div className="flex sm:flex-row flex-col space-y-3 md:space-x-6 space-x-0 sm:space-y-0 align-middle justify-between pt-4 sm:px-9 px-20">
+        <div className="flex sm:flex-row flex-col space-y-3 space-x-0 lg:space-x-3 md:space-x-6  sm:space-y-0 align-middle justify-between pt-4 sm:px-9 px-20">
             {products_featured.map((product)=> (
               // <ProductCard key={product._id} product={product}/>
               <Link key={product._id} href={`/products/${product._id}`}>

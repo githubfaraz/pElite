@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="flex flex-col space-y-0 " >
-        <div className="flex flex-row lg:space-x-48 lg:ml-96 lg:py-10 justify-evenly lg:justify-center py-4 space-x-4 lg:mx-11" >
+        <div className="flex flex-row lg:space-x-36 justify-end lg:ml-60 lg:py-10  lg:justify-center py-4 space-x-4 lg:mx-7" >
         <Image
               src='/logoP.png'
               alt="phoneCall"
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <hr style={{height: '4px'}}/>
-        <div className="flex flex-row lg:space-x-40 md:space-x-32 space-x-4 justify-center lg:justify-normal lg:ml-96 ml-4 py-6 lg:py-12">
+        <div className="flex flex-row lg:space-x-20 md:space-x-32 space-x-4 justify-center lg:justify-center lg:ml-96 ml-4 py-6 lg:py-12">
           <div className="flex flex-col sm:space-y-2 space-y-1">
             <h5 className="text-orange-500 font-bold text-sm lg:text-base">Our Products</h5>
             <Link href='/products' className="ml-2 text-sm lg:text-base">Bully Sticks</Link>

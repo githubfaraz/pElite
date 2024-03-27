@@ -3,19 +3,23 @@ import "./globals.css";
 import Script from 'next/script';
 import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
 
 export const metadata = {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
   author: "Elite Treat For Pets",
-  keyword: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
+  keywords: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
   title: "Elite Treat For Pets",
   description: "At Elite Treat for Pets, we manufacture premium-quality Bully Sticks. Sourced from 100% beef, our all-natural, long-lasting chews are designed to promote your dog's dental health.",
   appleMobileWebAppTitle: 'Elite Treat For Pets',
   openGraph: {
     title: "Elite Treat For Pets",
     description: "At Elite Treat for Pets, we manufacture premium-quality Bully Sticks. Sourced from 100% beef, our all-natural, long-lasting chews are designed to promote your dog's dental health.",
-    keyword: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
+    keywords: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treat For Pets",
     images: "https://www.elitetreatforpets.com/favicon.ico",
@@ -119,7 +123,7 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrgData) }}
         />
-      <body className={inter.className}>{children}
+      <body className={inter.variable}>{children}
       <Script 
           strategy="lazyOnload"
           src="https://embed.tawk.to/65dc7ab79131ed19d971b513/1hnijunq3"
@@ -134,41 +138,3 @@ export default function RootLayout({ children }) {
 
 
 
-//<rssapp-wall id="SRjwJEauF0ZESkkJ"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-// export const metadata = {
-//   metadataBase: "https://www.elitetreatforpets.com",
-//   author: "Elite Treat For Pets",
-//   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
-//   title:{
-//     default: "Elite Treat For Pets",
-//     template: '%s - Elite Treat For Pets'
-//   },
-//   description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
-//   appleMobileWebAppTitle: 'Elite Treat For Pets',
-//   openGraph: {
-//     title: "Elite Treat For Pets",
-//     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
-//     url: "https://www.elitetreatforpets.com",
-//     siteName: "Elite Treats For Pets",
-//     images: "https://www.elitetreatforpets.com/logoP.webp",
-//     locale: "en_US",
-//     type: "website",
-//   },
-//   robots: {
-//     index: true,
-//     follow: true,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: true,
-//       "max-video-preview": -1,
-//       "max-image-preview": "large",
-//       "max-snippet": -1,
-//     },
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "@PetsEliteTreat",
-//     images: "/logoP.png"
-//   },
-// };

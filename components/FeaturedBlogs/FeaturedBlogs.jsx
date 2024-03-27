@@ -140,9 +140,9 @@ const FeaturedBlogs = () => {
     ];
 
   return (
-<div className='sm:my-0 md:my-8 lg:my-0'>
+<div className='sm:my-0 md:my-8 lg:my-0 mx-auto'>
     
-        <div className="hidden lg:flex flex-row space-x-6 py-8 ">
+        <div className="hidden lg:flex flex-row space-x-12 lg:space-y-14 lg:items-center lg:align-middle py-8 flex-wrap mx-auto">
             {blogs_featured.map((blog)=> <div key={blog._id} style={{ position: 'relative', display: 'inline-block' }}>
                 <Image
                   src={blog.image}
@@ -164,7 +164,7 @@ const FeaturedBlogs = () => {
             
         </div>
     
-        <div className="lg:hidden block h-full">
+        <div className="lg:hidden block h-full mx-auto">
             <SwiperComponent data={blogs_featured}/>
         </div>
 </div>

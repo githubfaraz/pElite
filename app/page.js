@@ -35,7 +35,7 @@ export const metadata= async() => {
     url: `https://www.elitetreatforpets.com/`,
     title: "Elite Treat For Pets",
     image: "https://www.elitetreatforpets.com/logoP.png",
-    keyword: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
+    keywords: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
     description: "At Elite Treat for Pets, we manufacture premium-quality Bully Sticks. Sourced from 100% beef, our all-natural, long-lasting chews are designed to promote your dog's dental health.",
     siteName: "Elite Treat For Pets",
     images: [
@@ -61,46 +61,49 @@ function Home() {
         {/* <BullyStick /> */}
         {/* <MainNavbar /> */}
         <Navb linkActive='1'/>
-      <div className="bg-orange-300 sm:mx-10 mx-2 sm:py-10 sm:my-8">
-        <h6 className="text-6xl mb-23 lg:w-4/6 w-full sm:mb-10 mb-5 text-amber-600 font-bold sm:text-7xl font-playfair_display leading-2xl sm:leading-7xl" >Buy for your <span className="text-amber-900">pet</span> whatever is needed</h6>
-        <p className="lg:w-3/5 mt-2 sm:text-3xl text-xl sm:mb-6 mb-5 font-light text-amber-900 sm:leading-8xl leading-snug font-open_sans w-full" style={{
-              fontFamily: 'open_sans'
-        }}>
-          Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups
-        </p>
-        <ProductsButton buttonName={'Browse All products'}/>
-
+      <div className="flex flex-row flex-wrap w-full">
+        <div className="bg-orange-300 sm:mx-10 mx-2 sm:py-10 sm:my-8 lg:w-5/6">
+          <h6 className="text-6xl mb-23 lg:w-4/6 w-full sm:mb-10 mb-5 text-amber-600 font-bold sm:text-7xl font-playfair_display leading-2xl sm:leading-7xl" >Buy for your <span className="text-amber-900">pet</span> whatever is needed</h6>
+          <p className="lg:w-3/5 mt-2 sm:text-3xl text-xl sm:mb-6 mb-5 font-light text-amber-900 sm:leading-8xl leading-snug font-open_sans w-full" style={{
+                fontFamily: 'open_sans'
+          }}>
+            Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups
+          </p>
+          <ProductsButton buttonName={'Browse All products'}/>
         
-      </div>
-      {/* images */}
-      <div className="absolute bg-orange-400 lg:block hidden" style={{
-          borderRadius: '50%',
-          width: '30rem',
-          height: '30rem',
-          left: '56%',
-          bottom: '4rem',
-          // marginLeft: '10rem'
-      }}>
-      <Image
-          src='/bankt.png'
-          alt="Bully Stick"
-          width={300}
-          height={320}
-          style={{
-            borderWidth: '2px'
-          }}
-          className="w-52 h-60 absolute bottom-52 rounded-xl left-5 border-orange-400"
-        />
-        <Image
-          src='/hero-2.png'
-          alt="Bully Stick"
-          width={100}
-          height={96}
-          style={{
-            borderWidth: '2px'
-          }}
-          className="bottom-0 absolute left-60 top-52  w-48 h-60 rounded border-orange-400"
-        />
+        </div>
+        {/* images */}
+        <div>
+          <div className="absolute bg-orange-400 lg:block hidden" style={{
+              borderRadius: '50%',
+              width: '30rem',
+              height: '30rem',
+              left: '56%',
+              // bottom: '4rem',
+              // marginLeft: '10rem'
+          }}>
+          <Image
+              src='/bankt.png'
+              alt="Bully Stick"
+              width={300}
+              height={320}
+              style={{
+                borderWidth: '2px'
+              }}
+              className="w-52 h-60 absolute bottom-52 rounded-xl left-5 border-orange-400"
+            />
+            <Image
+              src='/hero-2.png'
+              alt="Bully Stick"
+              width={100}
+              height={96}
+              style={{
+                borderWidth: '2px'
+              }}
+              className="bottom-0 absolute left-60 top-52  w-48 h-60 rounded border-orange-400"
+            />
+          </div>
+        </div>
       </div>
 
       </div>
@@ -116,7 +119,7 @@ function Home() {
             width={280}
             className="mx-auto"
           />
-          <h4 className="text-amber-700 text-xl font-normal ">Experience the Gold Standard with Our FDA-Approved Bully Sticks</h4>
+          <h4 className="text-amber-700 text-xl font-normal ">Experience the Gold Standard of our bully sticks manufactured at US-FDA registered facility</h4>
           <p className="sm:w-3/4 w-full mt-4 mx-auto text-lg">Every pet owner wants the best for their furry friend, and that&apos;s why we leave no stone unturned when it comes to quality.
           Our bully sticks are not just any treats; they are a promise of safety and excellence</p>
           {/* <button>Learn More</button> */}
