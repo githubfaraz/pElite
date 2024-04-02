@@ -242,7 +242,7 @@ function Home() {
 
 
       {/* Tips Section */}
-      <div className="h-max sm:py-10 sm:px-9 py-5 px-2">
+      <div className="h-max sm:py-10 sm:px-9 py-5 px-2 w-full">
         <h3  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Treats Bully Sticks Production</h3>
         <h3  className="text-center text-xl font-light sm:w-2/4 w-full text-amber-700 mx-auto" style={{fontFamily: 'robot'}}>Pet treats packed with nutritious ingredients,vitamins and supplements to help dogs</h3>
         {/* <div className="hidden sm:flex flex-row space-x-6 py-8">
