@@ -295,7 +295,7 @@ function Home() {
       </div>
       {/* Contact Us section */}
 
-      <Footer />
+      <Footer/>
 
       <div>
 
