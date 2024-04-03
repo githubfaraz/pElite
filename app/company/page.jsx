@@ -36,11 +36,10 @@ export async function generateMetadata() {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "Elite Treat For Pets - Company",
   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
-  description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
   appleMobileWebAppTitle: 'Elite Treat For Pets',
   openGraph: {
     title: "Elite Treat For Pets - Company",
-    description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
+    description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
     images: "https://www.elitetreatforpets.com/logoP.webp",

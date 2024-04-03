@@ -55,7 +55,7 @@ export async function generateMetadata() {
   appleMobileWebAppTitle: 'Elite Treat For Pets - Our Products',
   openGraph: {
     title: "Elite Treat For Pets - Our Products",
-    description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
+    description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
     images: "https://www.elitetreatforpets.com/logoP.webp",
