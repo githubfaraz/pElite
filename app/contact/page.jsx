@@ -47,7 +47,7 @@ const Page = () => {
 export async function generateMetadata () {
   return{
     metadataBase: new URL("https://www.elitetreatforpets.com"),
-    title: "Elite Treat For Pets - Contact Us",
+    title: "Elite Treat For Pets | Contact Us",
     description: "Have questions about our bully sticks or need assistance with your order? Contact Elite Bully Sticks for dedicated support and quick responses to all your inquiries.",
     keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
     appleMobileWebAppTitle: 'Elite Treat For Pets - Contact Us',
