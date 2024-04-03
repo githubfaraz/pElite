@@ -35,7 +35,6 @@ export const metadata= async() => {
     url: `https://www.elitetreatforpets.com/`,
     title: "Elite Treat For Pets",
     image: "https://www.elitetreatforpets.com/logoP.png",
-    keywords: "Elite Treat For Pets,Pets Elite,Treat For Pets,Elite Treats, Treat Pets,Pets Treat,Pets Elite Treat,Bully Stick,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
     siteName: "Elite Treat For Pets",
     images: [
       {
