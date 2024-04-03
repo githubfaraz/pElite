@@ -5,15 +5,14 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="flex flex-col space-y-0 " >
-        <div className="flex flex-row lg:space-x-36 justify-end lg:ml-60 lg:py-10  lg:justify-center py-4 space-x-4 lg:mx-7" >
+        <div className="flex flex-row lg:space-x-36 justify-end lg:ml-60 lg:py-6  lg:justify-center py-4 space-x-4 lg:mx-7" >
         <Image
               src='/logoP.png'
               alt="phoneCall"
               width={90}
               height={50}
-              className="p-2 lg:w-24 lg:h-24 w-16 h-16"
+              className="p-2 lg:w-24 lg:h-24 w-16 h-16 hidden sm:block"
             />
-          
           <div className='flex flex-col sm:flex-row lg:space-x-3 sm:space-y-0 w-full space-y-4'>
             <div className="flex flex-row space-x-2 justify-center align-middle w-full">
               <Image
@@ -56,7 +55,7 @@ const Footer = () => {
         </div>
 
         <hr style={{height: '4px'}}/>
-        <div className="flex flex-row lg:space-x-20 md:space-x-32 space-x-4 justify-center lg:justify-center lg:ml-96 ml-4 py-6 lg:py-12">
+        <div className="flex flex-row lg:space-x-20 md:space-x-32 space-x-4 justify-center lg:justify-center lg:ml-96 ml-4 py-6 lg:py-2">
           <div className="flex flex-col sm:space-y-2 space-y-1">
             <h5 className="text-orange-500 font-bold text-sm lg:text-base">Our Products</h5>
             <Link href='/products' className="ml-2 text-sm lg:text-base">Bully Sticks</Link>
@@ -64,7 +63,6 @@ const Footer = () => {
           <div className="flex flex-col space-y-2">
             <h5 className="text-orange-500 font-bold text-sm lg:text-lg">Community</h5>
             <Link href='/about' className="ml-2 text-sm lg:text-base">About Us</Link>
-            {/* <Link href='/products' className="ml-2 text-sm sm:text-base">Our Blogs</Link> */}
           </div>
           <div className="flex flex-col space-y-2">
             <h5 className="text-orange-500 font-bold text-sm lg:text-lg">Get in Touch</h5>

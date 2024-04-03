@@ -75,7 +75,7 @@ const FeaturedBlogs = () => {
     const blogs_featured = [
       {
         _id: "65f813000f2c638239fa5a00",
-        title: "The Benefits of Bully Sticks: A Comprehensive Guide",
+        title: "The Benefits of Bully Sticks:Comprehensive Guide",
         image: "/Blog1.jpg",
         introduction: "Bully sticks, also known as pizzle sticks, have gained popularity as a natural chew treat for dogs...",
         subtitles: [
@@ -99,7 +99,7 @@ const FeaturedBlogs = () => {
       },
       {
         _id: "65f813000f2c638239fa5a01",
-        title: "Why Quality Matters: The Importance of Premium Ingredients in Bully Sticks",
+        title: "The Importance of Premium Ingredients in Bully Sticks",
         image: "/Blog1.jpg",
         introduction: "Bully sticks have emerged as a popular choice among dog owners seeking a natural, long-lasting chew for their pets. However, the quality of ingredients used in these treats significantly impacts their safety and efficacy. This article explores the importance of opting for bully sticks made from premium ingredients.",
         subtitles: [
@@ -119,7 +119,7 @@ const FeaturedBlogs = () => {
       },
       {
         _id: "65f813000f2c638239fa5a02",
-        title: "Bully Stick Buyer's Guide: What to Look for When Purchasing Bully Sticks",
+        title: "What to Look for When Purchasing Bully Sticks",
         image: "/Blog3.jpg",
         introduction: "Choosing the right bully sticks for your dog can be overwhelming given the variety of options available on the market. However, understanding what to look for when purchasing bully sticks can help ensure that you select a safe, high-quality product that meets your pet's needs. In this buyer's guide, we'll outline essential factors to consider to make an informed decision when buying bully sticks for your furry friend.",
         subtitles: [
@@ -142,8 +142,8 @@ const FeaturedBlogs = () => {
   return (
 <div className='sm:my-0 md:my-8 lg:my-0 mx-auto'>
     
-        <div className="hidden lg:flex flex-row space-x-12 lg:space-y-14 lg:items-center lg:align-middle py-8 flex-wrap mx-auto">
-            {blogs_featured.map((blog)=> <div key={blog._id} style={{ position: 'relative', display: 'inline-block' }}>
+        <div className="hidden lg:flex flex-row space-x-28 lg:space-y-0 lg:items-center lg:align-middle py-8 md:flex-wrap lg:flex-nowrap">
+            {blogs_featured.map((blog)=> <div key={blog._id} style={{ position: 'relative', display: 'inline-block' }} className='w-4/12'>
                 <Image
                   src={blog.image}
                   alt="dog-eating-bully-stick"
@@ -153,11 +153,11 @@ const FeaturedBlogs = () => {
                   className="rounded-ss-2xl mx-auto"
     
                 />
-                <Link href={`/blogs/${blog._id}`} className="flex flex-row space-x-3 items-center justify-center absolute top-0 left-0 ml-36 mt-80 text-center bg-orange-700 hover:bg-orange-500 transition-all p-2 rounded-lg text-white">
+                <Link href={`/blogs/${blog._id}`} className="flex flex-row space-x-3 items-center justify-center absolute top-72 left-28 lg:left-24 md:left-14 text-center bg-orange-700 hover:bg-orange-500 transition-all p-2 rounded-lg text-white">
                 <IoEye size={20}/>
                 <h2 className="block font-medium" style={{ fontFamily: 'poppins' }}>See more</h2>
                 </Link>
-                <h4 className="mt-6 text-center text-2xl text-amber-700 font-semibold w-96"  style={{fontFamily: 'robot'}}>{blog.title}</h4>
+                <h4 className="mt-6 text-center text-2xl text-amber-700 font-semibold "  style={{fontFamily: 'robot'}}>{blog.title}</h4>
                 {/* <h3 className="mt-3 w-96 text-center font-light text-lg"  style={{fontFamily: 'lora'}}>Learn the steps our Bully sticks Production go through before reaching the belly of your Pet</h3> */}
               </div> 
               )}

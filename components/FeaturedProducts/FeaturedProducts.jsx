@@ -53,8 +53,13 @@ const FeaturedProducts = async() => {
           {/* <h1 className="rounded-full py-2 px-6 bg-amber-800 text-white w-36">Bully Sticks</h1> */}
         </div>
 
-        <div className="mt-8 mb-10 md:ml-60 lg:ml-7xl " >
-          <ProductsButton buttonName={'See more'}/>
+        <div className="mt-8 mb-10 md:ml-60 lg:ml-7xl" >
+          {/* <ProductsButton buttonName={'See more'}/> */}
+          <Link href='/products'>
+          <button  className='rounded-full py-2 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 w-full' style={{fontFamily: "poppins"}}>
+            See more
+          </button>
+        </Link>
         </div>
       </div>   
   )
