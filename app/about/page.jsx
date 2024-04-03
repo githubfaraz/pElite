@@ -194,7 +194,6 @@ export async function generateMetadata(){
   return {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "About Us | Elite Treat For Pets",
-  description: "Discover the story behind Elite Bully Sticks and why we're dedicated to providing premium, all-natural bully sticks for dogs that promote dental health and satisfaction. Learn more about our commitment to quality and pet wellness.",
   keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
   appleMobileWebAppTitle: 'About Us | Elite Treat For Pets',
   openGraph: {
