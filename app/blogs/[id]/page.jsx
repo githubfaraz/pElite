@@ -24,7 +24,6 @@ export async function generateMetadata() {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "Elite Treat For Pets - Blogs",
   description: "Explore our Elite Bully Sticks blog for expert insights into dog care, nutrition tips, and the benefits of all-natural bully sticks for your canine's health and happiness.",
-  keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
     appleMobileWebAppTitle: 'Elite Treat For Pets - Blogs',
     openGraph: {
       title: "Elite Treat For Pets - Blogs",

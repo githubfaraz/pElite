@@ -249,7 +249,6 @@ const page = () => {
 
 export const metadata = {
     title: "Elite Treat For Pets - Blogs",
-    keyword: "Elite Treat For Pets,Bully Stick,Treats,Pets,BullyStick,Pet Treat,Bully sticks,Dog chews,Natural dog treats,Elite bully sticks,Premium dog chews,Best bully sticks for puppies,Long-lasting dog chews natural,Organic bully sticks for dogs,High-quality beef pizzle sticks",
   appleMobileWebAppTitle: 'Elite Treat For Pets - Blogs',
   openGraph: {
     title: "Elite Treat For Pets - Blogs",
