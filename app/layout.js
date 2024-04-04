@@ -113,8 +113,8 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <GoogleAnalyticsScript/>
-      <link rel="icon" type="image/svg+xml" href="/logoP.png"></link>
+    <GoogleAnalyticsScript/>
+    <link rel="icon" type="image/svg+xml" href="/logoP.png"></link>
     <link rel='dns-prefetch' href='//www.google.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel="alternate" type="application/rss+xml" title="Elite Treat For Pets &raquo; Feed" href="https://rss.app/feeds/SRjwJEauF0ZESkkJ.xml" />
@@ -123,14 +123,14 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrgData) }}
         />
-        <Script id="google-tag-manager" dangerouslySetInnerHTML={{
+        <Script id="google-tag-manager" strategy="afterInteractive" dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-57NWNHT8');`,
           }}/>
-      <body className={inter.variable}>{children}
+      <body>{children}
       <Script 
           strategy="lazyOnload"
           src="https://embed.tawk.to/65dc7ab79131ed19d971b513/1hnijunq3"
