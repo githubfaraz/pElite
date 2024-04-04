@@ -53,7 +53,7 @@ const page = () => {
               height={700}
               className='w-11/12 h-3/12 relative'
             />
-            <div className='absolute'>
+            <div className='absolute top-0'>
               <p>Attending of the Expo</p>
             </div>
           </div>
