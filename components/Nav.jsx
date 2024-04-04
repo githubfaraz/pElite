@@ -77,7 +77,7 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
           </Link>
           <button
             type="button"
-            className="  p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block "
+            className="p-2 text-primary-500 hover:text-primary-700 focus:outline-none sm:hidden block "
             onClick={openSidebar}
           >
             <FaBars className="w-8 h-8 " style={{ color: 'brown' }} />
@@ -87,7 +87,7 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
         {links.map((link) => (
           <li key={link.id}>
             <Link href={link.url}>
-              <button className={`text-amber-700 hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
+              <button className={`text-amber-600 hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
                 {link.text}
               </button>
             </Link>

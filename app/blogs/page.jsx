@@ -9,6 +9,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
+      {/* Header */}
       <div style={{ position: 'relative', display: 'inline-block' }} >
         <Image
           src='/unit-3.jpg'
@@ -26,19 +27,42 @@ const page = () => {
           Our Blogs
         </div>
       </div>
+      {/* Header */}
 
+      {/* Search input */}
         <div className='block sm:hidden'>
                     <SearchInput/>
         </div>
+      {/* Search input */}
 
+      {/* Blog section */}
+      {/* <Image
+            alt='bankt'
+            src='/bankt.png'
+            width={600}
+            height={100}
+            className='w-8/12 h-72'
+          /> */}
       <div className='flex sm:flex-row flex-col sm:space-x-2 sm:my-10 my-5 sm:mx-10 '>
         <div className='sm:w-3/4 w-full sm:mx-0 mx-2'>
+          <div>
+            <Image
+              alt='bankt'
+              src='/Blog3.jpg'
+              width={600}
+              height={700}
+              className='w-11/12 h-3/12 relative'
+            />
+            <div className='absolute'>
+              <p>Attending of the Expo</p>
+            </div>
+          </div>
             <div className='flex flex-col space-y-5 '>
                 {/* Recommended */}
                 <div className='flex flex-row space-x-2'>
                     <div className="flex flex-col align-middle space-y-3  bg-white sm:w-72 w-36 sm:p-6 p-2 rounded-md shadow-xl sm:h-96  border hover:shadow-sm " style={{borderWidth: '1px'}}>
                         <Image
-                       src='/unit.jpg'
+                        src='/unit.jpg'
                         alt="bully stick"
                         height={200}
                         width={300}
@@ -156,61 +180,13 @@ const page = () => {
             </div>
 
         </div>
+      {/* Blog section */}
 
+        {/* search input and Popular blogs */}
         <div className='sm:w-1/4 w-full px-5'>
-                {/* <div className='py-4 px-6 border-2 rounded-lg border-gray-700 sm:flex hidden flex-row space-x-52'>
-                    <h1 className='text-lg' style={{fontFamily: 'lora'}}>Search</h1>
-                    <Image
-                        src='/magnifying.svg'
-                        width={20}
-                        height={50}
-                        alt='search-bully-stick'
-                    />
-                </div> */}
-
                 <div className='sm:block hidden'>
                     <SearchInput/>
                 </div>
-
-                
-                <div className='mt-6'>
-                    <h2 className='border-b-8 text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Recommended</h2>
-                    <div className='mt-4 space-y-4 text-xl '>
-                       <div className='flex flex-row space-x-2  justify-between sm:p-2 px-2 py-2 border-2 rounded-md border-gray-300' style={{borderWidth: '1px'}}>
-                        <Image
-                            src='/unit-3.jpg'
-                            width={150}
-                            height={100}
-                            alt='bully-sticks-article'
-                        />
-                        <h3 className='font-semibold text-xl' style={{fontFamily: 'roboto'}}>Bully Sticks Production</h3>
-                       </div>
-                    </div>
-
-                    <div className='mt-4 space-y-4 text-xl'>
-                       <div className='flex flex-row space-x-2 p-2 border-2 rounded-md border-gray-300 ' style={{borderWidth: '1px'}}>
-                        <Image
-                            src='/unit.jpg'
-                            width={150}
-                            height={100}
-                            alt='bully-sticks-article'
-                        />
-                        <h3 className='font-semibold' style={{fontFamily: 'roboto'}}>Bully Sticks Production</h3>
-                       </div>
-                    </div>
-                    <div className='mt-4 space-y-4 text-xl'>
-                       <div className='flex flex-row space-x-2 p-2 border-2 rounded-md border-gray-300' style={{borderWidth: '1px'}}>
-                        <Image
-                            src='/unit-3.jpg'
-                            width={150}
-                            height={100}
-                            alt='bully-sticks-article'
-                        />
-                        <h3 className='font-semibold' style={{fontFamily: 'roboto'}}>Bully Sticks Production</h3>
-                       </div>
-                    </div>
-                </div>
-
                 <div className='mt-6'>
                     <h2 className='border-b-8 text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h2>
                     <div className='mt-4 space-y-4 text-xl' >
@@ -232,12 +208,11 @@ const page = () => {
                             height={100}
                             alt='bully-sticks-article'
                         />
-                        <h3 className='font-semibold' style={{fontFamily: 'roboto'}}>Bully Sticks Production</h3>
-                       </div>
+                        <h3 className='font-semibold' style={{fontFamily: 'roboto'}}>Bully Stick Production</h3>
+                      </div>
                     </div>
                 </div>
-
-                
+        {/* search input and Popular blogs */}
         </div>
       </div>
       <br />

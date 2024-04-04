@@ -87,9 +87,6 @@ function BlogDetails ({ params })  {
 
           </div>
         </div>
-
-
-
       </div>
       </div>
      {/* )}  */}

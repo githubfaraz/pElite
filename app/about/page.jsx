@@ -1,16 +1,9 @@
-import Footer from '@/components/Footer'
-import MainNavbar from '@/components/MainNavbar'
-import Navb from '@/components/Navb'
-import Navbar from '@/components/Navbar'
-import Sidebar from '@/components/Sidebar'
-import SwiperComp from '@/components/CompanySlider'
-import SwiperComponent from '@/components/SwiperComponent'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import CompanySlider from '@/components/CompanySlider'
 import CompanyCard from '@/components/CompanyCard'
+import CompanySlider from '@/components/CompanySlider'
+import Footer from '@/components/Footer'
 import MapWithNoSSR from '@/components/MapWithNoSSR'
+import Navb from '@/components/Navb'
+import Image from 'next/image'
 
 const page = () => {
   const companies = [
@@ -151,7 +144,6 @@ const page = () => {
       
       <div className='mx-10'>
         {/* <h3 className='text-center sm:text-4xl text-3xl font-bold text-orange-500' style={{fontFamily: 'playfair_display'}}>Our Companies</h3> */}
-
         <div style={{ borderWidth: '1px' }} className="text-center sm:w-2/5 border-gray-300  rounded-md py-2 px-2 mx-auto my-5">
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h4>
                   <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-full "  style={{fontFamily: 'inter'}}>ZEMY Group LLC is a holding company with its headquarters in NY. It has many subsidiaries which encompasses many market segments including healthcare, daily commodities, pet food, generic drugs, medical diagnostics, real estate, hospital management consultancy</h4>
