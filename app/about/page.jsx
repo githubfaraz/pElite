@@ -187,6 +187,7 @@ export async function generateMetadata(){
   metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "About Us | Elite Treat For Pets",
   appleMobileWebAppTitle: 'About Us | Elite Treat For Pets',
+  description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
   openGraph: {
     title: "About Us | Elite Treat For Pets",
     description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
