@@ -28,7 +28,7 @@ const PopularBlogs = () => {
       {blogs.slice(0,3).map((blog)=>{return(
         // <div >
             <Link href={`blogs/${blog._id}`} key={blog._id} className='mt-4 space-y-4 text-lg ' >
-                       <div className='flex flex-row space-x-2 p-2 hover:shadow-xl border-2 rounded-md border-gray-300' style={{borderWidth: '1px'}}>
+                      <div className='flex flex-row space-x-2 p-2 hover:shadow-xl border-2 rounded-md border-gray-300' style={{borderWidth: '1px'}}>
                         <Image
                             src={blog.image}
                             width={150}
@@ -36,7 +36,7 @@ const PopularBlogs = () => {
                             alt='bully-sticks-article'
                         />
                         <h3 className='font-normal w-full' style={{fontFamily: 'roboto'}}>{blog.title}</h3>
-                       </div>
+                      </div>
                     </Link>
         // </div>
       )})}

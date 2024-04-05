@@ -27,7 +27,7 @@ const Blogs = () => {
     <div className='flex flex-row flex-wrap space-x-2 mx-auto space-y-3 align-top'>
       {blogs.map((blog)=>(
         <Link key={blog._id} href={`/blogs/${blog._id}`}>
-        <div className="flex flex-col align-middle space-y-3  bg-white sm:w-64 w-36 sm:p-6 p-2 rounded-md shadow-xl sm:h-96  border hover:shadow-sm " style={{borderWidth: '1px'}}>
+        <div className="flex flex-col align-middle space-y-3  bg-white sm:w-64 w-36 sm:p-6 p-2 max-h-11/12 rounded-md shadow-xl sm:h-96  border hover:shadow-sm " style={{borderWidth: '1px'}}>
             <Image
             src={blog.image}
             alt="bully stick"

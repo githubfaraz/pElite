@@ -62,7 +62,7 @@ const page = () => {
               src='/expo1.jpeg'
               width={600}
               height={700}
-              className=' sm:w-full h-2/12'
+              className='sm:w-full h-2/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-sm sm:text-2xl font-bold text-white border-l-8 border-amber-400 left-2 sm:left-12 pl-4'>
               <p>Latest Trends in Dog Treats Unveiled at Global Pet Expo</p>
