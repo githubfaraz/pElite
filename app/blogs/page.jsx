@@ -34,7 +34,7 @@ const page = () => {
 
       <div className='flex sm:flex-row flex-col sm:space-x-2 sm:my-10 my-5 sm:mx-10 align-middle '>
         
-        <div className='sm:w-9/12  sm:mx-0 mx-2'>
+        <div className='sm:w-9/12 w-full sm:mx-0 mx-2'>
         <h1 className='border-b-2 w-32 border-black'>Trending</h1>
         <hr />
         <div>
@@ -44,7 +44,7 @@ const page = () => {
               src='/expo.jpg'
               width={900}
               height={900}
-              className='w-72  sm:w-full h-3/12'
+              className='w-screen sm:w-full h-3/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-lg sm:text-4xl font-bold text-white border-l-8 border-amber-400 left-3 sm:left-12 pl-4'>
               <p>Our Journey to Global Pet Expo and the Story Behind Our Bully Sticks</p>
@@ -62,7 +62,7 @@ const page = () => {
               src='/expo1.jpeg'
               width={600}
               height={700}
-              className='w-32 sm:w-full h-2/12'
+              className=' sm:w-full h-2/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-sm sm:text-2xl font-bold text-white border-l-8 border-amber-400 left-2 sm:left-12 pl-4'>
               <p>Latest Trends in Dog Treats Unveiled at Global Pet Expo</p>
@@ -79,7 +79,7 @@ const page = () => {
               src='/expo2.jpeg'
               width={600}
               height={700}
-              className='w-32 sm:w-full h-3/12'
+              className=' sm:w-full h-3/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-sm sm:text-2xl font-bold text-white border-l-8 border-amber-400 left-2 sm:left-12 pl-4'>
               <p>What Experts at Global Pet Expo are Saying About Dog Nutrition</p>
