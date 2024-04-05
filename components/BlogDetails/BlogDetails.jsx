@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import Navb from '../Navb';
 import Image from 'next/image'
+import PopularBlogs from '../PopularBlogs/PopularBlogs';
+import { FaFacebook, FaTiktok, FaTwitter } from 'react-icons/fa';
 
 function BlogDetails ({ params })  {
   const [data, setData] = useState(null);
@@ -10,7 +12,7 @@ function BlogDetails ({ params })  {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`https://pets-elite-b.fly.dev/api/blogs/${params.id}`);
+        const res = await fetch(`https://pets-elite-backend-wvj4.vercel.app/api/blogs/${params.id}`);
         if (!res.ok) {
           throw new Error('Error fetching data');
         }
@@ -44,7 +46,7 @@ function BlogDetails ({ params })  {
   if (!data) return <div>Error: Data could not be fetched</div>;
 
   return (
-    <div>
+    <div className='flex flex-row space-y-3'>
     {/* {blogContent && ( */}
       <div>
         <div style={{ position: 'relative', display: 'inline-block' }} >
@@ -66,8 +68,8 @@ function BlogDetails ({ params })  {
       </div>
 
       {/* body */}
-      <div className='sm:mx-14 mx-4 sm:my-10 my-5  flex-col space-y-3'>
-        <div className='sm:w-full w-full'>
+      <div className='sm:mx-14 mx-4 sm:my-10 my-5  space-y-3 sm:flex-row sm:space-y-0 sm:space-x-3'>
+        <div className='sm:w-full w-full flex flex-col space-y-2 sm:flex-row sm:space-x-2'>
           <div>
             <Image 
               src={data.image}
@@ -84,11 +86,28 @@ function BlogDetails ({ params })  {
             <p>{data.content[index]}</p>
           </div>
         ))}
-
           </div>
+
+        <div className='sm:w-2/6  w-full px-5'>
+                <div className=''>
+                    <div className='hidden sm:flex flex-row space-x-14'>
+                      <a href="#" class="fa fa-facebook"><FaFacebook/></a>
+                      <a href="#" class="fa fa-twitter"><FaTwitter/></a>
+                      <a href="#" class="fa fa-instagram"><FaTiktok/></a>
+                    </div>
+                    <h2 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h2>
+                    <hr />
+                    <PopularBlogs />
+                </div>
+        {/* search input and Popular blogs */}
         </div>
+        </div>
+
+        
       </div>
       </div>
+
+      
      {/* )}  */}
   </div>
   )
@@ -97,7 +116,7 @@ function BlogDetails ({ params })  {
 
 
 export async function metadata({params}){
-  const res = await fetch(`https://pets-elite-b.fly.dev/api/blogs/${params._id}`);
+  const res = await fetch(`https://pets-elite-backend-wvj4.vercel.app/api/blogs/${params._id}`);
   const post = await res.json();
 
   return {
@@ -114,7 +133,7 @@ export async function metadata({params}){
 }
 
 export async function generateStaticParams(){
-  const response = await fetch('https://pets-elite-b.fly.dev/api/blogs');
+  const response = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/blogs');
   const {posts} = await response.json();
 
   return posts.map(({id}) => id).slice(0,5);

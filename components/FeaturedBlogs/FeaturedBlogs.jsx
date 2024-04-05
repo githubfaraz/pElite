@@ -8,7 +8,7 @@ import SwiperComponent from '../SwiperComponent';
 import { IoEye } from "react-icons/io5";
 
 async function getData() {
-    const res = await fetch('https://pets-elite-b.fly.dev/api/blogs')
+    const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/blogs')
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.
    
@@ -40,7 +40,7 @@ const FeaturedBlogs = () => {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const res = await fetch('https://pets-elite-b.fly.dev/api/blogs');
+            const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/blogs');
             if (!res.ok) {
               throw new Error('Error fetching data');
             }

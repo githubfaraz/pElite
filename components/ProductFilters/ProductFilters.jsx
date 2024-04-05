@@ -22,7 +22,7 @@ const ProductFilters = () => {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const res = await fetch('https://pets-elite-b.fly.dev/api/bully-sticks');
+            const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks');
             if (!res.ok) {
               throw new Error('Error fetching data');
             }
@@ -135,7 +135,8 @@ const ProductFilters = () => {
       {/* start */}
                 <div className='mt-6'>
                     
-                    <h2 className='border-t-2 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Length</h2>
+                    <h2 className='border-b-2 w-40 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Length</h2>
+                    <hr />
                     <div className='mt-4 space-y-4 text-xl flex flex-col'>
                         {/* <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '')} />
@@ -143,24 +144,25 @@ const ProductFilters = () => {
                         </label> */}
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '5 inch')} />
-                        <div className='inline ml-2 font-semibold'>Mix of 4 & 5 inch</div>
+                        <div className='inline ml-2 font-light'>Mix of 4 & 5 inch</div>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '6 inch')} />
-                        <div className='inline ml-2 font-semibold'>6 inch</div>
+                        <div className='inline ml-2 font-light'>6 inch</div>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '8 inch')} />
-                        <div className='inline ml-2 font-semibold'>8 inch</div>
+                        <div className='inline ml-2 font-light'>8 inch</div>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '12 inch')} />
-                        <div className='inline ml-2 font-semibold'>12 inch</div>
+                        <div className='inline ml-2 font-light'>12 inch</div>
                         </label>
                     </div>
                     
                 <div className='mt-6'>
-                    <h2 className='border-t-2 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Thickness</h2>
+                    <h2 className='border-b-2 w-40 text-2xl font-bold text-orange-600 border-orange-400' style={{fontFamily: 'playfair_display'}}>By Thickness</h2>
+                    <hr />
                     <div className='mt-4 space-y-4 text-xl flex flex-col'>
                         {/* <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', '')} />
@@ -168,37 +170,38 @@ const ProductFilters = () => {
                         </label> */}
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Thick')} />
-                        <div className='inline ml-2 font-semibold'>Thick</div>
+                        <div className='inline ml-2 font-light'>Thick</div>
                         </label>
                         <label >
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Thin')} />
-                        <div className='inline ml-2 font-semibold'>Thin</div>
+                        <div className='inline ml-2 font-light'>Thin</div>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Standard')} />
-                        <div className='inline ml-2 font-semibold'>Standard</div>
+                        <div className='inline ml-2 font-light'>Standard</div>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Jumbo')} />
-                        <div className='inline ml-2 font-semibold'>Jumbo</div>
+                        <div className='inline ml-2 font-light'>Jumbo</div>
                         </label>
                     </div>
                 </div>
 
                 <div className='mt-6'>
-                    <h2 className='border-t-2 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'inter'}}>By Style</h2>
-                    <div className='mt-4 space-y-4 text-xl flex flex-col'>
+                    <h2 className='border-b-2 w-40 text-2xl font-semibold text-orange-600 border-orange-400' style={{fontFamily: 'inter'}}>By Style</h2>
+                    <hr />
+                    <div className='mt-4 space-y-4 text-xl font-extralight flex flex-col'>
                         {/* <label>
                         <input type="checkbox" onChange={() => handleFilterChange('style', '')} />
                         ALL
                         </label> */}
                         <label >
                         <input type="checkbox" onChange={() => handleFilterChange('style', 'straight')} />
-                        <h3 className='inline ml-2 font-semibold'>Straight</h3>
+                        <h3 className='inline ml-2 font-light'>Straight</h3>
                         </label>
                         <label>
                         <input type="checkbox"  onChange={() => handleFilterChange('style', 'braided')} />
-                        <div className='inline ml-2 font-semibold'>Braided</div>
+                        <div className='inline ml-2 font-light'>Braided</div>
                         </label>
                     </div>
                 </div>

@@ -16,13 +16,13 @@ export const links= [
         text: 'products',
         url: '/products',
     },
-    // {
-    //     id: 4,
-    //     text: 'blogs',
-    //     url: '/blogs'
-    // },
     {
         id: 4,
+        text: 'blogs',
+        url: '/blogs'
+    },
+    {
+        id: 5,
         text: 'contact Us',
         url: '/contact'
     }

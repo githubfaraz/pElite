@@ -108,7 +108,7 @@ function Home() {
       {/* Hero section */}
 
       {/* FDA CERTIFIED */}
-        <div className="my-4 text-center mx-2 sm:mx-0">
+        <div className="my-4 text-center mx-2 sm:mx-auto sm:w-6/12">
           <h3 className="text-2xl sm:text-4xl font-bold text-amber-700 font-serif">FDA-Approved for Your Peace of Mind</h3>
           <Image
             alt='FDA certified product'
@@ -117,7 +117,7 @@ function Home() {
             width={280}
             className="mx-auto"
           />
-          <h4 className="text-amber-700 text-xl font-normal ">Experience the Gold Standard of our bully sticks manufactured at US-FDA registered facility</h4>
+          <h4 className="text-amber-700 text-xl font-normal mx-auto sm:w-11/12">Experience the Gold Standard of our bully sticks manufactured at US-FDA registered facility</h4>
           <p className="sm:w-3/4 w-full mt-4 mx-auto text-lg">Every pet owner wants the best for their furry friend, and that&apos;s why we leave no stone unturned when it comes to quality.
           Our bully sticks are not just any treats; they are a promise of safety and excellence</p>
           {/* <button>Learn More</button> */}

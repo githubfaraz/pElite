@@ -6,7 +6,7 @@ import ProductFilters from '@/components/ProductFilters/ProductFilters'
 
 
 async function getData() {
-    const res = await fetch('https://pets-elite-b.fly.dev/api/bully-sticks')
+    const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks')
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.
     if (!res.ok) {

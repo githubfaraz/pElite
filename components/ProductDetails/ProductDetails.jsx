@@ -10,7 +10,7 @@ import useProduct from '@/hooks/useProduct'
 
 async function ProductDetails ({ params })  {
 
-    const res = await fetch(`https://pets-elite-b.fly.dev/api/bully-sticks/${params.id}`);
+    const res = await fetch(`https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks/${params.id}`);
     const product = await res.json();
 
 
