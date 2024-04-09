@@ -185,11 +185,11 @@ const page = () => {
 export async function generateMetadata(){
   return {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
-  title: "About Us | Elite Treat For Pets",
-  appleMobileWebAppTitle: 'About Us | Elite Treat For Pets',
+  title: "Elite Treat For Pets | About Us",
+  appleMobileWebAppTitle: 'Elite Treat For Pets | About Us',
   description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
   openGraph: {
-    title: "About Us | Elite Treat For Pets",
+    title: "Elite Treat For Pets | About Us",
     description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
@@ -217,7 +217,7 @@ export async function generateMetadata(){
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us | Elite Treat For Pets",
+    title: "Elite Treat For Pets | About Us",
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
 }

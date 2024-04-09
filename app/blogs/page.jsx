@@ -146,10 +146,10 @@ const page = () => {
 }
 
 export const metadata = {
-    title: "Elite Treat For Pets - Blogs",
-  appleMobileWebAppTitle: 'Elite Treat For Pets - Blogs',
+    title: "Elite Treat For Pets | Blogs",
+  appleMobileWebAppTitle: 'Elite Treat For Pets | Blogs',
   openGraph: {
-    title: "Elite Treat For Pets - Blogs",
+    title: "Elite Treat For Pets | Blogs",
     description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
@@ -177,7 +177,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Elite Treat For Pets - Blogs",
+    title: "Elite Treat For Pets | Blogs",
     images: "/logoP.png"
   },
 }  

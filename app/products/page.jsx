@@ -50,10 +50,10 @@ export default  function Page  ()  {
 
 export async function generateMetadata() {
   return{
-  title: "Elite Treat For Pets | Our Products",
-  appleMobileWebAppTitle: 'Elite Treat For Pets - Our Products',
+  title: "Elite Treat For Pets | Products",
+  appleMobileWebAppTitle: 'Elite Treat For Pets | Products',
   openGraph: {
-    title: "Elite Treat For Pets - Our Products",
+    title: "Elite Treat For Pets | Products",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
     images: "https://www.elitetreatforpets.com/logoP.webp",
@@ -80,7 +80,7 @@ export async function generateMetadata() {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Elite Treat For Pets - Our Products",
+    title: "Elite Treat For Pets | Products",
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
   }
