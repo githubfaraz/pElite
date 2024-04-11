@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import ProductOverViewSection from '../ProductOverViewSection'
 import useProducts from '@/hooks/useProducts';
+import Image from 'next/image';
+
 
 
 const ProductFilters = () => {
@@ -96,12 +98,14 @@ const ProductFilters = () => {
         filteredItems = filteredItems.filter((item) =>
           item.name.toLowerCase().includes(searchTerm)
         );
-      }
+      } 
 
     return filteredItems;
     };
 
     const filteredItems = getFilteredItems();
+    // console.log(filteredItems)
+
     const handleSearchSubmit = (e) => {
         e.preventDefault(); // Prevent the default form submit action
         // You can add logic here to handle the search submission if necessary

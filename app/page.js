@@ -53,12 +53,9 @@ function Home() {
     <div>
 
       {/* Hero section */}
-      {/* <Navbar/> */}
-      <div className="h-max w-full lg:w-full bg-orange-300 pb-4 ">
-        {/* Add more circles or customize as needed */}
-        {/* <BullyStick /> */}
-        {/* <MainNavbar /> */}
-        <Navb linkActive='1'/>
+      <div className="h-max w-full lg:w-full bg-orange-300 pb-4">
+      {/* <MainNavbar /> */}
+      <Navb linkActive='1'/>
       <div className="flex flex-row flex-wrap w-full">
         <div className="bg-orange-300 sm:mx-10 mx-2 sm:py-10 sm:my-8 lg:w-5/6">
           <h6 className="text-6xl mb-23 lg:w-4/6 w-full sm:mb-10 mb-5 text-amber-600 font-bold sm:text-7xl font-playfair_display leading-2xl sm:leading-7xl" >Buy for your <span className="text-amber-900">pet</span> whatever is needed</h6>
@@ -235,10 +232,6 @@ function Home() {
 
       <FeaturedProducts/>
       
-
-
-
-
       {/* Tips Section */}
       <div className="h-max sm:py-10 sm:px-9 py-5 px-2 md:px-16 w-full">
         <h3  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Treats Bully Sticks Production</h3>
