@@ -1,8 +1,6 @@
-import CompanyCard from '@/components/CompanyCard'
-import CompanySlider from '@/components/CompanySlider'
-import Footer from '@/components/Footer'
-import MapWithNoSSR from '@/components/MapWithNoSSR'
-import Navb from '@/components/Navb'
+import {CompanySlider,CompanyCard} from '@/app/about-us/_components'
+import MapWithNoSSR from '@/app/about-us/_components/MapWithNoSSR'
+import {Navb} from '@/app/components'
 import Image from 'next/image'
 
 const page = () => {
@@ -14,7 +12,7 @@ const page = () => {
       description: 'A leading supplier of high quality home and office furniture in USA we are a pioneer in the industry offering the market greater choice ,innovative and ergonomic designs as well as environmentally friendly furniture.'
     },
     {
-      id: 4,
+      id: 2,
       name: 'Medlink World LLC',
       logo: 'https://via.placeholder.com/150',
       description: 'A healthcare and CRO consulting firm which champions itself in clinical data generation for medical devices that needs FDA registration.'
@@ -63,7 +61,6 @@ const page = () => {
           style={{ zIndex: 1}}
         />
         <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
-          {/* <MainNavbar /> */}
           <Navb linkActive='2'/>
         </div>
         <div className='absolute top-1/4 lg:left-96 md:left-40 left-0 lg:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
@@ -73,8 +70,6 @@ const page = () => {
 
       <div className='sm:mx-10 sm:my-10 my-5 mx-5 flex flex-col sm:flex-row sm:space-x-5 space-y-2'>
         <h1 className="sm:text-6xl text-4xl mb-23 leading-snug sm:leading-9xl sm:w-3/5 w-full text-left mb-10 text-orange-400 font-extrabold" style={{
-              // fontSize: '3.5rem',
-              // lineHeight: '4rem',
               fontFamily: 'playfair_display'
             }}>We stand by the <span className='text-orange-600'>quality</span> of our bully sticks! Your <span className='text-orange-600 font-extrabold'>happiness</span> is our priority.</h1>
         <h1 className='sm:w-2/5 sm:mt-6 mt-3 sm:text-2xl text-xl font-extralight' style={{fontFamily: 'inter'}}>
@@ -141,9 +136,7 @@ const page = () => {
       </div>
 
       <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Companies</h3>
-      
       <div className='mx-10'>
-        {/* <h3 className='text-center sm:text-4xl text-3xl font-bold text-orange-500' style={{fontFamily: 'playfair_display'}}>Our Companies</h3> */}
         <div style={{ borderWidth: '1px' }} className="text-center sm:w-2/5 border-gray-300  rounded-md py-2 px-2 mx-auto my-5">
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h4>
                   <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-full "  style={{fontFamily: 'inter'}}>ZEMY Group LLC is a holding company with its headquarters in NY. It has many subsidiaries which encompasses many market segments including healthcare, daily commodities, pet food, generic drugs, medical diagnostics, real estate, hospital management consultancy</h4>
@@ -152,23 +145,17 @@ const page = () => {
                       Visit Our Website
                     </button>
                   </a>
-              </div>
-
-
+        </div>
           {/* <CompanySlider /> */}
           <div className="sm:hidden block">
             <CompanySlider data={companies} />
-            {/* <SwiperComponent data={companies}/> */}
           </div>
+          {/* <CompanySlider /> */}
 
           <div className='hidden sm:block'>
             <CompanyCard data={companies}/>
           </div>
-        {/* </div> */}
       </div>
-
-      {/* <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Location</h3> */}
-      
 
       <div className='mx-auto py-4'>
         <MapWithNoSSR />
@@ -176,7 +163,6 @@ const page = () => {
       <br />
       <br />
       <hr />
-      <Footer />
     </div>
   )
 }

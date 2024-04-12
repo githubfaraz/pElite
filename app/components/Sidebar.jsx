@@ -2,7 +2,7 @@
 import React from 'react'
 import { FaTimes } from 'react-icons/fa'
 import Link from 'next/link'
-import { links } from '../utils/constants'
+import { links } from '../../utils/constants'
 import Image from 'next/image'
 
 

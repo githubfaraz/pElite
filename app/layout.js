@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
-
+import {Footer} from '@/app/components'
 // const inter = Inter({ subsets: ["latin"] });
 const inter = Inter({ 
   subsets: ['latin'],
@@ -130,7 +130,8 @@ export default function RootLayout({ children }) {
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-57NWNHT8');`,
           }}/>
-      <body>{children}
+      <body>
+      {children}
       <Script 
           strategy="lazyOnload"
           src="https://embed.tawk.to/65dc7ab79131ed19d971b513/1hnijunq3"
@@ -144,8 +145,8 @@ export default function RootLayout({ children }) {
             visibility:"hidden"
           }}></iframe>
         </noscript>
-        
       </body>
+      <Footer/>
     </html>
   );
 };

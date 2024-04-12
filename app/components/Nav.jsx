@@ -54,9 +54,9 @@
 import React from 'react';
 // import logo from '../assets/logo.svg';
 import { FaBars } from 'react-icons/fa';
-import { links } from '../utils/constants';
+import { links } from '../../utils/constants';
 import Link from 'next/link';
-import useNavigationContext from '@/context/navigation_context';
+// import useNavigationContext from '@/context/navigation_context';
 import Image from 'next/image';
 
 

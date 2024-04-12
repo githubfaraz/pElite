@@ -1,14 +1,10 @@
 import React from 'react';
 import Image from "next/image";
-import ProductList from '../ProductList';
-import ProductsButton from '../ProductsButton';
 import Link from 'next/link';
-import ProductCard from '../ProductCard/ProductCard';
 
 async function getData() {
     const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks')
-    // The return value is *not* serialized
-    // You can return Date, Map, Set, etc.
+
    
     if (!res.ok) {
       // This will activate the closest `error.js` Error Boundary

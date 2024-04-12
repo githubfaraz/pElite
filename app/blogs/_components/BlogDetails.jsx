@@ -1,8 +1,8 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Navb from '../Navb';
+import {Navb} from '@/app/components';
 import Image from 'next/image'
-import PopularBlogs from '../PopularBlogs/PopularBlogs';
+import PopularBlogs from './PopularBlogs';
 import { FaFacebook, FaTiktok, FaTwitter } from 'react-icons/fa';
 
 function BlogDetails ({ params })  {
@@ -41,7 +41,6 @@ function BlogDetails ({ params })  {
       </div>
   );
 
-  console.log(params.id)
 
   if (!data) return <div>Error: Data could not be fetched</div>;
 

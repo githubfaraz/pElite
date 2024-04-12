@@ -1,16 +1,12 @@
 // 'use client'
-import Footer from '@/components/Footer'
 import Image from 'next/image'
-import Navb from '@/components/Navb'
-import ProductFilters from '@/components/ProductFilters/ProductFilters'
+import {Navb} from '@/app/components'
+import ProductFilters from '@/app/products/_components/ProductFilters'
 
 
 async function getData() {
     const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks')
-    // The return value is *not* serialized
-    // You can return Date, Map, Set, etc.
     if (!res.ok) {
-      // This will activate the closest `error.js` Error Boundary
       throw new Error('Failed to fetch data')
     }
     return res.json()
@@ -43,20 +39,22 @@ export default  function Page  ()  {
         {/* </div> */}
         <br />
         <hr />
-        <Footer />
     </div>
   )
 }
 
-export async function generateMetadata() {
-  return{
+export async function generateMetadata(){
+  return {
+  metadataBase: new URL("https://www.elitetreatforpets.com"),
   title: "Elite Treat For Pets | Products",
   appleMobileWebAppTitle: 'Elite Treat For Pets | Products',
+  description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
   openGraph: {
     title: "Elite Treat For Pets | Products",
+    description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
-    images: "https://www.elitetreatforpets.com/logoP.webp",
+    images: "https://www.elitetreatforpets.com/logoP.png",
     locale: "en_US",
     type: "website",
   },
@@ -83,8 +81,7 @@ export async function generateMetadata() {
     title: "Elite Treat For Pets | Products",
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
-  }
-
+}
 }
 
 

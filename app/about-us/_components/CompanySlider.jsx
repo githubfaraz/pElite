@@ -1,7 +1,6 @@
 'use client';
 import {Swiper, SwiperSlide} from "swiper/react";
 import {  Navigation,Pagination, Scrollbar, A11y, EffectCube,Autoplay } from 'swiper/modules';
-import Image from "next/image";
 import Link from "next/link";
 import "swiper/css";
 import "swiper/css/navigation";

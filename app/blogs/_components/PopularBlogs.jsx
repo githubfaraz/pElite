@@ -27,7 +27,7 @@ const PopularBlogs = () => {
     <div className='flex flex-col space-y-2'>
       {blogs.slice(0,3).map((blog)=>{return(
         // <div >
-            <Link href={`blogs/${blog._id}`} key={blog._id} className='mt-4 space-y-4 text-lg ' >
+            <Link href={`/blogs/${blog._id}`} key={blog._id} className='mt-4 space-y-4 text-lg ' >
                       <div className='flex flex-row space-x-2 p-2 hover:shadow-xl border-2 rounded-md border-gray-300' style={{borderWidth: '1px'}}>
                         <Image
                             src={blog.image}

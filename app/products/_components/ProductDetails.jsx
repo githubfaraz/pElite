@@ -1,12 +1,7 @@
-// 'use client'
 import React from 'react'
-import Navb from '../Navb'
+import {Navb} from '@/app/components'
 import Image from 'next/image'
-// import { Product } from '@/types/Product'
-import FAQ from '../FAQ'
-import Footer from '../Footer'
-import useProduct from '@/hooks/useProduct'
-
+import FAQ from './FAQ'
 
 async function ProductDetails ({ params })  {
 
@@ -95,7 +90,6 @@ async function ProductDetails ({ params })  {
 
       <br />
       <hr />
-      <Footer />
     </div>
   )
 }

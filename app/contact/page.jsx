@@ -1,14 +1,10 @@
-import Footer from '@/components/Footer'
-import MainNavbar from '@/components/MainNavbar'
-import Navb from '@/components/Navb'
-import Navbar from '@/components/Navbar'
+import {Navb} from '@/app/components'
 import Image from 'next/image'
 import React from 'react'
-import { useForm, ValidationError } from '@formspree/react';
-import ContactForm from '@/components/ContactForm'
+import ContactForm from '@/app/contact/_components/ContactForm'
+
 // Note:remember to remove the navbar
 const Page = () => {
-    
   return (
     <div >
       <div className='w-full'>
@@ -34,56 +30,52 @@ const Page = () => {
             <div className=' w-full'>
                 <ContactForm />
             </div>
-            
-
         </div>
-{/* MainSection */}
         <hr />
-        <Footer />
     </div>
   )
 }
 
 
-export async function generateMetadata () {
-  return{
-    metadataBase: new URL("https://www.elitetreatforpets.com"),
+export async function generateMetadata(){
+  return {
+  metadataBase: new URL("https://www.elitetreatforpets.com"),
+  title: "Elite Treat For Pets | Contact",
+  appleMobileWebAppTitle: 'Elite Treat For Pets | Contact',
+  description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
+  openGraph: {
     title: "Elite Treat For Pets | Contact",
     description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
-    appleMobileWebAppTitle: 'Elite Treat For Pets | Contact',
-    openGraph: {
-      title: "Elite Treat For Pets | Contact",
-      description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
-      url: "https://www.elitetreatforpets.com",
-      siteName: "Elite Treats For Pets",
-      images: "https://www.elitetreatforpets.com/logoP.webp",
-      locale: "en_US",
-      type: "website",
+    url: "https://www.elitetreatforpets.com",
+    siteName: "Elite Treats For Pets",
+    images: "https://www.elitetreatforpets.com/logoP.png",
+    locale: "en_US",
+    type: "website",
+  },
+  alternates: {
+    canonical: `https://www.elitetreatforpets.com/`,
+    languages: {
+      "en-US": "/",
     },
-    robots: {
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
       index: true,
       follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        noimageindex: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
-    alternates: {
-        canonical: `https://www.elitetreatforpets.com/`,
-        languages: {
-          "en-US": "/",
-        },
-      },
-    twitter: {
-      card: "summary_large_image",
-      title: "Elite Treat For Pets | Contact",
-      images: "https://www.elitetreatforpets.com/logoP.png"
-    }
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Elite Treat For Pets | Contact",
+    images: "https://www.elitetreatforpets.com/logoP.png"
   }
+}
 }
 
 

@@ -2,9 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import ProductList from '../ProductList';
-import ProductsButton from '../ProductsButton';
-import SwiperComponent from '../SwiperComponent';
+import SwiperComponent from './SwiperComponent';
 import { IoEye } from "react-icons/io5";
 
 async function getData() {
@@ -29,13 +27,8 @@ const FeaturedBlogs = () => {
     const [data, setData] = useState(null);
     const [isLoading, setLoading] = useState(true);
     
-
     const [items, setItems] = useState([]);
-
     const products = getData();
-
-
-
 
     useEffect(() => {
         const fetchData = async () => {
@@ -168,9 +161,6 @@ const FeaturedBlogs = () => {
             <SwiperComponent data={blogs_featured}/>
         </div>
 </div>
-
-
-    
   )
 }
 

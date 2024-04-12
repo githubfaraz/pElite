@@ -1,7 +1,6 @@
 
-import ProductCard from  '../ProductCard/ProductCard';
+import ProductCard from  './ProductCard';
 import Image from 'next/image';
-import styles from './ProductList.module.css';
 
 const NilProducts = () => {
   return(
@@ -18,7 +17,7 @@ const ProductList = ({ products }) => {
   if (!products.length) return <NilProducts/>;
 
   return (
-    <div className={styles.productGrid} aria-label="Product list">
+    <div className="productGrid" aria-label="Product list">
       {products.map((product) => (
         <ProductCard product={product} key={product._id} />
       ))}

@@ -9,8 +9,8 @@ const Navb = ({linkActive}) => {
 
   return (
     <div >
-    <Nav isSidebarOpen={isSideBarOpen} setIsSidebarOpen={setSideBar} linkActive={linkActive}/>
-    <Sidebar isSidebarOpen={isSideBarOpen} setIsSidebarOpen={setSideBar} linkActive={linkActive}/>
+      <Nav isSidebarOpen={isSideBarOpen} setIsSidebarOpen={setSideBar} linkActive={linkActive}/>
+      <Sidebar isSidebarOpen={isSideBarOpen} setIsSidebarOpen={setSideBar} linkActive={linkActive}/>
     </div>
   )
 }

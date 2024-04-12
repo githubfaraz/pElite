@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 
-const DynamicMap = dynamic(() => import('@/components/AddressMap'), {
+const DynamicMap = dynamic(() => import('@/app/about-us/_components/AddressMap'), {
   ssr: false
 });
 

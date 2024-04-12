@@ -1,6 +1,6 @@
 // 'use client'
 import React from 'react'
-import ProductDetails from '@/components/ProductDetails/ProductDetails'
+import ProductDetails from '@/app/products/_components/ProductDetails'
 
 
 export default function Page({ params }) {

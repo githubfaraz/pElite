@@ -1,10 +1,7 @@
-import Blogs from '@/components/Blogs/Blogs'
-import Footer from '@/components/Footer'
-import MainNavbar from '@/components/MainNavbar'
-import Navb from '@/components/Navb'
-import Navbar from '@/components/Navbar'
-import PopularBlogs from '@/components/PopularBlogs/PopularBlogs'
-import SearchInput from '@/components/SearchInput'
+import Blogs from '@/app/blogs/_components/Blogs'
+// import MainNavbar from '@/components/MainNavbar'
+import {Navb} from '@/app/components';
+import PopularBlogs from '@/app/blogs/_components/PopularBlogs'
 import Image from 'next/image'
 import React from 'react'
 import { CiTimer } from "react-icons/ci";
@@ -140,22 +137,30 @@ const page = () => {
       {/* social icons for sm screens */}
       <br />
       <hr />
-      <Footer />
     </div>
   )
 }
 
-export const metadata = {
-    title: "Elite Treat For Pets | Blogs",
+export async function generateMetadata(){
+  return {
+  metadataBase: new URL("https://www.elitetreatforpets.com"),
+  title: "Elite Treat For Pets | Blogs",
   appleMobileWebAppTitle: 'Elite Treat For Pets | Blogs',
+  description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
   openGraph: {
     title: "Elite Treat For Pets | Blogs",
-    description: "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting.",
+    description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
-    images: "https://www.elitetreatforpets.com/logoP.webp",
+    images: "https://www.elitetreatforpets.com/logoP.png",
     locale: "en_US",
     type: "website",
+  },
+  alternates: {
+    canonical: `https://www.elitetreatforpets.com/`,
+    languages: {
+      "en-US": "/",
+    },
   },
   robots: {
     index: true,
@@ -169,17 +174,13 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: `https://www.elitetreatforpets.com/`,
-    languages: {
-      "en-US": "/",
-    },
-  },
   twitter: {
     card: "summary_large_image",
     title: "Elite Treat For Pets | Blogs",
-    images: "/logoP.png"
-  },
-}  
+    images: "https://www.elitetreatforpets.com/logoP.png"
+  }
+}
+}
+
 
 export default page

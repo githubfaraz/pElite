@@ -1,17 +1,6 @@
-import ContactUsButton from "@/components/ContactUsButton";
-import FeaturedBlogs from "@/components/FeaturedBlogs/FeaturedBlogs";
-import FeaturedProducts from "@/components/FeaturedProducts/FeaturedProducts";
-import Footer from "@/components/Footer";
-import LearnMoreButton from "@/components/LearnMoreButton";
-import MainNavbar from "@/components/MainNavbar";
-import Navb from "@/components/Navb";
-import Navbar from "@/components/Navbar";
-import ProductsButton from "@/components/ProductsButton";
-import SwiperComponent from "@/components/SwiperComponent";
-import useScript from "@/hooks/useScript";
+import {FeaturedProducts,FeaturedBlogs,Navb} from "@/app/components";
 import Image from "next/image";
 import Link from "next/link";
-import Head from 'next/head';
 import 'swiper/swiper-bundle.css';
 
 export const metadata= async() => {
@@ -47,11 +36,9 @@ export const metadata= async() => {
 }
 
 function Home() {
-
   return (
     <>
     <div>
-
       {/* Hero section */}
       <div className="h-max w-full lg:w-full bg-orange-300 pb-4">
       {/* <MainNavbar /> */}
@@ -64,7 +51,12 @@ function Home() {
           }}>
             Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups
           </p>
-          <ProductsButton buttonName={'Browse All products'}/>
+
+          <Link href='/products'>
+            <button  className='rounded-full py-2 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-64 w-full' style={{fontFamily: "poppins"}}>
+              Browse All products
+            </button>
+          </Link>
         
         </div>
         {/* images */}
@@ -100,7 +92,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       </div>
       {/* Hero section */}
 
@@ -117,7 +108,6 @@ function Home() {
           <h4 className="text-amber-700 text-xl font-normal mx-auto sm:w-11/12">Experience the Gold Standard of our bully sticks manufactured at US-FDA registered facility</h4>
           <p className="sm:w-3/4 w-full mt-4 mx-auto text-lg">Every pet owner wants the best for their furry friend, and that&apos;s why we leave no stone unturned when it comes to quality.
           Our bully sticks are not just any treats; they are a promise of safety and excellence</p>
-          {/* <button>Learn More</button> */}
           <Link href='/blogs/65f813000f2c638239fa59ff' >
             <button  className='rounded-full py-2 mt-4 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 w-full' style={{fontFamily: "poppins"}}>
               Learn More
@@ -138,9 +128,7 @@ function Home() {
                 fontFamily: 'open_sans'
           }}>
             With a long-standing reputation for excellence, we&apos;ve established ourselves as the premier choice for discerning pet owners who demand nothing but the best for their furry companions
-            {/* Elevate your pet&apos;s chewing delight with our premium bully sticks. Made from 100% all natural and made from Free-Range, Grass-Fed Beef to ensure a nutritious and flavorful snack for your pups */}
           </p>
-          {/* <button className="bg-white py-2 px-6 border-orange-700 border-2 rounded-full hover:border-slate-200 hover:text-white hover:bg-orange-700 stroke-2 text-lg sm:block hidden sm:w-52 transition-all">Learn More</button> */}
         </div>
         <div className="flex flex-col space-y-3">
           <div className="sm:flex sm:flex-row sm:space-y-2 mb-2 flex flex-col space-y-2 ">
@@ -150,10 +138,6 @@ function Home() {
                 alt="Quality product"
                 height={200}
                 width={100}
-                // style={{
-                //   marginLeft: '6.5rem',
-                //   marginRight: '2rem',
-                // }}
                 className="mx-auto"
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
@@ -185,11 +169,6 @@ function Home() {
                 alt="Quality product"
                 height={200}
                 width={100}
-                // style={{
-                //   marginLeft: '6.5rem',
-                //   marginRight: '2rem',
-                //   fontFamily: 'lora'
-                // }}
                 className="mx-auto"
               />
               <p className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
@@ -200,20 +179,15 @@ function Home() {
             </p>
             </div>
           </div>
-          
           <div >
-            <div className="hidden sm:flex flex-col sm:space-x-2 align-middle w-5/6 sm:ml-18 ml-0 justify-center">
+
+          <div className="hidden sm:flex flex-col sm:space-x-2 align-middle w-5/6 sm:ml-18 ml-0 justify-center">
                 <Image 
                   src='/testRibbon.png'
                   alt="Quality product"
                   height={200}
                   width={100}
-                  // style={{
-                  //   marginLeft: '15.5rem',
-                  //   marginRight: '2rem',
-                  // }}
-                className="mx-auto"
-
+                  className="mx-auto"
                 />
                 <p className="w-3/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center mx-auto" style={{
                     // fontSize: '1rem',
@@ -226,7 +200,6 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* <LearnMoreButton /> */}
       </div>
       {/* Difference Section */}
 
@@ -236,10 +209,6 @@ function Home() {
       <div className="h-max sm:py-10 sm:px-9 py-5 px-2 md:px-16 w-full">
         <h3  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Treats Bully Sticks Production</h3>
         <h3  className="text-center text-xl font-light sm:w-2/4 w-full text-amber-700 mx-auto" style={{fontFamily: 'robot'}}>Pet treats packed with nutritious ingredients,vitamins and supplements to help dogs</h3>
-        {/* <div className="hidden sm:flex flex-row space-x-6 py-8">
-          
-        </div> */}
-
       <FeaturedBlogs/>
       </div>
       {/* Tips Section */}
@@ -271,23 +240,19 @@ function Home() {
             />
           </div>
         </div>
-
         <div className="pb-10">
           <h3 className="text-4xl mb-23 sm:w-5/6 w-full mb-6  sm:text-9xl leading-tight sm:leading-7xl text-amber-700 font-bold" style={{
           fontFamily: 'playfair_display'
         }}>Best online pet product in your Area</h3>
           <h3 className="mt-2 mb-4 font-light text-xl sm:w-3/4 w-full sm:text-2xl " style={{fontFamily: 'open_sans'}}>Interested about us & and our products,we would like to hear more from you.</h3>
-          <ContactUsButton />
+          <Link href='/contact' >
+            <button  className='rounded-full py-2 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 w-full' style={{fontFamily: "poppins"}}>
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
       {/* Contact Us section */}
-
-      <Footer/>
-
-      <div>
-
-      </div>
-
     </div>
     </>
   );

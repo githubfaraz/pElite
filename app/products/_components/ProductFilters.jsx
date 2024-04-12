@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import ProductOverViewSection from '../ProductOverViewSection'
+import ProductOverViewSection from './ProductOverviewSection'
 import useProducts from '@/hooks/useProducts';
 import Image from 'next/image';
 

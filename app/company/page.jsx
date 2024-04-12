@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import Footer from '@/components/Footer';
-import Navb from '@/components/Navb';
+import {Navb} from '@/app/components';
 
 const Page = () => {
   return (
@@ -26,7 +25,6 @@ const Page = () => {
       <br />
       <hr />
       <br />
-      <Footer />
     </div>
   )
 }
@@ -46,10 +44,10 @@ export async function generateMetadata() {
     type: "website",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
     googleBot: {
-      index: true,
+      index: false,
       follow: true,
       noimageindex: true,
       "max-video-preview": -1,
