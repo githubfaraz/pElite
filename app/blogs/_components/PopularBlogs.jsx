@@ -33,6 +33,7 @@ const PopularBlogs = () => {
                             src={blog.image}
                             width={150}
                             height={100}
+                            className='h-32'
                             alt='bully-sticks-article'
                         />
                         <h3 className='font-normal w-full' style={{fontFamily: 'roboto'}}>{blog.title}</h3>

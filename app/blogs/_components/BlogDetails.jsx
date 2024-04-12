@@ -88,16 +88,14 @@ function BlogDetails ({ params })  {
           </div>
 
         <div className='sm:w-2/6  w-full px-5'>
-                <div className=''>
                     <div className='hidden sm:flex flex-row space-x-14'>
-                      <a href="#" class="fa fa-facebook"><FaFacebook/></a>
-                      <a href="#" class="fa fa-twitter"><FaTwitter/></a>
-                      <a href="#" class="fa fa-instagram"><FaTiktok/></a>
+                      <a href="https://www.facebook.com/profile.php?id=61556973973125" class="fa fa-facebook"><FaFacebook/></a>
+                      <a href="https://twitter.com/PetsEliteTreat" class="fa fa-twitter"><FaTwitter/></a>
+                      <a href="https://www.instagram.com/elitetreatbullysticks/" class="fa fa-instagram"><FaTiktok/></a>
                     </div>
                     <h2 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h2>
                     <hr />
                     <PopularBlogs />
-                </div>
         {/* search input and Popular blogs */}
         </div>
         </div>
