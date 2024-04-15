@@ -21,7 +21,7 @@ async function getData() {
     // if (error) return <div>Error loading data</div>;
     return (
     <div>
-        <div className='w-full md:w-full lg:w-screen' style={{ position: 'relative', display: 'inline-block' }} >
+        <div className='w-full md:w-full lg:w-full' style={{ position: 'relative', display: 'inline-block' }} >
         <Image
           src='/hero-2.png'
           alt='dog-chewing-bully-stick'
