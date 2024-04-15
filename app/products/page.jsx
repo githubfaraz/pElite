@@ -12,9 +12,13 @@ async function getData() {
     return res.json()
   }
 
-export default  function Page  ()  {
+  
+  export default  function Page  ()  {
+    // const fetcher = (url) => fetch(url).then((res) => res.json());
+    
 
-
+    // if (isLoading) return <div>Loading...</div>;
+    // if (error) return <div>Error loading data</div>;
     return (
     <div>
         <div className='w-full md:w-full lg:w-screen' style={{ position: 'relative', display: 'inline-block' }} >
