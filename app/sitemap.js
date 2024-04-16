@@ -5,16 +5,19 @@ export default function sitemap(){
             lastModified: new Date()
         },
         {
-            url: `https://www.elitetreatforpets.com/about`,
+            url: `https://www.elitetreatforpets.com/about-us`,
             lastModified: new Date()
         },
-        
+        {
+            url: `https://www.elitetreatforpets.com/contact-us`,
+            lastModified: new Date()
+        },
         {
             url: `https://www.elitetreatforpets.com/products`,
             lastModified: new Date()
         },
         {
-            url: `https://www.elitetreatforpets.com/contact`,
+            url: `https://www.elitetreatforpets.com/blogs`,
             lastModified: new Date()
         },
         {
