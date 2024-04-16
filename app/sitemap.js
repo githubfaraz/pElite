@@ -33,10 +33,6 @@ export default function sitemap(){
             lastModified: new Date()
         },
         {
-            url: `http://www.elitetreatforpets.com/products/65e8692cad17cd139a91fab5`,
-            lastModified: new Date()
-        },
-        {
             url: `https://www.elitetreatforpets.com/products/65e8692cad17cd139a91fabf`,
             lastModified: new Date()
         }, 
