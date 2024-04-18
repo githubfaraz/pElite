@@ -40,8 +40,8 @@ const CompanySlider = ({data}) => {
     {data.map((blog)=> 
               <SwiperSlide key={blog.name} className="shadow-2xl">
               <div style={{ position: 'relative', display: 'inline-block',borderWidth: '1px' }} className="flex flex-col p-4 justify-center align-middle text-center w-full border-gray-300  rounded-md py-4">
-                  <h4 className="mt-6 block text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>{blog.name}</h4>
-                  <h4 className="mt-6 block text-center text-xl text-gray-800 font-light w-full min-h-60"  style={{fontFamily: 'inter'}}>{blog.description}</h4>
+                  <h4 className="mt-6 block text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'open_sans'}}>{blog.name}</h4>
+                  <h4 className="mt-6 block text-center text-xl text-gray-800 font-light w-full min-h-60"  >{blog.description}</h4>
                   <Link href='/company' className="block mx-auto">
                     <button  className='rounded-full py-1 px-8 my-4 mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg w-full' style={{fontFamily: "inter"}}>
                       Visit our Website

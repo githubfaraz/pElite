@@ -22,10 +22,10 @@ const Page = () => {
                     className='rounded-2xl brightness-50  h-full w-full'
                     style={{ zIndex: 1}}
                 />
-                <div className='absolute md:top-1/4 top-4 text-center md:mt-64 mt-16 md:text-6xl text-4xl font-semibold text-white' style={{fontFamily: "playfair_display"}}>
+                <h1 className='absolute md:top-1/4 top-4 text-center md:mt-64 mt-16 md:text-6xl text-4xl font-semibold text-white' style={{fontFamily: "playfair_display"}}>
                     Contact Us
-                    <h1 className='md:text-xl text-sm font-light text-center md:w-5/6 w-full mx-auto' style={{fontFamily: 'roboto'}}>Ask about our products,our processes,implementation or anything else.We would be interested to hear from you.</h1>
-                </div>
+                    <h1 className='md:text-xl text-sm font-light text-center md:w-5/6 w-full mx-auto font-serif' >Ask about our products,our processes,implementation or anything else.We would be interested to hear from you.</h1>
+                </h1>
             </div>
             <div className=' w-full'>
                 <ContactForm />

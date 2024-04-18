@@ -24,8 +24,8 @@ const FeaturedProducts = async() => {
   return (
        <div className="bg-orange-200 h-max pb-2 pt-2">
         <h1 className="mb-6 text-amber-900 text-3xl font-bold text-center pt-4" style={{
-          fontFamily: 'robot_slab'
-        }}>
+            fontFamily: 'playfair_display'
+          }}>
             Our Featured Products
         </h1>
 
@@ -42,7 +42,7 @@ const FeaturedProducts = async() => {
                     className="rounded-sm"
                   />
                   <hr />
-                  <h1 className="text-xl font-semibold w-full text-center text-gray-900" style={{fontFamily: 'lora'}}>{product.name}</h1>
+                  <h1 className="text-xl font-semibold w-full text-center text-gray-900">{product.name}</h1>
                 </div>
               </Link>
             ))}

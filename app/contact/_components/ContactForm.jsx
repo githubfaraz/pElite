@@ -10,7 +10,7 @@ const ContactForm = () => {
     >
             <div className='flex lg:flex-row lg:space-x-2 flex-col space-y-4 lg:space-y-0'>
                 <div className='flex flex-col'>
-                    <label htmlFor="first_name" className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>First Name</label>
+                    <label htmlFor="first_name" className='ml-2 font-medium text-lg' >First Name</label>
                     <input className='p-2 w-full lg:w-72  rounded-lg border-2 border-gray-400' type="text"
                             name="first_name"
                             id="first_name"
@@ -21,7 +21,7 @@ const ContactForm = () => {
                     />
                 </div>
                 <div className='flex flex-col'>
-                    <label htmlFor="second_name"  className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>Second Name</label>
+                    <label htmlFor="second_name"  className='ml-2 font-medium text-lg'>Second Name</label>
                     <input className='p-2 w-full lg:w-72 rounded-lg border-2 border-gray-400'
                         name="second_name"
                         id="second_name"
@@ -32,7 +32,7 @@ const ContactForm = () => {
                 </div>
             </div>
             <div className='flex flex-col sm:space-y-2 mt-4 w-full'>
-                <label htmlFor="email_address"  className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>Email Address</label>
+                <label htmlFor="email_address"  className='ml-2 font-medium text-lg'>Email Address</label>
                 <input className='p-2 w-full rounded-lg border-2 border-gray-400'
                     name="email"
                     id="email"
@@ -43,7 +43,7 @@ const ContactForm = () => {
                     type="email"/>
             </div>
             <div className='flex flex-col space-y-2 mt-4 ' >
-                <label htmlFor="phone_number" className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>Phone Number</label>
+                <label htmlFor="phone_number" className='ml-2 font-medium text-lg'>Phone Number</label>
                 <input className='p-2 w-full rounded-lg border-2 border-gray-400' 
                     name="phone_number"
                     id="phone_number"
@@ -54,7 +54,7 @@ const ContactForm = () => {
                
             </div>
             <div className='flex flex-col space-y-2 mt-4'>
-                <label htmlFor="message" className='ml-2 font-medium text-lg' style={{fontFamily: "playfair_display"}}>Message</label>
+                <label htmlFor="message" className='ml-2 font-medium text-lg'>Message</label>
                 <textarea name="message" id="message" placeholder="Message"
                     aria-required="true"
                     required cols={30} rows={5} style={{borderWidth: '0.75px'}} className='p-2 w-full rounded-lg border-2 border-gray-400 '/>

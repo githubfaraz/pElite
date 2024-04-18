@@ -1,5 +1,5 @@
-import {CompanySlider,CompanyCard} from '@/app/about-us/_components'
-import MapWithNoSSR from '@/app/about-us/_components/MapWithNoSSR'
+import {CompanySlider,CompanyCard} from '@/app/about/_components'
+import MapWithNoSSR from '@/app/about/_components/MapWithNoSSR'
 import {Navb} from '@/app/components'
 import Image from 'next/image'
 
@@ -63,22 +63,22 @@ const page = () => {
         <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
           <Navb linkActive='2'/>
         </div>
-        <div className='absolute top-1/4 lg:left-96 md:left-40 left-0 lg:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
+        <h1 className='absolute top-1/4 lg:left-96 md:left-40 left-0 lg:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
           About Us
-        </div>
+        </h1>
       </div>
 
       <div className='sm:mx-10 sm:my-10 my-5 mx-5 flex flex-col sm:flex-row sm:space-x-5 space-y-2'>
         <h1 className="sm:text-6xl text-4xl mb-23 leading-snug sm:leading-9xl sm:w-3/5 w-full text-left mb-10 text-orange-400 font-extrabold" style={{
               fontFamily: 'playfair_display'
             }}>We stand by the <span className='text-orange-600'>quality</span> of our bully sticks! Your <span className='text-orange-600 font-extrabold'>happiness</span> is our priority.</h1>
-        <h1 className='sm:w-2/5 sm:mt-6 mt-3 sm:text-2xl text-xl font-extralight' style={{fontFamily: 'inter'}}>
+        <h2 className='sm:w-2/5 sm:mt-6 mt-3 sm:text-2xl text-xl font-extralight' >
           Welcome to Elite Treat For Pets, where our passion for pets and commitment to excellence converge. At the core of our mission is the belief that our pets deserve the utmost care,
           reflected in our premium Pets Bully Sticks.
-        </h1>
-        <h1 className='sm:w-2/5 sm:text-2xl text-xl sm:mt-6 mt-3 font-extralight' style={{fontFamily: 'inter'}}>
+        </h2>
+        <h2 className='sm:w-2/5 sm:text-2xl text-xl sm:mt-6 mt-3 font-extralight' >
           As devoted pet enthusiasts, we recognize the joy our furry friends bring, driving us to reciprocate that love with a treat distinguished by its exceptional quality, taste, and nutritional value.
-        </h1>
+        </h2>
       </div>
 
       <div className='sm:mx-10 mx-5 my-5 sm:my-10 flex md:flex-wrap lg:flex-nowrap md:align-middle md:justify-center md:space-y-5 lg:space-y-0 sm:flex-row sm:space-x-12 flex-col space-x-2'>
@@ -90,11 +90,11 @@ const page = () => {
               alt='chemical-free-bully-stick'
               className='bg-orange-500 rounded-2xl sm:h-28 sm:w-28 h-12 w-12 mx-auto'
             />
-            <div className='mt-2 font-extralight text-center sm:text-left' style={{fontFamily: 'inter'}} >Made from 100% all-natural from Grass-fed Beef</div>
+            <h2 className='mt-2 font-extralight text-center sm:text-left'>Made from 100% all-natural from Grass-fed Beef</h2>
           </div>
 
           <div className='flex flex-row space-x-3 sm:space-x-8 mt-6 sm:mt-0'>
-            <div className='flex sm:flex-row flex-col space-y-2 sm:space-x-4 sm:w-3/6 w-40 align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg' style={{fontFamily: 'poppins'}}>
+            <div className='flex sm:flex-row flex-col space-y-2 sm:space-x-4 sm:w-3/6 w-40 align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg'>
               <Image
                 src='/molecular.png'
                 height={50}
@@ -102,7 +102,7 @@ const page = () => {
                 alt='chemical-free-bully-stick'
                 className='bg-orange-600 rounded-2xl py-3 px-3 sm:h-28 sm:w-28 w-12 mx-auto'
               />
-              <div className='mt-2 font-extralight text-center sm:text-left ' style={{fontFamily: 'inter'}} >Our bully sticks epitomize the natural essence upheld by our dedicated team. </div>
+              <h2 className='mt-2 font-extralight text-center sm:text-left '>Our bully sticks epitomize the natural essence upheld by our dedicated team. </h2>
             </div>
             <div className='flex sm:flex-row flex-col space-y-2 sm:space-x-4 sm:w-3/6 w-40  align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg'>
               <Image
@@ -112,7 +112,7 @@ const page = () => {
                 alt='chemical-free-bully-stick'
                 className='bg-orange-500 rounded-2xl py-3 px-3 sm:h-28 sm:w-28 w-12 mx-auto'
               />
-              <div className='mt-2 font-extralight text-center sm:text-left' style={{fontFamily: 'inter'}}>Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team</div>
+              <h2 className='mt-2 font-extralight text-center sm:text-left' >Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team</h2>
             </div>
           </div>
       </div>
@@ -141,7 +141,7 @@ const page = () => {
                   <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h4>
                   <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-full "  style={{fontFamily: 'inter'}}>ZEMY Group LLC is a holding company with its headquarters in NY. It has many subsidiaries which encompasses many market segments including healthcare, daily commodities, pet food, generic drugs, medical diagnostics, real estate, hospital management consultancy</h4>
                   <a href='https://www.zemy-group.com' target="_blank" rel="noopener noreferrer">
-                    <button  className='rounded-full py-1 px-8 my-4 sm:mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 ' style={{fontFamily: "inter"}}>
+                    <button  className='rounded-full py-1 px-8 my-4 sm:mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52'>
                       Visit Our Website
                     </button>
                   </a>
@@ -151,7 +151,6 @@ const page = () => {
             <CompanySlider data={companies} />
           </div>
           {/* <CompanySlider /> */}
-
           <div className='hidden sm:block'>
             <CompanyCard data={companies}/>
           </div>

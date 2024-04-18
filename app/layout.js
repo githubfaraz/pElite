@@ -3,7 +3,14 @@ import "./globals.css";
 import Script from 'next/script';
 import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
 import {Footer} from '@/app/components'
+// import Head from "next/head";
 // const inter = Inter({ subsets: ["latin"] });
+import { Roboto } from 'next/font/google'
+ 
+const roboto = Roboto({
+  weight: '300',
+  subsets: ['latin'],
+})
 const inter = Inter({ 
   subsets: ['latin'],
   variable: '--font-inter',
@@ -113,11 +120,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-    <GoogleAnalyticsScript/>
-    <link rel="icon" type="image/svg+xml" href="/logoP.png"></link>
-    <link rel='dns-prefetch' href='//www.google.com' />
+      <GoogleAnalyticsScript/>
+      <link rel="icon" type="image/svg+xml" href="/logoP.png"></link>
+      <link rel='dns-prefetch' href='//www.google.com' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel="alternate" type="application/rss+xml" title="Elite Treat For Pets &raquo; Feed" href="https://rss.app/feeds/SRjwJEauF0ZESkkJ.xml" />
+      <link rel="alternate" type="application/rss+xml" title="Elite Treat For Pets &raquo; Feed" href="https://rss.app/feeds/SRjwJEauF0ZESkkJ.xml" />
     <Script
           id="my-script"
           type="application/ld+json"
@@ -130,7 +137,8 @@ export default function RootLayout({ children }) {
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-57NWNHT8');`,
           }}/>
-      <body>
+          
+      <body className={roboto.className}>
       {children}
       <Script 
           strategy="lazyOnload"
@@ -145,8 +153,8 @@ export default function RootLayout({ children }) {
             visibility:"hidden"
           }}></iframe>
         </noscript>
-      </body>
       <Footer/>
+      </body>
     </html>
   );
 };

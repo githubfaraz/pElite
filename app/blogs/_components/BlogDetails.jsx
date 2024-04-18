@@ -61,9 +61,9 @@ function BlogDetails ({ params })  {
           {/* <MainNavbar /> */}
           <Navb linkActive='9'/>
         </div>
-        <div className='absolute sm:top-1/4 top-32 sm:left-10 left-0 sm:mx-auto text-center ml-0 mt-2 sm:text-6xl text-4xl font-semibold text-orange-600 ' style={{fontFamily: 'playfair_display'}}>
+        <h1 className='absolute sm:top-1/4 top-32 sm:left-10 left-0 sm:mx-auto text-center ml-0 mt-2 sm:text-6xl text-4xl font-semibold text-orange-600 ' style={{fontFamily: 'playfair_display'}}>
           {data.title}
-        </div>
+        </h1>
       </div>
 
       {/* body */}
@@ -77,11 +77,11 @@ function BlogDetails ({ params })  {
               alt='dog-chewing bully-stick'
               className='rounded-lg mx-auto'
               />
-        <h1 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-3 sm:my-4 my-2 text-center' style={{fontFamily: 'roboto'}}>{data.title}</h1>
+        <h1 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-3 sm:my-4 my-2 text-center' >{data.title}</h1>
         <p>{data.introduction}</p>
         {data.subtitles.map((subtitle, index) => (
           <div key={index}>
-            <h2 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-7 sm:my-4 my-2' style={{fontFamily: 'roboto'}}>{subtitle}</h2>
+            <h2 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-7 sm:my-4 my-2' >{subtitle}</h2>
             <p>{data.content[index]}</p>
           </div>
         ))}

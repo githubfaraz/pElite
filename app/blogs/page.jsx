@@ -23,9 +23,9 @@ const page = () => {
         <div className='absolute top-0 left-0 ml-0 mt-0 w-screen sm:w-full'>
           <Navb linkActive='4' />
         </div>
-        <div className='absolute sm:top-1/4 top-32 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
+        <h1 className='absolute sm:top-1/4 top-32 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
           Our Blogs
-        </div>
+        </h1>
       </div>
       {/* Header */}
 
@@ -103,7 +103,7 @@ const page = () => {
                       <a href="#" class="fa fa-twitter"><FaTwitter/></a>
                       <a href="#" class="fa fa-instagram"><FaTiktok/></a>
                     </div>
-                    <h2 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h2>
+                    <h1 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h1>
                     <hr />
                     <PopularBlogs />
                     

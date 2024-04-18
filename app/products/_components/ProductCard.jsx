@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
             {/* <br /> */}
             <hr />
             {/* <br /> */}
-            <h1 className="sm:text-2xl text-lg font-semibold w-full text-center text-gray-900 font-playfair_display" >{product.name}</h1>
+            <h1 className="sm:text-2xl text-lg font-semibold w-full text-center text-gray-900 " >{product.name}</h1>
             <br />
             <br />
         </div>

@@ -2,23 +2,8 @@
 import Image from 'next/image'
 import {Navb} from '@/app/components'
 import ProductFilters from '@/app/products/_components/ProductFilters'
-
-
-async function getData() {
-    const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks')
-    if (!res.ok) {
-      throw new Error('Failed to fetch data')
-    }
-    return res.json()
-  }
-
   
   export default  function Page  ()  {
-    // const fetcher = (url) => fetch(url).then((res) => res.json());
-    
-
-    // if (isLoading) return <div>Loading...</div>;
-    // if (error) return <div>Error loading data</div>;
     return (
     <div>
         <div className='w-full md:w-full lg:w-full' style={{ position: 'relative', display: 'inline-block' }} >

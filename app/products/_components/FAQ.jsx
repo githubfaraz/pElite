@@ -11,7 +11,7 @@ const FAQ = ({feedingGuidelines,nutritionFacts}) => {
         answer={feedingGuidelines}
       />
       <hr />
-      <Accordion title="Nutrition Facts" answer={nutritionFacts} />
+      <Accordion title="Nutrition Facts" className='font-serif' answer={nutritionFacts} />
     </div>
   );
 };

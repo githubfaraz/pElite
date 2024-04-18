@@ -39,11 +39,11 @@ async function ProductDetails ({ params })  {
 
         <div className='flex flex-col sm:space-y-6 space-y-3 sm:w-1/2 w-full'>
             <div className='flex flex-col space-y-3'>
-                <h2 className='sm:text-5xl text-4xl font-bold text-orange-500 font-playfair_display' style={{fontFamily: 'playfair_display'}}>{product.name}</h2>
-                <p className='text-lg font-light' style={{fontFamily: 'inter'}}>{product.details}</p>
+                <h1 className='sm:text-5xl text-4xl font-bold text-orange-500 ' style={{fontFamily: 'playfair_display'}}>{product.name}</h1>
+                <h2 className='text-lg font-light' style={{fontFamily: 'inter'}}>{product.details}</h2>
             </div>
             <div>
-                <h2 className='sm:text-4xl text-3xl font-semibold text-orange-500 mb-4 font-playfair_display' >Product Overview</h2>
+                <h2 className='sm:text-4xl text-3xl font-semibold text-orange-500 mb-4 font-serif' >Product Overview</h2>
                 <div className='flex flex-col space-y-3 bg-gray-100 p-3'>
                     <div className='flex flex-col space-x-0 lg:flex-row sm:space-x-2 bg-gray-100'>
                         <div className='py-2 sm:px-8 px-2 bg-gray-100 sm:w-80 w-full flex flex-row space-x-4 align-middle rounded-md'>
@@ -54,7 +54,7 @@ async function ProductDetails ({ params })  {
                                 alt='animal-consumption'
                             />
                     
-                            <h2 className=' text-gray-900 rounded-2xl my-auto font-semibold text-lg' style={{fontFamily: 'meri'}}>{product.size_consumption.join(',')}</h2>
+                            <h2 className=' text-gray-900 rounded-2xl my-auto font-semibold text-lg' >{product.size_consumption.join(',')}</h2>
                         </div>
                         <div className='py-2 sm:px-8 px-2 bg-gray-100 sm:w-80 w-full flex flex-row space-x-4 align-middle rounded-md'>
                             <Image
@@ -64,7 +64,7 @@ async function ProductDetails ({ params })  {
                                 alt='animal-consumption'
                             />
                     
-                            <h2 className=' text-gray-900 rounded-2xl my-auto font-semibold text-lg font-playfair_display' >{product.age_consumption.join(',')}</h2>
+                            <h2 className=' text-gray-900 rounded-2xl my-auto font-semibold text-lg ' >{product.age_consumption.join(',')}</h2>
                         </div>
                     </div>
                     <div className='py-2 sm:px-8 px-2 bg-gray-100 sm:w-80 w-full flex flex-row space-x-4 align-middle rounded-md'>
@@ -75,7 +75,7 @@ async function ProductDetails ({ params })  {
                                 alt='animal-consumption'
                             />
                     
-                            <h2 className=' text-gray-900 rounded-2xl my-auto font-semibold text-lg' style={{fontFamily: 'meri'}}>{product.thickness}</h2>
+                            <h2 className=' text-gray-900 rounded-2xl my-auto font-semibold text-lg' >{product.thickness}</h2>
                         </div>
                 </div>
             </div>

@@ -148,9 +148,9 @@ const FeaturedBlogs = () => {
                 />
                 <Link href={`/blogs/${blog._id}`} className="flex flex-row space-x-3 items-center justify-center absolute top-72 left-28 lg:left-24 md:left-14 text-center bg-orange-700 hover:bg-orange-500 transition-all p-2 rounded-lg text-white">
                 <IoEye size={20}/>
-                <h2 className="block font-medium" style={{ fontFamily: 'poppins' }}>See more</h2>
+                <h2 className="block font-medium" >See more</h2>
                 </Link>
-                <h4 className="mt-6 text-center text-2xl text-amber-700 font-semibold "  style={{fontFamily: 'robot'}}>{blog.title}</h4>
+                <h4 className="mt-6 text-center text-2xl text-amber-700 font-semibold "  >{blog.title}</h4>
                 {/* <h3 className="mt-3 w-96 text-center font-light text-lg"  style={{fontFamily: 'lora'}}>Learn the steps our Bully sticks Production go through before reaching the belly of your Pet</h3> */}
               </div> 
               )}
