@@ -87,7 +87,7 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
         {links.map((link) => (
           <li key={link.id}>
             <Link href={link.url}>
-              <button className={`text-amber-600 hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-bold' : ''}`}>
+              <button className={`text-amber-600 hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-extrabold' : ''}`}>
                 {link.text}
               </button>
             </Link>

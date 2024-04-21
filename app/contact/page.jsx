@@ -24,7 +24,7 @@ const Page = () => {
                 />
                 <h1 className='absolute md:top-1/4 top-4 text-center md:mt-64 mt-16 md:text-6xl text-4xl font-semibold text-white' style={{fontFamily: "playfair_display"}}>
                     Contact Us
-                    <h1 className='md:text-xl text-sm font-light text-center md:w-5/6 w-full mx-auto font-serif' >Ask about our products,our processes,implementation or anything else.We would be interested to hear from you.</h1>
+                    <h2 className='md:text-xl text-sm font-light text-center md:w-5/6 w-full mx-auto font-serif' >Ask about our products,our processes,implementation or anything else.We would be interested to hear from you.</h2>
                 </h1>
             </div>
             <div className=' w-full'>
@@ -40,11 +40,11 @@ const Page = () => {
 export async function generateMetadata(){
   return {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
-  title: "Elite Treat For Pets | Contact",
-  appleMobileWebAppTitle: 'Elite Treat For Pets | Contact',
+  title: "Elite Treat For Pets | Contact Us",
+  appleMobileWebAppTitle: 'Elite Treat For Pets | Contact Us',
   description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
   openGraph: {
-    title: "Elite Treat For Pets | Contact",
+    title: "Elite Treat For Pets | Contact Us",
     description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
@@ -72,7 +72,7 @@ export async function generateMetadata(){
   },
   twitter: {
     card: "summary_large_image",
-    title: "Elite Treat For Pets | Contact",
+    title: "Elite Treat For Pets | Contact Us",
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
 }

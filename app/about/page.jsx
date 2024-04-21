@@ -68,19 +68,6 @@ const page = () => {
         </h1>
       </div>
 
-      <div className='sm:mx-10 sm:my-10 my-5 mx-5 flex flex-col sm:flex-row sm:space-x-5 space-y-2'>
-        <h1 className="sm:text-6xl text-4xl mb-23 leading-snug sm:leading-9xl sm:w-3/5 w-full text-left mb-10 text-orange-400 font-extrabold" style={{
-              fontFamily: 'playfair_display'
-            }}>We stand by the <span className='text-orange-600'>quality</span> of our bully sticks! Your <span className='text-orange-600 font-extrabold'>happiness</span> is our priority.</h1>
-        <h2 className='sm:w-2/5 sm:mt-6 mt-3 sm:text-2xl text-xl font-extralight' >
-          Welcome to Elite Treat For Pets, where our passion for pets and commitment to excellence converge. At the core of our mission is the belief that our pets deserve the utmost care,
-          reflected in our premium Pets Bully Sticks.
-        </h2>
-        <h2 className='sm:w-2/5 sm:text-2xl text-xl sm:mt-6 mt-3 font-extralight' >
-          As devoted pet enthusiasts, we recognize the joy our furry friends bring, driving us to reciprocate that love with a treat distinguished by its exceptional quality, taste, and nutritional value.
-        </h2>
-      </div>
-
       <div className='sm:mx-10 mx-5 my-5 sm:my-10 flex md:flex-wrap lg:flex-nowrap md:align-middle md:justify-center md:space-y-5 lg:space-y-0 sm:flex-row sm:space-x-12 flex-col space-x-2'>
           <div className='flex sm:flex-row flex-col sm:space-x-4 space-y-2 sm:w-3/6 w-40 align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg mx-auto sm:mx-0'>
             <Image
@@ -117,7 +104,60 @@ const page = () => {
           </div>
       </div>
 
-      <div className='sm:my-16 relative inline-block lg:ml-96 ml-9 my-8'>
+      {/* <div className='sm:mx-10 sm:my-10 my-5 mx-5 flex flex-col sm:flex-row sm:space-x-5 space-y-2'>
+        <h1 className="sm:text-6xl text-4xl mb-23 leading-snug sm:leading-9xl sm:w-3/5 w-full text-left mb-10 text-orange-400 font-extrabold" style={{
+              fontFamily: 'playfair_display'
+            }}>We stand by the <span className='text-orange-600'>quality</span> of our bully sticks! Your <span className='text-orange-600 font-extrabold'>happiness</span> is our priority.</h1>
+        <h2 className='sm:w-2/5 sm:mt-6 mt-3 sm:text-2xl text-xl font-extralight' >
+          Welcome to Elite Treat For Pets, where our passion for pets and commitment to excellence converge. At the core of our mission is the belief that our pets deserve the utmost care,
+          reflected in our premium Pets Bully Sticks.
+        </h2>
+        <h2 className='sm:w-2/5 sm:text-2xl text-xl sm:mt-6 mt-3 font-extralight' >
+          As devoted pet enthusiasts, we recognize the joy our furry friends bring, driving us to reciprocate that love with a treat distinguished by its exceptional quality, taste, and nutritional value.
+        </h2>
+      </div> */}
+
+      <div className='flex flex-row space-x-16 mx-10'>
+        <div className='w-1/2'>
+          <h2 className='font-extrabold text-2xl font-sans text-orange-400'>ABOUT THE COMPANY</h2>
+          <p>At the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticks At the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticksAt the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticksAt the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticksAt the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticks</p>
+        </div>
+
+        <div className='flex flex-col space-y-6 w-1/2'>
+          <div>
+            <Image alt='bully-stick1' src='/AboutUs3.png' className='h-80 rounded-lg' width={800} height={200}/>
+          </div>
+          <div className=' flex flex-row space-x-2'>
+            <Image alt='bully-stick1' src='/odor.jpg' className='rounded h-40' width={200} height={200}/>
+            <Image alt='bully-stick1' src='/hero-2.png' className='rounded h-40' width={200} height={200}/>
+            <Image alt='bully-stick1' src='/hero-2.png' className='rounded h-40' width={200} height={200}/>
+          </div>
+        </div>
+      </div>
+
+      <div className='flex flex-row space-x-16 mx-10 mt-16'>
+      <div className='flex flex-col w-1/2 space-y-6'>
+          <div>
+            <Image alt='bully-stick1' src='/AboutUs3.png' className='h-80 rounded-lg' width={800} height={200}/>
+          </div>
+          <div className='flex flex-row space-x-2'>
+            <Image alt='bully-stick1' src='/odor.jpg' className='rounded h-40' width={200} height={200}/>
+            <Image alt='bully-stick1' src='/hero-2.png' className='rounded h-40' width={200} height={200}/>
+            <Image alt='bully-stick1' src='/hero-2.png' className='rounded h-40' width={200} height={200}/>
+          </div>
+        </div>
+
+        <div className='w-1/2'>
+          <h2 className='font-extrabold text-2xl font-sans text-orange-400'>ABOUT THE COMPANY</h2>
+          <p>At the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticks At the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticksAt the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticksAt the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticksAt the core of the green forest lives ZEMY GROUP GLOBAL LTD responsible in running the production of Bully sticks</p>
+        </div>
+
+       
+      </div>
+
+      
+
+      {/* <div className='sm:my-16 relative inline-block lg:ml-96 ml-9 my-8'>
         <Image 
           src='/AboutUs2.png'
           alt='bully-sticks'
@@ -133,7 +173,7 @@ const page = () => {
             height={400}
             className='absolute sm:top-16 top-10 left-32 lg:left-96 md:left-48 ml-0 mt-0 mx-auto rounded-2xl border-4 sm:border-8 stroke-white border-white sm:w-3/5 sm:h-4/6 w-2/5 h-3/6'
           />
-      </div>
+      </div> */}
 
       <h3 className='text-center my-4 text-orange-500 font-bold text-2xl'>Our Companies</h3>
       <div className='mx-10'>
