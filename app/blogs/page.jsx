@@ -17,15 +17,18 @@ const page = () => {
           alt='dog-chewing-bully-stick'
           height={50}
           width={1500}
-          className='object-cover h-96 filter brightness-50 w-screen'
+          className='object-cover sm:h-80 h-96 filter brightness-50 w-screen'
           style={{ zIndex: 1}}
         />
-        <div className='absolute top-0 left-0 ml-0 mt-0 w-screen sm:w-full'>
-          <Navb linkActive='4' />
+
+        <div className='absolute inset-0 bg-amber-900 bg-opacity-50'>
+          <div className='absolute top-0 left-0 ml-0 mt-0 w-screen sm:w-full'>
+            <Navb linkActive='4' />
+          </div>
+          <h1 className='absolute sm:top-1/4 top-32 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-400 font-oswald'>
+            Our Blogs
+          </h1>
         </div>
-        <h1 className='absolute sm:top-1/4 top-32 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
-          Our Blogs
-        </h1>
       </div>
       {/* Header */}
 

@@ -72,8 +72,8 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
         <div className="flex justify-between sm:justify-normal sm:w-4/12 flex-row  w-full">
           <Link href="/" className='block'>
             <Image src='/Plogo.png' alt="comfy sloth" className="w-16 h-16 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 
-                height={200}
-                width={70} />
+                height={2000}
+                width={2000} />
           </Link>
           <button
             type="button"
@@ -87,7 +87,7 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
         {links.map((link) => (
           <li key={link.id}>
             <Link href={link.url}>
-              <button className={`text-amber-600 hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-extrabold' : ''}`}>
+              <button className={`text-orange-400 font-oswald hover:text-primary-700 text-lg capitalize ${parseInt(linkActive) === link.id ? 'font-extrabold' : ''}`}>
                 {link.text}
               </button>
             </Link>

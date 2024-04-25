@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Image from "next/image";
 
 
 const CompanySlider = ({data}) => {
@@ -38,9 +39,16 @@ const CompanySlider = ({data}) => {
     }}
   >
     {data.map((blog)=> 
-              <SwiperSlide key={blog.name} className="shadow-2xl">
-              <div style={{ position: 'relative', display: 'inline-block',borderWidth: '1px' }} className="flex flex-col p-4 justify-center align-middle text-center w-full border-gray-300  rounded-md py-4">
-                  <h4 className="mt-6 block text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'open_sans'}}>{blog.name}</h4>
+              <SwiperSlide key={blog.name} className="shadow-xl">
+              <div style={{ position: 'relative', display: 'inline-block',borderWidth: '1px' }} className="flex flex-col p-4 justify-center align-middle text-center w-full border-gray-100  rounded-md py-4">
+                  <h4 className="mt-6 block text-center text-xl text-amber-700 font-bold w-full text-oswald"  >{blog.name}</h4>
+                  <Image 
+                    alt='main-company'
+                    height={100}
+                    width={100}
+                    src={blog.logo}
+                    className='mx-auto my-10'
+                  />
                   <h4 className="mt-6 block text-center text-xl text-gray-800 font-light w-full min-h-60"  >{blog.description}</h4>
                   <Link href='/company' className="block mx-auto">
                     <button  className='rounded-full py-1 px-8 my-4 mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg w-full' style={{fontFamily: "inter"}}>

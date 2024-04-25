@@ -29,6 +29,8 @@ const config = {
       },
       fontFamily: {
         'playfair_display': ['Playfair Display', 'serif'],
+        'oswald': ['Oswald', 'sans-serif'], // The name 'oswald' is what you'll use in your class
+        'gilroy': ['Gilroy']
       },
       margin:{
         '7xl': '36rem'

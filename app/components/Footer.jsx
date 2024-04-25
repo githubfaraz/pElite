@@ -1,18 +1,69 @@
+// "use client"
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import { FaFacebookF} from 'react-icons/fa'
+import { IoLogoInstagram } from 'react-icons/io5'
+import { FaXTwitter } from "react-icons/fa6";
+import { BiSolidPhoneCall } from "react-icons/bi";
+import { FiMail } from "react-icons/fi";
+import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="flex flex-col space-y-0 " >
-        <div className="flex flex-row lg:space-x-36 justify-end lg:ml-60 lg:py-6  lg:justify-center py-4 space-x-4 lg:mx-7" >
-        <Image
-              src='/logoP.png'
-              alt="phoneCall"
-              width={90}
-              height={50}
-              className="p-2 lg:w-24 lg:h-24 w-16 h-16 hidden sm:block"
-            />
+    <div className=' bg-orange-400 text-white sm:py-4'>
+    <div className="flex flex-col text-left sm:flex-row sm:space-x-24 sm:space-y-0 space-y-10 sm:h-60 h-30  px-10" >
+      <div>
+        <h4 className='font-extrabold'>elitetreatforpets.com</h4>
+        <h4 className='mt-2'>Eco-Friendly Chews for Eco-Loving Paws.</h4>
+        <div className='flex space-x-2 mt-7'>
+          <Link href='https://www.facebook.com/profile.php?id=61556973973125' className="ml-2 flex flex-row space-x-2">
+              <FaFacebookF />
+              </Link>
+              <Link href='https://twitter.com/PetsEliteTreat' className="ml-2 flex flex-row space-x-2">
+              <FaXTwitter />
+              </Link>
+              <Link href='https://www.instagram.com/elitetreatbullysticks/' className="ml-2 flex flex-row space-x-2">
+              <IoLogoInstagram />
+          </Link>
+        </div>
+      </div>
+      <div className='flex flex-col space-y-5'>
+        <h3 className='font-extrabold font-oswald text-2xl'>Quick Navigation</h3>
+        <Link href='/'>Home</Link>
+        <Link href='/about'>About us</Link>
+        <Link href='/contact-us'>Contact</Link>
+      </div>
+      <div className='flex flex-col space-y-5'>
+        <h3 className='font-extrabold font-oswald text-2xl'>Contact Us</h3>
+        <div className='flex space-x-1'>
+        <BiSolidPhoneCall />
+          <h3 className=' '>+1(917) 6094-597</h3>
+        </div>
+        <div className='flex space-x-1'>
+          <FiMail />
+          <Link href="mailto:info@zemy-group.com?subject=Mail to Elite Bully Sticks">
+            info@zemy-group.com
+          </Link>
+        </div>
+        <div className='flex space-x-1'>
+          <FiMail />
+          <Link href="mailto:bullystick@elitetreatforpets.com?subject=Mail to Elite Bully Sticks">
+            bullystick@elitetreatforpets.com
+          </Link>
+        </div>
+      </div>
+      <div className='space-y-2'>
+        <h1 className='font-extrabold text-2xl font-oswald'>Company info</h1>
+          {/* <h1>Elite Treat For Pets</h1> */}
+        <div className='flex space-x-1'>
+        <FaLocationDot />
+        <h1>Kongoni,B09 </h1>
+        </div>
+        <h1>Athi River </h1>
+        <h1>P.O. Box 42875, Machakos, Kenya</h1>
+      </div>
+        {/* <div className="flex flex-row lg:space-x-36 justify-end lg:ml-60 lg:py-6  lg:justify-center py-4 space-x-4 lg:mx-7" >
+        
           <div className='flex flex-col sm:flex-row lg:space-x-3 sm:space-y-0 w-full space-y-4'>
             <div className="flex flex-row space-x-2 justify-center align-middle w-full">
               <Image
@@ -142,7 +193,12 @@ const Footer = () => {
                 width={20}
               />
             </Link>
-        </div>
+        </div> */}
+      </div>
+      <br />
+      <hr className="border-t border-gray-300 mx-10"/>
+
+      <h2 className='mx-auto text-center mt-2'>© 2024 All Rights Reserved | ZEMY GROUP GLOBAL LIMITED</h2>
       </div>
   )
 }

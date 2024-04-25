@@ -10,18 +10,20 @@ import ProductFilters from '@/app/products/_components/ProductFilters'
         <Image
           src='/hero-2.png'
           alt='dog-chewing-bully-stick'
-          height={100}
+          height={50}
           width={1500}
-          className='object-cover h-96 filter brightness-50'
-          style={{ zIndex: 1, height: '30rem'}}
+          className='object-cover sm:h-80 h-96 filter brightness-50'
+          style={{ zIndex: 1}}
         />
-        <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
-          {/* <MainNavbar /> */}
-          <Navb linkActive='3' />
+        <div class="absolute inset-0 bg-amber-900 bg-opacity-50">
+          <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
+            {/* <MainNavbar /> */}
+            <Navb linkActive='3' />
+          </div>
+          <h1 className='absolute lg:top-1/4 top-40 lg:left-96 md:left-48 left-14 lg:ml-24 text-center text-orange-400 lg:mt-12  md:text-6xl text-4xl font-semibold font-oswald'>
+            Our Products
+          </h1>
         </div>
-        <h1 className='absolute lg:top-1/4 top-40 lg:left-96 md:left-48 left-14 lg:ml-24 text-center lg:mt-12  md:text-6xl text-4xl font-semibold text-orange-600' style={{fontFamily: 'playfair_display'}}>
-          Our Products
-        </h1>
     </div>
         {/* <div className='flex sm:flex-row sm:space-x-4 flex-col space-y-3'> */}
             <ProductFilters/>
