@@ -161,7 +161,7 @@ function Home() {
               <Link href='/blogs/65f813000f2c638239fa59ff' className="text-orange-500 font-bold">Learn more</Link>
             </h3>
             </div>
-            <div className="flex flex-col justify-center align-middle sm:hidden">
+            {/* <div className="flex flex-col justify-center align-middle sm:hidden">
               <Image 
                 src='/testRibbon.png'
                 alt="Quality product"
@@ -174,7 +174,7 @@ function Home() {
             }}>
               Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team, ensuring that each chew is of the highest quality for the happiness and well-being of your pets.
             </h3>
-            </div>
+            </div> */}
           </div>
         <div >
 
@@ -226,7 +226,7 @@ function Home() {
               We go above and beyond industry standards to ensure the health and safety of both pets and their owners, offering peace of mind with every purchase.
             </h3>
             </div>
-            <div className="flex flex-col justify-center align-middle sm:hidden">
+            {/* <div className="flex flex-col justify-center align-middle sm:hidden">
               <Image 
                 src='/testRibbon.png'
                 alt="Quality product"
@@ -239,7 +239,7 @@ function Home() {
             }}>
               Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team, ensuring that each chew is of the highest quality for the happiness and well-being of your pets.
             </h3>
-            </div>
+            </div> */}
           </div>
           </div>
         </div>
