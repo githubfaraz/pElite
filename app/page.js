@@ -122,12 +122,12 @@ function Home() {
       {/* Difference Section */}
       <div className="sm:mx-10 mx-2 my-2 sm:py-14 py-7 flex sm:flex-row sm:space-x-0 flex-col space-y-2">
         <div>
-          <h1 className="text-3xl leading-10xl text-center sm:text-left  sm:leading-7xl sm:text-7xl mb-23 sm:w-11/12 w-full sm:mb-10 mb-5 text-amber-700 font-bold" style={{
+          <h2 className="text-3xl leading-10xl text-center sm:text-left  sm:leading-7xl sm:text-7xl mb-23 sm:w-11/12 w-full sm:mb-10 mb-5 text-amber-700 font-bold" style={{
             fontFamily: 'playfair_display'
-          }}>What makes us different from others</h1>
-          <p className="sm:w-5/6 w-full mt-2 text-center sm:text-left  sm:leading-8xl sm:text-8xl leading-snug text-xl mb-6 font-light text-slate-900">
+          }}>What makes us different from others</h2>
+          <h3 className="sm:w-5/6 w-full mt-2 text-center sm:text-left  sm:leading-8xl sm:text-8xl leading-snug text-xl mb-6 font-light text-slate-900">
             With a long-standing reputation for excellence, we&apos;ve established ourselves as the premier choice for discerning pet owners who demand nothing but the best for their furry companions
-          </p>
+          </h3>
         </div>
         <div className="flex flex-col space-y-3">
           <div className="sm:flex sm:flex-row-reverse sm:space-y-2 align-middle mb-2 flex flex-col space-y-2 ">
@@ -250,8 +250,8 @@ function Home() {
       
       {/* Tips Section */}
       <div className="h-max sm:py-10 sm:px-9 py-5 px-2 md:px-16 w-full">
-        <h3  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Treats Bully Sticks Production</h3>
-        <h3  className="text-center text-xl font-light sm:w-2/4 w-full text-amber-700 mx-auto" style={{fontFamily: 'open_sans'}}>Pet treats packed with nutritious ingredients,vitamins and supplements to help dogs</h3>
+        <h2  className="text-center sm:text-4xl text-3xl mb-5 text-amber-700 font-bold" style={{fontFamily: "playfair_display"}}>Tips for Elite Treats Bully Sticks Production</h2>
+        <h2  className="text-center text-xl font-light sm:w-2/4 w-full text-amber-700 mx-auto" style={{fontFamily: 'open_sans'}}>Pet treats packed with nutritious ingredients,vitamins and supplements to help dogs</h2>
       <FeaturedBlogs/>
       </div>
       {/* Tips Section */}
@@ -269,14 +269,14 @@ function Home() {
               className="h-28 w-28 sm:h-36 sm:w-36 border-white border-2 "
               style={{  borderRadius: '48%'}}
             />
-            <div className="sm:p-14 p-6 bg-amber-500 text-3xl text-white" style={{
+            <h2 className="sm:p-14 p-6 bg-amber-500 text-3xl text-white" style={{
             fontFamily: 'playfair_display'
-          }}>Elite</div>
+          }}>Elite</h2>
           </div>
           <div className="flex flex-row space-x-4 ">
-          <div className="sm:p-14 p-8 bg-amber-500 text-3xl text-white " style={{
+          <h2 className="sm:p-14 p-8 bg-amber-500 text-3xl text-white " style={{
             fontFamily: 'playfair_display'
-          }}>Pets</div>
+          }}>Pets</h2>
             <Image
               src='/bankt_bs.png'
               alt="dog eating bully-stick"

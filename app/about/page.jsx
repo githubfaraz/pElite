@@ -68,17 +68,17 @@ const page = () => {
             <Navb linkActive='2'/>
           </div>
           <div className='absolute sm:top-1/4  left-0  mt-12 text-center sm:mx-10 mx-0 text-orange-400'>
-          <h1 className='sm:text-6xl text-4xl font-semibold font-oswald'>
+          <h1 className='sm:text-6xl text-4xl font-semibold font-oswald' style={{color:  '#ffaf58'}}>
             About Us
           </h1>
-          <h2>Established in 2021,</h2>
-          <h2 className='text-sm'>
+          <h2 className='text-burgundy' style={{color:  '#ffaf58'}}>Established in 2021,</h2>
+          <h2 className='text-sm' style={{color:  '#ffaf58'}}>
           Elite Treat for Pets has been a major player in the manufacturing of bully sticks, supplying high-quality, generic dog treats to private markets, governmental institutions, local and international NGOs, and exporting to regional markets for the past two years. The company boasts one of the largest and most modern FDA-compliant manufacturing facilities in the region, complete with a quality assurance infrastructure, and has adequate capacity for common dosage forms to satisfy the current and future needs of its clientele.          </h2>
         </div> 
         </div>
       </div>
 
-      <div className='sm:mx-20 mx-5 my-5 sm:my-10 flex md:flex-wrap lg:flex-nowrap md:align-middle md:justify-center md:space-y-5 lg:space-y-0 sm:flex-row sm:space-x-12 flex-col space-x-2'>
+      <div className='sm:mx-20  mx-5 my-5 sm:my-10 flex md:flex-wrap lg:flex-nowrap md:align-middle md:justify-center md:space-y-5 lg:space-y-0 sm:flex-row sm:space-x-12 flex-col space-x-2'>
           <div className='flex sm:flex-row flex-col sm:space-x-4 space-y-2 sm:w-3/6 w-40 align-middle justify-center border px-2 py-3 rounded-lg sm:shadow-2xl shadow-lg mx-auto sm:mx-0'>
             <Image
               src='/chemical-free.png'
@@ -127,36 +127,36 @@ const page = () => {
         </h2>
       </div> */}
 
-      <div className='flex flex-col-reverse sm:flex-row  sm:space-x-16 mx-5 sm:mx-20'>
-        <div className='sm:w-1/2 w-full'>
+      <div className='flex flex-col-reverse lg:flex-row md:mx-16  lg:space-x-16 mx-5 lg:mx-20'>
+        <div className='lg:w-1/2 w-full'>
           <h2 className='font-extrabold text-3xl sm:text-5xl text-orange-600 font-oswald'>Crafting The Ultimate Chew And Unleashing Quality: Our Story</h2>
           <h3>At ZEMY Group Global, your premier source for all-natural, high-quality bully sticks, proudly crafted in the heart of Nairobi, Kenya. Our mission is to provide pet owners with a healthy and satisfying treat for their faithful companions, while also supporting local communities and sustainable practices.</h3>
           <h3 className='mt-2'>Nestled amidst Nairobi&apos;s vibrant landscapes, ZEMY Group Global LTD. was born from a passion for pets and a commitment to ecological stewardship. Our journey began with a simple goal: to produce the finest bully sticks that not only cater to the wellbeing of dogs around the world but also promote the prosperity of local herders and farmers</h3>
           <div className='mt-2 mx-auto font-extrabold'>
             <div className='flex flex-row align-middle space-x-4'>
               <TfiCheckBox className='font-extrabold'/>
-              <div>
+              <h2>
                 FDA Certified Products
-              </div>
+              </h2>
             </div>
             <div className='flex flex-row align-middle space-x-4 mt-1'>
               <TfiCheckBox />
-              <div>
+              <h2>
                 Natural processed Bully Sticks
-              </div>
+              </h2>
             </div>
             <div className='flex flex-row align-middle space-x-4 mt-1'>
               <TfiCheckBox />
-              <div>
+              <h2>
                 Treated,Tested and Approved Bully Sticks
-              </div>
+              </h2>
             </div>
           </div>
         </div>
 
-        <div className='flex flex-col space-y-6 sm:w-1/2 w-full'>
+        <div className='flex flex-col space-y-6 lg:w-1/2 w-full'>
           <div>
-            <Image alt='bully-stick1' src='/AboutUs3.png' className=' rounded-lg' width={3200} height={2400}/>
+            <Image alt='bully-stick1' src='/AboutUs3.png' className='w-full  rounded-lg' width={3200} height={2400}/>
           </div>
           {/* <div className=' flex flex-row space-x-2'>
             <Image alt='bully-stick1' src='/odor.jpg' className='rounded h-40' width={200} height={200}/>
@@ -166,86 +166,86 @@ const page = () => {
         </div>
       </div>
 
-      <div className='flex flex-col sm:flex-row sm:space-x-16 sm:mx-20 mx-5 mt-5'>
-      <div className='flex flex-col sm:w-1/2 w-full space-y-6'>
+      <div className='flex flex-col lg:flex-row lg:space-x-16 md:mx-16 lg:mx-20 mx-5 mt-5'>
+      <div className='flex flex-col lg:w-1/2 w-full space-y-6'>
           <div>
-            <Image alt='bully-stick1' src='/aboutUs-21.jpg' className='h-80 rounded-lg' width={800} height={200}/>
+            <Image alt='bully-stick1' src='/aboutUs-21.jpg' className='w-full rounded-lg' width={800} height={200}/>
           </div>
         </div>
 
-        <div className='sm:w-1/2 flex flex-col w-full justify-between'>
+        <div className='lg:w-1/2 flex flex-col w-full justify-between'>
           <div>
             <h2 className='font-extrabold text-2xl text-orange-600 font-oswald'>WE PROVIDE HIGH QUALITY BULLY STICKS</h2>
             <h3> At ZEMY Group Global LTD, we source only the finest beef from trusted Kenyan herders who share our vision for animal welfare and environmental sustainability. Our bully sticks are carefully crafted from 100% free-range, grass-fed cattle, ensuring each chew is as rich in nutrients as it is in flavor.</h3>
           </div>
           <button  className='rounded-2xl py-2 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-64 w-full' style={{fontFamily: "poppins"}}>
-              Explore Our Products
+              Explore Our Bully Sticks
           </button>
         </div>
       </div>
 
 
-      <div className='flex sm:flex-row flex-col sm:space-x-48 mt-10 sm:mx-20 mx-5'>
-        <div className='flex sm:flex-row flex-col  sm:w-1/3 space-x-11'>
+      <div className='flex lg:flex-row flex-col md:mx-16 lg:space-x-48 mt-10 lg:mx-20 mx-5'>
+        <div className='flex lg:flex-row flex-col  lg:w-1/3 space-x-11'>
           <div>
-            <h2 className='text-3xl font-extrabold text-amber-600' >History</h2>
-            <div className='sm:w-44'>Est. 2021 in Kenya, we started with a plan and idea of providing better Dog Treat.</div>
+            <h3 className='text-3xl font-extrabold text-amber-600' >History</h3>
+            <h2 className='lg:w-44'>Est. 2021 in Kenya, we started with a plan and idea of providing better Dog Treat.</h2>
           </div>
           <Image
             src='/roadmap.svg'
             width={300}
             height={300}
             alt='roadmap-1'
-            className='hidden sm:block'
+            className='hidden lg:block mx-auto text-center'
           />
           <Image 
             src='/rm.svg'
             width={300}
             height={300}
             alt='roadmap'
-            className='block sm:hidden h-24 w-24'
+            className='block lg:hidden h-24 w-24 mx-auto text-center'
           />
         </div>
 
-        <div className='flex sm:flex-row flex-col  sm:w-1/3 space-x-11'>
+        <div className='flex lg:flex-row flex-col  lg:w-1/3 space-x-11'>
           <div>
             <h2 className='text-3xl font-extrabold text-amber-600'>Present</h2>
-            <div className='sm:w-44 '>Today, we are one of the leading Bully Stick Treat and our products are available in most of the countries in United States Of America.</div>
+            <h2 className='lg:w-44 '>Today, we are one of the leading Bully Stick Treat and our products are available in most of the countries in United States Of America.</h2>
           </div>
           <Image
             src='/roadmap.svg'
             width={300}
             height={300}
             alt='roadmap-1'
-            className='hidden sm:block'
+            className='hidden lg:block'
           />
           <Image 
             src='/rm.svg'
             width={300}
             height={300}
             alt='roadmap'
-            className='block sm:hidden h-24 w-24'
+            className='block lg:hidden h-24 w-24'
           />
         </div>
 
-        <div className='flex sm:flex-row flex-col  sm:w-1/3 space-x-11'>
+        <div className='flex lg:flex-row flex-col  lg:w-1/3 space-x-11'>
           <div>
             <h2 className='text-3xl font-extrabold text-amber-600'>Future</h2>
-            <div className='sm:w-44'>Affordability, Availability and Accessibility are core values we will drive to new emerging markets in United States of America.</div>
+            <h2 className='lg:w-44'>Affordability, Availability and Accessibility are core values we will drive to new emerging markets in United States of America.</h2>
           </div>
           <Image
             src='/roadmap.svg'
             width={300}
             height={300}
             alt='roadmap-1'
-            className='hidden sm:block'
+            className='hidden lg:block'
           />
           <Image 
             src='/rm.svg'
             width={300}
             height={300}
             alt='roadmap'
-            className='block sm:hidden h-24 w-24'
+            className='block lg:hidden h-24 w-24'
           />
         </div>
         <div>
@@ -257,30 +257,30 @@ const page = () => {
       
 
       <div className='bg-slate-50'>
-        <div className='sm:mx-20 mx-5 flex flex-col-reverse sm:flex-row mt-10 sm:space-x-16 sm:py-8'>
-          <div className='sm:w-1/2 w-full'>
+        <div className='lg:mx-20 md:mx-16 mx-5 flex flex-col-reverse lg:flex-row mt-10 lg:space-x-16 lg:py-8'>
+          <div className='lg:w-1/2 w-full'>
             <Image
             src='/Plogo.png'
             alt="comfy sloth"
-            className="w-16 h-16 sm:w-36  mt-1 sm:h-36"
+            className="w-16 h-16 lg:w-36  mt-1 lg:h-36"
             height={800}
             width={1000}
             />
             <div className=''>
-              <p>Our production team consists of skilled artisans who bring the spirit of Nairobi to each handcrafted bully stick. With meticulous attention to safety and detail, they are the backbone of our operation, ensuring every product meets our superior standards.</p>
-              <p className='mt-2'>The quality control squad vigilantly monitors each stage of the manufacturing process. From strict hygiene protocols to rigorous testing, they ensure that only the best bully sticks make it to your home, safeguarding your pet&apos;s health and your peace of mind.</p>
+              <h2>Our production team consists of skilled artisans who bring the spirit of Nairobi to each handcrafted bully stick. With meticulous attention to safety and detail, they are the backbone of our operation, ensuring every product meets our superior standards.</h2>
+              <h2 className='mt-2'>The quality control squad vigilantly monitors each stage of the manufacturing process. From strict hygiene protocols to rigorous testing, they ensure that only the best bully sticks make it to your home, safeguarding your pet&apos;s health and your peace of mind.</h2>
             </div>
             <div>
         
             </div>
           </div>
-          <div className='sm:w-1/2 w-full'>
+          <div className='lw-full'>
             <Image
               src='/aboutUs-2.jpg'
               height={1200}
               width={1200}
               alt='meeting'
-              className='w-full sm:h-96 h-full'
+              className='w-full lg:h-96 h-full'
             />
           </div>
         </div>
@@ -290,9 +290,9 @@ const page = () => {
 
       <div className=''>
         <h3 className='text-center mt-10 text-orange-500 font-bold text-2xl'>Our Companies</h3>
-        <div className='sm:mx-10 mx-5'>
-          <div style={{ borderWidth: '1px' }} className="text-center sm:w-2/5 border-gray-100  rounded-md py-2 px-2 mx-auto my-5">
-                    <h4 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h4>
+        <div className='lg:mx-10 mx-5'>
+          <div style={{ borderWidth: '1px' }} className="text-center lg:w-2/5 border-gray-100  rounded-md py-2 px-2 mx-auto my-5">
+                    <h3 className="mt-6 text-center text-xl text-amber-700 font-bold w-full"  style={{fontFamily: 'robot'}}>ZEMY Group LLC</h3>
                     <Image
                       alt='main-company'
                       height={100}
@@ -300,19 +300,19 @@ const page = () => {
                       src='/zemy.svg'
                       className='mx-auto my-10'
                     />
-                    <h4 className="mt-6 text-center text-xl text-gray-800 font-light w-full">ZEMY Group LLC is a holding company with its headquarters in NY. It has many subsidiaries which encompasses many market segments including healthcare, daily commodities, pet food, generic drugs, medical diagnostics, real estate, hospital management consultancy</h4>
+                    <h3 className="mt-6 text-center text-xl text-gray-800 font-light w-full">ZEMY Group LLC is a holding company with its headquarters in NY. It has many subsidiaries which encompasses many market segments including healthcare, daily commodities, pet food, generic drugs, medical diagnostics, real estate, hospital management consultancy</h3>
                     <a href='https://www.zemy-group.com' target="_blank" rel="noopener noreferrer">
-                      <button  className='rounded-full py-1 px-8 my-4 sm:mr-9 sm:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52'>
+                      <button  className='rounded-full py-1 px-8 my-4 lg:mr-9 lg:px-6 border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg lg:w-52'>
                         Visit Our Website
                       </button>
                     </a>
           </div>
             {/* <CompanySlider /> */}
-            <div className="sm:hidden block">
+            <div className="lg:hidden block">
               <CompanySlider data={companies} />
             </div>
             {/* <CompanySlider /> */}
-            <div className='hidden sm:block '>
+            <div className='hidden lg:block '>
               <CompanyCard data={companies}/>
             </div>
         </div>
@@ -320,8 +320,8 @@ const page = () => {
 
       <div className='mx-auto bg-gradient-to-r from-orange-400 to-orange-200 sm:py-32 py-20 w-11/12 rounded-2xl mt-10'>
         <div className='sm:mx-20 text-center flex flex-col space-y-4'>
-          <div className='font-extrabold text-3xl text-orange-600'>Stay Connected with Elite Treat For Pets</div>
-          <div className='sm:w-3/4 mx-auto text-amber-800'>Sign up for our newsletter to stay informed about the latest news,updates, and exclusive offers from Elite Treat For pets.By subscribing,you&apos;ll receive regular emails featuring project highlights,industry insights, and tips for your construction projects</div>
+          <h2 className='font-extrabold text-3xl text-orange-600'>Stay Connected with Elite Treat For Pets</h2>
+          <h3 className='sm:w-3/4 mx-auto text-amber-800'>Sign up for our newsletter to stay informed about the latest news,updates, and exclusive offers from Elite Treat For pets.By subscribing,you&apos;ll receive regular emails featuring project highlights,industry insights, and tips for your construction projects</h3>
           <form className='flex sm:flex-row flex-col space-y-2 sm:space-y-0 w-full justify-center'>
           <div className="relative">
             <input type="text" className='border p-3 pl-10 rounded-sm sm:w-full w-10/12 mx-5 sm:mx-0' placeholder='Enter Email'/>
@@ -340,8 +340,8 @@ const page = () => {
       </div> */}
 
       <div className='bg-slate-50'>
-        <div className='sm:mx-20 mx-3 flex flex-col sm:flex-row sm:mt-10 mt-5 sm:py-10 space-y-4 sm:space-y-0 sm:space-x-16 '>
-        <div className='sm:w-1/2 w-full h-3/4'>
+        <div className='lg:mx-20 mx-3 flex flex-col lg:flex-row lg:mt-10 mt-5 md:mx-16 lg:py-10 space-y-4 lg:space-y-0 lg:space-x-16 '>
+        <div className='lg:w-1/2 w-full h-3/4'>
             <Image
               src='/aboutUs-1.jpg'
               height={1200}
@@ -350,11 +350,11 @@ const page = () => {
               className='w-full h-80'
             />
           </div>
-          <div className='sm:w-1/2 w-full'>
+          <div className='lg:w-1/2 w-full'>
             <h3 className='text-3xl font-semibold font-oswald text-orange-600'>Corporation Strategy</h3>
             <div className=''>
-              <p className='0'>Bully sticks are more than just treats; they&apos;re a cornerstone of your dog&apos;s health. Chewing is a natural behavior that helps your dog relieve anxiety, boredom, and also assists in keeping their teeth clean. Our bully sticks provide a safe and digestible option that far surpasses rawhides or artificial chew toys, helping to minimize plaque and reduce the risk of gum disease.</p>
-              <p className='mt-2 '>The love for pets goes hand-in-hand with the love for our planet at Elite Treat For Pets. We understand our responsibility towards the environment and strive to minimize our ecological footprint. Our packaging is eco-friendly and biodegradable, ensuring that we remain kind to the earth while serving the needs of your furry family member.</p>
+              <h2 className='0'>Bully sticks are more than just treats; they&apos;re a cornerstone of your dog&apos;s health. Chewing is a natural behavior that helps your dog relieve anxiety, boredom, and also assists in keeping their teeth clean. Our bully sticks provide a safe and digestible option that far surpasses rawhides or artificial chew toys, helping to minimize plaque and reduce the risk of gum disease.</h2>
+              <h3 className='mt-2 '>The love for pets goes hand-in-hand with the love for our planet at Elite Treat For Pets. We understand our responsibility towards the environment and strive to minimize our ecological footprint. Our packaging is eco-friendly and biodegradable, ensuring that we remain kind to the earth while serving the needs of your furry family member.</h3>
               {/* <p className='mt-2 '>The quality control squad vigilantly monitors each stage of the manufacturing process. From strict hygiene protocols to rigorous testing, they ensure that only the best bully sticks make it to your home, safeguarding your pet&apos;s health and your peace of mind.</p> */}
             </div>
             <div>

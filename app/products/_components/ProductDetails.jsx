@@ -40,7 +40,7 @@ async function ProductDetails ({ params })  {
         <div className='flex flex-col sm:space-y-6 space-y-3 sm:w-1/2 w-full'>
             <div className='flex flex-col space-y-3'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-orange-500 ' style={{fontFamily: 'playfair_display'}}>{product.name}</h1>
-                <h2 className='text-lg font-light' style={{fontFamily: 'inter'}}>{product.details}</h2>
+                <h2 className='text-lg font-light'>{product.details}</h2>
             </div>
             <div>
                 <h2 className='sm:text-4xl text-3xl font-semibold text-orange-500 mb-4 font-serif' >Product Overview</h2>

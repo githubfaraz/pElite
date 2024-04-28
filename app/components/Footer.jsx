@@ -10,9 +10,17 @@ import { FiMail } from "react-icons/fi";
 import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className=' bg-orange-400 text-white sm:py-4'>
-    <div className="flex flex-col text-left sm:flex-row sm:space-x-24 sm:space-y-0 space-y-10 sm:h-60 h-30  px-10" >
+    <div className=' bg-orange-400 text-white sm:py-4 w-full'>
+    <div className="flex flex-col text-left lg:flex-row lg:space-x-24 lg:space-y-0 space-y-10 lg:h-60 h-30  px-10" >
       <div>
+        <div>
+          <Image 
+            src='/fLogo.svg'
+            height={100}
+            width={100}
+            alt='footer-logo'
+          />
+        </div>
         <h4 className='font-extrabold'>elitetreatforpets.com</h4>
         <h4 className='mt-2'>Eco-Friendly Chews for Eco-Loving Paws.</h4>
         <div className='flex space-x-2 mt-7'>
@@ -53,14 +61,14 @@ const Footer = () => {
         </div>
       </div>
       <div className='space-y-2'>
-        <h1 className='font-extrabold text-2xl font-oswald'>Company info</h1>
-          {/* <h1>Elite Treat For Pets</h1> */}
+        <h3 className='font-extrabold text-2xl font-oswald'>Company info</h3>
         <div className='flex space-x-1'>
         <FaLocationDot />
-        <h1>Kongoni,B09 </h1>
+        <h3>147 W 35th St,New York,NY 10001(Headquarter)</h3>
         </div>
-        <h1>Athi River </h1>
-        <h1>P.O. Box 42875, Machakos, Kenya</h1>
+        <h3>Kongoni,B09(Manufacturing Company)</h3>
+        <h3>Athi River </h3>
+        <h3>P.O. Box 42875, Machakos, Kenya</h3>
       </div>
         {/* <div className="flex flex-row lg:space-x-36 justify-end lg:ml-60 lg:py-6  lg:justify-center py-4 space-x-4 lg:mx-7" >
         

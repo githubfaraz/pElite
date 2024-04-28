@@ -136,19 +136,19 @@ const ProductFilters = () => {
                         </label> */}
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '5 inch')} />
-                        <div className='inline ml-2 font-light'>Mix of 4 & 5 inch</div>
+                        <h3 className='inline ml-2 font-light'>Mix of 4 & 5 inch</h3>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '6 inch')} />
-                        <div className='inline ml-2 font-light'>6 inch</div>
+                        <h3 className='inline ml-2 font-light'>6 inch</h3>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '8 inch')} />
-                        <div className='inline ml-2 font-light'>8 inch</div>
+                        <h3 className='inline ml-2 font-light'>8 inch</h3>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('length', '12 inch')} />
-                        <div className='inline ml-2 font-light'>12 inch</div>
+                        <h3 className='inline ml-2 font-light'>12 inch</h3>
                         </label>
                     </div>
                     
@@ -162,19 +162,19 @@ const ProductFilters = () => {
                         </label> */}
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Thick')} />
-                        <div className='inline ml-2 font-light'>Thick</div>
+                        <h3 className='inline ml-2 font-light'>Thick</h3>
                         </label>
                         <label >
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Thin')} />
-                        <div className='inline ml-2 font-light'>Thin</div>
+                        <h3 className='inline ml-2 font-light'>Thin</h3>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Standard')} />
-                        <div className='inline ml-2 font-light'>Standard</div>
+                        <h3 className='inline ml-2 font-light'>Standard</h3>
                         </label>
                         <label>
                         <input type="checkbox" onChange={() => handleFilterChange('thickness', 'Jumbo')} />
-                        <div className='inline ml-2 font-light'>Jumbo</div>
+                        <h3 className='inline ml-2 font-light'>Jumbo</h3>
                         </label>
                     </div>
                 </div>
@@ -193,7 +193,7 @@ const ProductFilters = () => {
                         </label>
                         <label>
                         <input type="checkbox"  onChange={() => handleFilterChange('style', 'braided')} />
-                        <div className='inline ml-2 font-light'>Braided</div>
+                        <h3 className='inline ml-2 font-light'>Braided</h3>
                         </label>
                     </div>
                 </div>

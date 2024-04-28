@@ -36,7 +36,7 @@ const PopularBlogs = () => {
                             className='h-32'
                             alt='bully-sticks-article'
                         />
-                        <h3 className='font-normal w-full' style={{fontFamily: 'roboto'}}>{blog.title}</h3>
+                        <h2 className='font-normal w-full'>{blog.title}</h2>
                       </div>
                     </Link>
         // </div>

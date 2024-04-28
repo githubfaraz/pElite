@@ -77,12 +77,12 @@ function BlogDetails ({ params })  {
               alt='dog-chewing bully-stick'
               className='rounded-lg mx-auto'
               />
-        <h1 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-3 sm:my-4 my-2 text-center' >{data.title}</h1>
-        <p>{data.introduction}</p>
+        <h2 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-3 sm:my-4 my-2 text-center' >{data.title}</h2>
+        <h2>{data.introduction}</h2>
         {data.subtitles.map((subtitle, index) => (
           <div key={index}>
             <h2 className='text-orange-500 sm:text-2xl text-xl font-semibold ml-7 sm:my-4 my-2' >{subtitle}</h2>
-            <p>{data.content[index]}</p>
+            <h2>{data.content[index]}</h2>
           </div>
         ))}
           </div>
@@ -93,7 +93,7 @@ function BlogDetails ({ params })  {
                       <a href="https://twitter.com/PetsEliteTreat" class="fa fa-twitter"><FaTwitter/></a>
                       <a href="https://www.instagram.com/elitetreatbullysticks/" class="fa fa-instagram"><FaTiktok/></a>
                     </div>
-                    <h2 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h2>
+                    <h4 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h4>
                     <hr />
                     <PopularBlogs />
         {/* search input and Popular blogs */}

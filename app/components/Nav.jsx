@@ -71,7 +71,7 @@ const Nav = ({ isSidebarOpen, setIsSidebarOpen,linkActive }) => {
       <div className=" w-full sm:mx-auto flex  flex-row  p-5">
         <div className="flex justify-between sm:justify-normal sm:w-4/12 flex-row  w-full">
           <Link href="/" className='block'>
-            <Image src='/Plogo.png' alt="comfy sloth" className="w-16 h-16 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 
+            <Image src='/fLogo.svg' alt="comfy sloth" className="w-24 h-24 sm:w-28 sm:mt-10 mt-1 sm:h-32 pt-3"                 
                 height={2000}
                 width={2000} />
           </Link>

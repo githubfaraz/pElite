@@ -17,7 +17,7 @@ const Page = () => {
       />
       <p className='text-center  text-5xl font-bold'>Under Maintenance</p>
       <p className='text-center my-3'>Our website is under construction we are working <span className='inline sm:block'>very hard to give you the best experience with this one</span></p>
-      <h1 className='text-center text-2xl font-extralight'>Notify me when it&apos;s ready</h1>
+      <h3 className='text-center text-2xl font-extralight'>Notify me when it&apos;s ready</h3>
       <form className='mx-auto flex flex-col sm:flex-row sm:space-x-4 space-y-2'>
         <input type="text" placeholder='Email' className='bg-slate-300 rounded-md px-2'/>
         <button className='text-white bg-burgundy px-3 sm:px-6 py-3 rounded-md'>NOTIFY ME</button>

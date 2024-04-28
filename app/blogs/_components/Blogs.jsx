@@ -36,8 +36,8 @@ const Blogs = () => {
             />
             <br />
             <hr />
-            <h1 className="text-base font-bold w-full  text-gray-900 text-start" >{blog.title}</h1>
-            <h2 className='' >{blog.introduction.slice(0,50)}...</h2>
+            <h2 className="text-base font-bold w-full  text-gray-900 text-start" >{blog.title}</h2>
+            <h3 className='' >{blog.introduction.slice(0,50)}...</h3>
         </div>
         </Link>
 

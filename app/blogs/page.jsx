@@ -6,10 +6,11 @@ import Image from 'next/image'
 import React from 'react'
 import { CiTimer } from "react-icons/ci";
 import { FaFacebook, FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa'
+import Link from 'next/link';
 
 const page = () => {
   return (
-    <div className='w-full'>
+    <div >
       {/* Header */}
       <div style={{ position: 'relative', display: 'inline-block' }} >
         <Image
@@ -17,12 +18,12 @@ const page = () => {
           alt='dog-chewing-bully-stick'
           height={50}
           width={1500}
-          className='object-cover sm:h-80 h-96 filter brightness-50 w-screen'
+          className='object-cover sm:h-80 h-96 filter brightness-50 w-full sm:w-screen'
           style={{ zIndex: 1}}
         />
 
         <div className='absolute inset-0 bg-amber-900 bg-opacity-50'>
-          <div className='absolute top-0 left-0 ml-0 mt-0 w-screen sm:w-full'>
+          <div className='absolute top-0 left-0 ml-0 mt-0 w-full'>
             <Navb linkActive='4' />
           </div>
           <h1 className='absolute sm:top-1/4 top-32 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-400 font-oswald'>
@@ -34,8 +35,8 @@ const page = () => {
 
       <div className='flex sm:flex-row flex-col sm:space-x-2 sm:my-10 my-5 sm:mx-10 align-middle '>
         
-        <div className='sm:w-9/12 w-full sm:mx-0 mx-2'>
-        <h1 className='border-b-2 w-32 border-black'>Trending</h1>
+        <div className='sm:w-9/12 w-screen sm:mx-0 mx-2'>
+        <h3 className='border-b-2 w-32 border-black'>Trending</h3>
         <hr />
         <div>
           <div className='relative mt-4'>
@@ -44,10 +45,10 @@ const page = () => {
               src='/expo.jpg'
               width={900}
               height={900}
-              className='w-screen sm:w-full h-3/12'
+              className='w-screen  h-3/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-lg sm:text-4xl font-bold text-white border-l-8 border-amber-400 left-3 sm:left-12 pl-4'>
-              <p>Our Journey to Global Pet Expo and the Story Behind Our Bully Sticks</p>
+              <h2>Our Journey to Global Pet Expo and the Story Behind Our Bully Sticks</h2>
               <p className='text-sm sm:text-xl flex font-extralight align-middle'>
                 <CiTimer/>
                 19th March 2024
@@ -65,7 +66,7 @@ const page = () => {
               className='sm:w-full h-2/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-sm sm:text-2xl font-bold text-white border-l-8 border-amber-400 left-2 sm:left-12 pl-4'>
-              <p>Latest Trends in Dog Treats Unveiled at Global Pet Expo</p>
+              <h2>Latest Trends in Dog Treats Unveiled at Global Pet Expo</h2>
               <p className='sm:text-xl text-sm flex font-extralight align-middle'>
                 <CiTimer/>
                 19th March 2024
@@ -82,7 +83,7 @@ const page = () => {
               className=' sm:w-full h-3/12'
             />
             <div className='absolute bottom-0 sm:bottom-16 text-sm sm:text-2xl font-bold text-white border-l-8 border-amber-400 left-2 sm:left-12 pl-4'>
-              <p>What Experts at Global Pet Expo are Saying About Dog Nutrition</p>
+              <h2>What Experts at Global Pet Expo are Saying About Dog Nutrition</h2>
               <p className='sm:text-xl text-sm flex font-extralight align-middle'>
                 <CiTimer/>
                 19th March 2024
@@ -91,7 +92,7 @@ const page = () => {
           </div>
           </div>
         </div>
-          <h1 className='border-b-2 w-32 border-black mt-6'>Blogs & Insights</h1>
+          <h4 className='border-b-2 w-32 border-black mt-6'>Blogs & Insights</h4>
           <hr />
           <Blogs />
         </div>
@@ -102,11 +103,11 @@ const page = () => {
                 
                 <div className=''>
                     <div className='hidden sm:flex flex-row space-x-14'>
-                      <a href="#" class="fa fa-facebook"><FaFacebook/></a>
-                      <a href="#" class="fa fa-twitter"><FaTwitter/></a>
-                      <a href="#" class="fa fa-instagram"><FaTiktok/></a>
+                      <Link href='https://www.facebook.com/profile.php?id=61556973973125' class="fa fa-facebook"><FaFacebook/></Link>
+                      <Link href='https://twitter.com/PetsEliteTreat' class="fa fa-twitter"><FaTwitter/></Link>
+                      <Link href='https://www.instagram.com/elitetreatbullysticks/' class="fa fa-instagram"><FaTiktok/></Link>
                     </div>
-                    <h1 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h1>
+                    <h3 className='border-b-2 w-32  text-2xl font-semibold text-orange-500 border-orange-400 ' style={{fontFamily: 'playfair_display'}}>Popular</h3>
                     <hr />
                     <PopularBlogs />
                     
@@ -116,26 +117,31 @@ const page = () => {
       </div>
       {/* social icons for sm screens */}
       <div className='flex flex-row space-x-7 sm:hidden ml-14'>
-                      
-                        <Image
-                          src='/facebook-sm.png'
-                          alt=''
-                          height={50}
-                          width={50}
-                        />
-                      
-                      <Image
-                          src='/twitter-sm.png'
-                          alt=''
-                          height={50}
-                          width={50}
-                        />
-                      <Image
-                          src='/instagram-sm.png'
-                          alt=''
-                          height={50}
-                          width={50}
-                        />
+      <Link href='https://www.facebook.com/profile.php?id=61556973973125' >
+      <Image
+        src='/facebook-sm.png'
+        alt=''
+        height={50}
+        width={50}
+      />
+      </Link>
+      <Link href='https://twitter.com/PetsEliteTreat' >
+      <Image
+          src='/twitter-sm.png'
+          alt=''
+          height={50}
+          width={50}
+        />
+      </Link>
+      <Link href='https://www.instagram.com/elitetreatbullysticks/'>
+      <Image
+          src='/instagram-sm.png'
+          alt=''
+          height={50}
+          width={50}
+        />
+      </Link>
+      
       </div>
       {/* social icons for sm screens */}
       <br />
