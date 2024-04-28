@@ -67,8 +67,8 @@ const page = () => {
           <div className='absolute top-0 left-0 ml-0 mt-0 w-full '>
             <Navb linkActive='2'/>
           </div>
-          <div className='absolute sm:top-1/4  left-0  mt-12 text-center sm:mx-10 mx-0 text-orange-400'>
-          <h1 className='sm:text-6xl text-4xl font-semibold font-oswald' style={{color:  '#ffaf58'}}>
+          <div className='absolute sm:top-1/4  left-0  mt-12 text-center sm:mx-10 mx-5 text-orange-400'>
+          <h1 className='sm:text-6xl text-4xl mt-8 sm:mt-0 font-semibold font-oswald' style={{color:  '#ffaf58'}}>
             About Us
           </h1>
           <h2 className='text-burgundy' style={{color:  '#ffaf58'}}>Established in 2021,</h2>
