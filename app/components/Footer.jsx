@@ -39,7 +39,7 @@ const Footer = () => {
         <h3 className='font-extrabold font-oswald text-2xl'>Quick Navigation</h3>
         <Link href='/'>Home</Link>
         <Link href='/about'>About us</Link>
-        <Link href='/contact-us'>Contact</Link>
+        <Link href='/contact'>Contact</Link>
       </div>
       <div className='flex flex-col space-y-5'>
         <h3 className='font-extrabold font-oswald text-2xl'>Contact Us</h3>
