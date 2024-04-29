@@ -27,7 +27,7 @@ const page = () => {
             <Navb linkActive='4' />
           </div>
           <h1 className='absolute sm:top-1/4 top-32 sm:left-96 left-0 sm:ml-36 ml-20 mt-12 sm:text-6xl text-4xl font-semibold text-orange-400 font-oswald'>
-            Our Blogs
+            Blogs
           </h1>
         </div>
       </div>
@@ -153,11 +153,11 @@ const page = () => {
 export async function generateMetadata(){
   return {
   metadataBase: new URL("https://www.elitetreatforpets.com"),
-  title: "Elite Treat For Pets | Our Blogs",
+  title: "Elite Treat For Pets | Blogs",
   appleMobileWebAppTitle: 'Elite Treat For Pets | Blogs',
   description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
   openGraph: {
-    title: "Elite Treat For Pets | Our Blogs",
+    title: "Elite Treat For Pets | Blogs",
     description: "Elite Treat for Pets is a manufacturing company that takes pride in sustainably sourcing the highest-quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States.",
     url: "https://www.elitetreatforpets.com",
     siteName: "Elite Treats For Pets",
@@ -185,7 +185,7 @@ export async function generateMetadata(){
   },
   twitter: {
     card: "summary_large_image",
-    title: "Elite Treat For Pets | Our Blogs",
+    title: "Elite Treat For Pets | Blogs",
     images: "https://www.elitetreatforpets.com/logoP.png"
   }
 }
