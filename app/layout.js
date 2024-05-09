@@ -52,6 +52,7 @@ export const metadata = {
     },
   },
   twitter: {
+    site: "https://twitter.com/PetsEliteTreat",
     card: "summary_large_image",
     title: "Elite Treat For Pets",
     images: "/logoP.png"
