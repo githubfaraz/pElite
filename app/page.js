@@ -65,8 +65,6 @@ function Home() {
               width: '28rem',
               height: '28rem',
               left: '56%',
-              // bottom: '4rem',
-              // marginLeft: '10rem'
           }}>
           <Image
               src='/bankt.png'
@@ -92,34 +90,6 @@ function Home() {
         </div>
       </div>
       </div>
-      {/* Hero section */}
-
-      {/* FDA CERTIFIED */}
-        {/* <div className="my-4 text-center mx-2 sm:mx-auto sm:w-6/12">
-          <h3 className="text-2xl sm:text-4xl font-bold text-amber-700 font-playfair_display" >FDA-Approved for Your Peace of Mind</h3>
-          <Image
-            alt='FDA certified product'
-            src='/fd.png'
-            height={240}
-            width={280}
-            className="mx-auto"
-          />
-          <h4 className="text-amber-700 text-xl mx-auto sm:w-11/12" style={{
-                fontFamily: 'open_sans'
-          }}>Experience the Gold Standard of our bully sticks manufactured at US-FDA registered facility</h4>
-          <h1 className="sm:w-3/4 w-full mt-4 mx-auto text-lg">Every pet owner wants the best for their furry friend, and that&apos;s why we leave no stone unturned when it comes to quality.
-          Our bully sticks are not just any treats; they are a promise of safety and excellence</h1>
-          <Link href='/blogs/65f813000f2c638239fa59ff' >
-            <button  className='rounded-full font-serif py-2 mt-4 sm:px-6  border-2 bg-amber-800 hover:bg-white hover:text-amber-800 hover:border-amber-800 transition-all text-white stroke-slate-200 stroke-1 text-lg sm:w-52 w-full' >
-              Learn More
-            </button>
-          </Link>
-        </div> */}
-      {/* FDA CERTIFIED */}
-
-
-
-      {/* Difference Section */}
       <div className="sm:mx-10 mx-2 my-2 sm:py-14 py-7 flex sm:flex-row sm:space-x-0 flex-col space-y-2">
         <div>
           <h2 className="text-3xl leading-10xl text-center sm:text-left  sm:leading-7xl sm:text-7xl mb-23 sm:w-11/12 w-full sm:mb-10 mb-5 text-amber-700 font-bold" style={{
@@ -161,39 +131,11 @@ function Home() {
               <Link href='/blogs/65f813000f2c638239fa59ff' className="text-orange-500 font-bold">Learn more</Link>
             </h3>
             </div>
-            {/* <div className="flex flex-col justify-center align-middle sm:hidden">
-              <Image 
-                src='/testRibbon.png'
-                alt="Quality product"
-                height={200}
-                width={100}
-                className="mx-auto"
-              />
-              <h3 className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
-                  lineHeight: '1.5rem',
-            }}>
-              Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team, ensuring that each chew is of the highest quality for the happiness and well-being of your pets.
-            </h3>
-            </div> */}
+            
           </div>
         <div >
 
-          {/* <div className="hidden sm:flex flex-col sm:space-x-2 align-middle w-5/6 sm:ml-18 ml-0 justify-center">
-                <Image 
-                  src='/testRibbon.png'
-                  alt="Quality product"
-                  height={200}
-                  width={100}
-                  className="mx-auto"
-                />
-                <h3 className="w-3/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center mx-auto" style={{
-                    // fontSize: '1rem',
-                    lineHeight: '1.5rem',
-                    marginLeft: '6rem',
-              }}>
-                Free from artificial additives and preservatives, our bully sticks stand out for their pure, natural goodness.
-              </h3>
-          </div> */}
+         
 
           <div className="sm:flex sm:flex-row sm:space-y-2 mb-2 flex flex-col space-y-2 ">
             <div className="flex flex-col  align-middle">
@@ -226,20 +168,7 @@ function Home() {
               We go above and beyond industry standards to ensure the health and safety of both pets and their owners, offering peace of mind with every purchase.
             </h3>
             </div>
-            {/* <div className="flex flex-col justify-center align-middle sm:hidden">
-              <Image 
-                src='/testRibbon.png'
-                alt="Quality product"
-                height={200}
-                width={100}
-                className="mx-auto"
-              />
-              <h3 className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
-                  lineHeight: '1.5rem',
-            }}>
-              Crafted with precision and expertise, our bully sticks are a testament to the dedication of our team, ensuring that each chew is of the highest quality for the happiness and well-being of your pets.
-            </h3>
-            </div> */}
+          
           </div>
           </div>
         </div>
