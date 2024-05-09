@@ -23,16 +23,16 @@ const Footer = () => {
         </div>
         <h4 className='font-extrabold'>elitetreatforpets.com</h4>
         <h4 className='mt-2'>Eco-Friendly Chews for Eco-Loving Paws.</h4>
-        <div className='flex space-x-2 mt-7'>
-          <Link href='https://www.facebook.com/profile.php?id=61556973973125' className="ml-2 flex flex-row space-x-2">
-              <FaFacebookF />
+        <div className='flex space-x-5 mt-7'>
+              <Link href='https://www.facebook.com/profile.php?id=61556973973125' className="ml-2 flex flex-row space-x-2">
+              <FaFacebookF size={24} />
               </Link>
               <Link href='https://twitter.com/PetsEliteTreat' className="ml-2 flex flex-row space-x-2">
-              <FaXTwitter />
+              <FaXTwitter size={24} />
               </Link>
               <Link href='https://www.instagram.com/elitetreatbullysticks/' className="ml-2 flex flex-row space-x-2">
-              <IoLogoInstagram />
-          </Link>
+              <IoLogoInstagram size={24} />
+              </Link>
         </div>
       </div>
       <div className='flex flex-col space-y-5'>

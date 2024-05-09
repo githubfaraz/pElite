@@ -156,7 +156,7 @@ const page = () => {
 
         <div className='flex flex-col space-y-6 lg:w-1/2 w-full'>
           <div>
-            <Image alt='bully-stick1' src='/AboutUs3.png' className='w-full  rounded-lg' width={3200} height={2400}/>
+            <Image alt='bully-stick1' src='/AboutUs3.png' className='w-full  ' width={3200} height={2400}/>
           </div>
           {/* <div className=' flex flex-row space-x-2'>
             <Image alt='bully-stick1' src='/odor.jpg' className='rounded h-40' width={200} height={200}/>
@@ -169,7 +169,7 @@ const page = () => {
       <div className='flex flex-col lg:flex-row lg:space-x-16 md:mx-16 lg:mx-20 mx-5 mt-5'>
       <div className='flex flex-col lg:w-1/2 w-full space-y-6'>
           <div>
-            <Image alt='bully-stick1' src='/aboutUs-21.jpg' className='w-full rounded-lg' width={800} height={200}/>
+            <Image alt='bully-stick1' src='/aboutUs-21.jpg' className='w-full ' width={800} height={200}/>
           </div>
         </div>
 
