@@ -104,7 +104,7 @@ function Home() {
             <div className="sm:flex sm:flex-row-reverse sm:space-y-2 align-middle mb-2 flex flex-col space-y-2 ">
               <div className="flex flex-col  align-middle">
                 <Image
-                  src='/awardRibbon.png'
+                  src='/fsssc.jpeg'
                   alt="Quality product"
                   height={200}
                   width={100}
@@ -141,7 +141,7 @@ function Home() {
               <div className="sm:flex sm:flex-row sm:space-y-2 mb-2 flex flex-col space-y-2 ">
                 <div className="flex flex-col  align-middle">
                   <Image
-                    src='/testRibbon.png'
+                    src='/haccp.png'
                     alt="Quality product"
                     height={200}
                     width={100}
@@ -157,7 +157,41 @@ function Home() {
                 </div>
                 <div className="flex flex-col  align-middle">
                   <Image
-                    src='/qualityRibbon.png'
+                    src='/kebs.png'
+                    alt="Quality product"
+                    height={200}
+                    width={100}
+                    className="mx-auto"
+                  />
+                  <h3 className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
+                    lineHeight: '1.5rem',
+                  }}>
+                    We go above and beyond industry standards to ensure the health and safety of both pets and their owners, offering peace of mind with every purchase.
+                  </h3>
+                </div>
+
+              </div>
+
+              <div className="sm:flex sm:flex-row sm:space-y-2 mb-2 flex flex-col space-y-2 ">
+                <div className="flex flex-col  align-middle">
+                  <Image
+                    src='/sqf.jpg'
+                    alt="Quality product"
+                    height={200}
+                    width={100}
+                    className="mx-auto"
+                  />
+
+                  <h2 className="w-5/6 mt-2 text-lg mb-6 font-light text-slate-900 text-center pl-9" style={{
+                    lineHeight: '1.5rem',
+                  }}
+                  >
+                    Free from artificial additives and preservatives, our bully sticks stand out for their pure, natural goodness.
+                  </h2>
+                </div>
+                <div className="flex flex-col  align-middle">
+                  <Image
+                    src='/usda.png'
                     alt="Quality product"
                     height={200}
                     width={100}
