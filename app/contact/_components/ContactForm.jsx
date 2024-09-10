@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <form
     method="POST"
-    action="https://formspree.io/f/mayrjoke"
+    action="https://formspree.io/f/mblrerbd"
     >
             <div className='flex lg:flex-row lg:space-x-2 flex-col space-y-4 lg:space-y-0'>
                 <div className='flex flex-col'>
