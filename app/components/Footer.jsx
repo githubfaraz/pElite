@@ -46,7 +46,7 @@ const Footer = () => {
             <h3 className='font-extrabold font-oswald text-2xl'>Contact Us</h3>
             <div className='flex space-x-1'>
               <BiSolidPhoneCall />
-              <h3 className=' '>+1(917) 6094-597</h3>
+              <h3 className=' '>+1-917-6094-597</h3>
             </div>
             <div className='flex space-x-1'>
               <FiMail />
