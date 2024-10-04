@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 
 async function getData() {
-  const res = await fetch('https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks')
+  const res = await fetch('https://pets-elite-backend-nine.vercel.app/api/bully-sticks')
 
 
   if (!res.ok) {

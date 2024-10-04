@@ -8,7 +8,7 @@ import useSWR from 'swr';
 
 const useProduct = (initialData) => {
     const fetcher = (url) => fetch(url).then((res) => res.json());
-    const { data} = useSWR(`https://pets-elite-backend-wvj4.vercel.app/api/bully-sticks/${initialData}`, fetcher);
+    const { data } = useSWR(`https://pets-elite-backend-nine.vercel.app/api/bully-sticks/${initialData}`, fetcher);
 
     const product = data;
 
