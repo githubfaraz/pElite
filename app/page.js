@@ -6,7 +6,7 @@ import 'swiper/swiper-bundle.css';
 export const metadata = async () => {
   return {
     metadataBase: new URL("https://www.elitetreatforpets.com"),
-    title: "Elite Treat For Pets - Chew Healthy,Live happy",
+    title: "Elite Treat For Pets updated - Chew Healthy,Live happy",
     appleMobileWebAppTitle: 'Elite Treat For Pets - Chew Healthy,Live happy',
     authors: [
       {
